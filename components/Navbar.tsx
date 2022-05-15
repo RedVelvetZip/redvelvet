@@ -1,15 +1,33 @@
 import Image from "next/image";
 import Link from "next/link";
-// import WalletConnection from "./WalletConnection";
 import styles from "../styles/navbar.module.scss";
-// import WalletInjected from "./WalletInjected";
-import iconChevron from '../assets/wallet-icons/chevron.svg';
-// import iconTwitter from '../assets/wallet-icons/twitter.svg';
-// import iconDiscord from '../assets/wallet-icons/discord.svg';
-
 // import WalletConnect from "./WalletConnect";
+import logo from "../assets/logo512.png"
+import logogif from "../assets/logo.gif"
 
 const Navbar = () => {
+    const themeMap = {
+        dark: "light",
+        light: "solar",
+        solar: "dark"
+    };
+
+    //   const theme = localStorage.getItem('theme')
+    //     || (tmp = Object.keys(themeMap)[0],
+    //         localStorage.setItem('theme', tmp),
+    //         tmp);
+    //   const bodyClass = document.body.classList;
+    //   bodyClass.add(theme);
+
+    //   function toggleTheme() {
+    //     const current = localStorage.getItem('theme')!;
+    //     const next = themeMap[current];
+
+    //     bodyClass.replace(current, next);
+    //     localStorage.setItem('theme', next);
+    //   }
+
+    //   document.getElementById('themeButton').onclick = toggleTheme;
 
     return (
         <>
@@ -18,7 +36,10 @@ const Navbar = () => {
                     <li className={styles["logo"]}>
                         <a href="#" className={styles["nav-link"]}>
                             <span className={`${styles["link-text"]} ${styles["logo-text"]}`}>Red Velvet</span>
-                            {/* <svg
+                            {/* <div className={styles["logo-image"]}>
+                                <Image src={logo}></Image>
+                            </div> */}
+                            <svg
                                 aria-hidden="true"
                                 focusable="false"
                                 data-prefix="fad"
@@ -40,7 +61,7 @@ const Navbar = () => {
                                         className={styles["fa-primary"]}
                                     ></path>
                                 </g>
-                            </svg> */}
+                            </svg>
                         </a>
                     </li>
 
@@ -59,17 +80,13 @@ const Navbar = () => {
                                 <g className={styles["fa-group"]}>
                                     <path
                                         fill="currentColor"
-                                        d="M448 96h-64l-64-64v134.4a96 96 0 0 0 192 0V32zm-72 80a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm80 0a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm-165.41 16a204.07 204.07 0 0 0-34.59 2.89V272l-43.15-64.73a183.93 183.93 0 0 0-44.37 26.17L192 304l-60.94-30.47L128 272v-80a96.1 96.1 0 0 0-96-96 32 32 0 0 0 0 64 32 32 0 0 1 32 32v256a64.06 64.06 0 0 0 64 64h176a16 16 0 0 0 16-16v-16a32 32 0 0 0-32-32h-32l128-96v144a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16V289.86a126.78 126.78 0 0 1-32 4.54c-61.81 0-113.52-44.05-125.41-102.4z"
+                                        d="M217.6 96.1c-12.95-.625-24.66 9.156-25.52 22.37C191.2 131.7 201.2 143.1 214.4 143.1c79.53 5.188 148.4 74.09 153.6 153.6c.8281 12.69 11.39 22.43 23.94 22.43c.5156 0 1.047-.0313 1.578-.0625c13.22-.8438 23.25-12.28 22.39-25.5C409.3 191.8 320.3 102.8 217.6 96.1zM224 0C206.3 0 192 14.31 192 32s14.33 32 32 32c123.5 0 224 100.5 224 224c0 17.69 14.33 32 32 32s32-14.31 32-32C512 129.2 382.8 0 224 0zM172.3 226.8C157.7 223.9 144 235.8 144 250.6v50.37c0 10.25 7.127 18.37 16.75 21.1c18.13 6.75 31.26 24.38 31.26 44.1c0 26.5-21.5 47.1-48.01 47.1c-26.5 0-48.01-21.5-48.01-47.1V120c0-13.25-10.75-23.1-24.01-23.1l-48.01 .0076C10.75 96.02 0 106.8 0 120v247.1c0 89.5 82.14 160.2 175 140.7c54.38-11.5 98.27-55.5 109.8-109.7C302.2 316.1 247.8 241.8 172.3 226.8z"
                                         className={styles["fa-secondary"]}
-                                    ></path>
-                                    <path
-                                        fill="currentColor"
-                                        d="M376 144a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm80 0a16 16 0 1 0 16 16 16 16 0 0 0-16-16zM131.06 273.53L192 304l-23.52-70.56a192.06 192.06 0 0 0-37.42 40.09zM256 272v-77.11a198.62 198.62 0 0 0-43.15 12.38z"
-                                        className={styles["fa-primary"]}
                                     ></path>
                                 </g>
                             </svg>
-                            <span className={styles["link-text"]}>Cats</span>
+                            
+                            <span className={styles["link-text"]}>Blog Posts</span>
                         </a>
                     </li >
 
@@ -160,7 +177,10 @@ const Navbar = () => {
                         </a >
                     </li >
 
-                    *  <li className={styles["nav-item"]} id="themeButton">
+                    <li className={styles["nav-item"]}
+                        id="themeButton"
+                    // onClick={toggleTheme()}
+                    >
                         <a href="#" className={styles["nav-link"]}>
                             <svg
                                 className={`${styles["theme-icon"]} ${styles["svg-inline--fa"]} ${styles["fa-moon-stars"]} ${styles["fa-w-16"]} ${styles["fa-7x"]}`}

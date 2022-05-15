@@ -32,6 +32,11 @@ a {
   --transition-speed: 600ms;
 }
 
+nav::-webkit-scrollbar {
+  /* width: 0.25rem; */
+  display: none;
+}
+
 body::-webkit-scrollbar {
   width: 0.25rem;
 }
