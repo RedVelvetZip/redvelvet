@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/navbar.module.scss";
 // import WalletConnect from "./WalletConnect";
-import logo from "../assets/logo512.png"
-import logogif from "../assets/logo.gif"
+// import logo from "../assets/logo512.png"
+// import logogif from "../assets/logo.gif"
 
 const Navbar = () => {
     const themeMap = {
@@ -47,7 +47,7 @@ const Navbar = () => {
                                 role="img"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 448 512"
-                                className={`${styles["link-text"]} ${styles["logo-text"]} ${styles["svg-inline--fa"]} ${styles["fa-angle-double-right"]} ${styles["fa-w-14"]} ${styles["fa-5x"]}`}
+                                className={` ${styles["svg-inline--fa"]} ${styles["fa-angle-double-right"]} ${styles["fa-w-14"]} ${styles["fa-5x"]}`}
                             >
                                 <g className={styles["fa-group"]} >
                                     <path
