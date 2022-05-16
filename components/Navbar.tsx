@@ -3,7 +3,6 @@ import Link from "next/link";
 import styles from "../styles/navbar.module.scss";
 // import WalletConnect from "./WalletConnect";
 import logo from "../assets/logo-circle.png"
-// import logogif from "../assets/logo.gif"
 
 const Navbar = () => {
     const themeMap = {
