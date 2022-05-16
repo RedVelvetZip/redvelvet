@@ -68,7 +68,7 @@ const Navbar = () => {
                     </li>
 
                     <li className={styles["nav-item"]}>
-                        <Link href="/allposts" className={styles["nav-link"]}>
+                        <Link href="/posts" className={styles["nav-link"]}>
                             <a href="#" className={styles["nav-link"]}>
                                 <svg
                                     aria-hidden="true"
@@ -95,54 +95,57 @@ const Navbar = () => {
                     </li >
 
                     <li className={styles["nav-item"]}>
-                        <a href="#" className={styles["nav-link"]}>
-                            <svg
-                                aria-hidden="true"
-                                focusable="false"
-                                data-prefix="fad"
-                                data-icon="space-station-moon-alt"
-                                role="img"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 640 512"
-                                className={`${styles["svg-inline--fa"]} ${styles["fa-w-16"]} ${styles["fa-5x"]}`}
-                            >
-                                <g className={styles["fa-group"]} >
-                                    <path
-                                        fill="currentColor"
-                                        d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z"
-                                        className={styles["fa-secondary"]}
-                                    ></path>
+                        <Link href="/portfolio" className={styles["nav-link"]}>
+                            <a href="#" className={styles["nav-link"]}>
+                                <svg
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fad"
+                                    data-icon="space-station-moon-alt"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 512"
+                                    className={`${styles["svg-inline--fa"]} ${styles["fa-w-16"]} ${styles["fa-5x"]}`}
+                                >
+                                    <g className={styles["fa-group"]} >
+                                        <path
+                                            fill="currentColor"
+                                            d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z"
+                                            className={styles["fa-secondary"]}
+                                        ></path>
 
-                                </g >
-                            </svg >
-                            <span className={styles["link-text"]}>Portfolio</span>
-                        </a >
+                                    </g >
+                                </svg >
+                                <span className={styles["link-text"]}>Portfolio</span>
+                            </a>
+                        </Link>
                     </li >
 
                     <li className={styles["nav-item"]}>
-                        <a href="#" className={styles["nav-link"]}>
+                        <Link href="/aboutme" className={styles["nav-link"]}>
+                            <a href="#" className={styles["nav-link"]}>
+                                <svg
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fad"
+                                    data-icon="robot"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 512"
+                                    className={`${styles["svg-inline--fa"]} ${styles["fa-w-20"]} ${styles["fa-5x"]}`}
+                                >
+                                    <g className={styles["fa-group"]} >
+                                        <path
+                                            fill="currentColor"
+                                            d="M9.375 233.4C3.375 239.4 0 247.5 0 256v128c0 8.5 3.375 16.62 9.375 22.62S23.5 416 32 416h32V224H32C23.5 224 15.38 227.4 9.375 233.4zM464 96H352V32c0-17.62-14.38-32-32-32S288 14.38 288 32v64H176C131.8 96 96 131.8 96 176V448c0 35.38 28.62 64 64 64h320c35.38 0 64-28.62 64-64V176C544 131.8 508.3 96 464 96zM256 416H192v-32h64V416zM224 296C201.9 296 184 278.1 184 256S201.9 216 224 216S264 233.9 264 256S246.1 296 224 296zM352 416H288v-32h64V416zM448 416h-64v-32h64V416zM416 296c-22.12 0-40-17.88-40-40S393.9 216 416 216S456 233.9 456 256S438.1 296 416 296zM630.6 233.4C624.6 227.4 616.5 224 608 224h-32v192h32c8.5 0 16.62-3.375 22.62-9.375S640 392.5 640 384V256C640 247.5 636.6 239.4 630.6 233.4z"
+                                            className={styles["fa-secondary"]}
+                                        ></path>
 
-                            <svg
-                                aria-hidden="true"
-                                focusable="false"
-                                data-prefix="fad"
-                                data-icon="robot"
-                                role="img"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 640 512"
-                                className={`${styles["svg-inline--fa"]} ${styles["fa-w-20"]} ${styles["fa-5x"]}`}
-                            >
-                                <g className={styles["fa-group"]} >
-                                    <path
-                                        fill="currentColor"
-                                        d="M9.375 233.4C3.375 239.4 0 247.5 0 256v128c0 8.5 3.375 16.62 9.375 22.62S23.5 416 32 416h32V224H32C23.5 224 15.38 227.4 9.375 233.4zM464 96H352V32c0-17.62-14.38-32-32-32S288 14.38 288 32v64H176C131.8 96 96 131.8 96 176V448c0 35.38 28.62 64 64 64h320c35.38 0 64-28.62 64-64V176C544 131.8 508.3 96 464 96zM256 416H192v-32h64V416zM224 296C201.9 296 184 278.1 184 256S201.9 216 224 216S264 233.9 264 256S246.1 296 224 296zM352 416H288v-32h64V416zM448 416h-64v-32h64V416zM416 296c-22.12 0-40-17.88-40-40S393.9 216 416 216S456 233.9 456 256S438.1 296 416 296zM630.6 233.4C624.6 227.4 616.5 224 608 224h-32v192h32c8.5 0 16.62-3.375 22.62-9.375S640 392.5 640 384V256C640 247.5 636.6 239.4 630.6 233.4z"
-                                        className={styles["fa-secondary"]}
-                                    ></path>
-
-                                </g>
-                            </svg >
-                            <span className={styles["link-text"]}>About me</span>
-                        </a >
+                                    </g>
+                                </svg >
+                                <span className={styles["link-text"]}>About me</span>
+                            </a>
+                        </Link>
                     </li >
 
                     <li className={styles["nav-item"]}
