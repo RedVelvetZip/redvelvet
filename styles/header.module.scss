@@ -13,3 +13,17 @@
     height: 6.5rem;
     width: 6.5rem;
 }
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: 10rem;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .logo {
+        align-self: center;
+    }
+}

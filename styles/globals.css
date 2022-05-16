@@ -30,7 +30,7 @@ a {
   --text-tertiary: #000009;
   /* --bg-primary: #23232e;
   --bg-secondary: #141418; */
-  --bg-primary:  #760a02;
+  --bg-primary: #760a02;
   --bg-secondary: #2e0300;
   --transition-speed: 600ms;
 }
@@ -55,7 +55,7 @@ body::-webkit-scrollbar-thumb {
 .redvelvetTheme {
   --text-primary: #fffff6;
   --text-secondary: #ececec;
-  --bg-primary:  #760a02;
+  --bg-primary: #760a02;
   --bg-secondary: #2e0300;
 }
 
@@ -98,4 +98,11 @@ body::-webkit-scrollbar-thumb {
 
 .solar #solarIcon {
   display: block;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  main {
+    margin-left: 0rem;
+  }
 }
