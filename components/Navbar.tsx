@@ -143,7 +143,7 @@ const Navbar = () => {
 
                                     </g>
                                 </svg >
-                                <span className={styles["link-text"]}>About me</span>
+                                <span className={styles["link-text"]}>About Me</span>
                             </a>
                         </Link>
                     </li >

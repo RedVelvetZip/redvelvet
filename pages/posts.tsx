@@ -8,10 +8,17 @@ import Header from '../components/Header';
 
 function Posts(props: { posts: any; }) {
     return (
-        <>
+        <Fragment>
+            <Head>
+                <title>Red Velvet Wiki</title>
+                <meta
+                    name='description'
+                    content='Crypto, Coding, Finance, and more'
+                ></meta>
+            </Head>
             <Header />
             <AllPosts posts={props.posts} />
-        </>
+        </Fragment>
     );
 }
 
