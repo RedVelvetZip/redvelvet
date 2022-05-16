@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/navbar.module.scss";
 // import WalletConnect from "./WalletConnect";
-// import logo from "../assets/logo512.png"
+import logo from "../assets/logo-circle.png"
 // import logogif from "../assets/logo.gif"
 
 const Navbar = () => {
@@ -33,6 +33,7 @@ const Navbar = () => {
         <>
             <nav className={styles["navbar"]}>
                 <ul className={styles["navbar-nav"]}>
+
                     <li className={styles["logo"]}>
                         <Link href="/" className={styles["nav-link"]}>
                             <a href="#" className={styles["nav-link"]}>
@@ -67,6 +68,19 @@ const Navbar = () => {
                         </Link>
                     </li>
 
+                    <li className={styles["nav-item"]}
+                        id={styles["mobile-home"]}
+                        >
+                        <Link href="/" className={styles["nav-link-logo"]}>
+                            <a href="#" className={styles["nav-link-logo"]}>
+                                {/* <span className={`${styles["link-text"]} ${styles["logo-text"]}`}>Red Velvet</span> */}
+                                <div className={styles["logo-image"]}>
+                                    <Image src={logo}></Image>
+                                </div>
+                            </a>
+                        </Link>
+                    </li>
+
                     <li className={styles["nav-item"]}>
                         <Link href="/posts" className={styles["nav-link"]}>
                             <a href="#" className={styles["nav-link"]}>
@@ -74,11 +88,11 @@ const Navbar = () => {
                                     aria-hidden="true"
                                     focusable="false"
                                     data-prefix="fad"
-                                    data-icon="cat"
+                                    data-icon="atom"
                                     role="img"
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 512 512"
-                                    className={`${styles["svg-inline--fa"]} ${styles["fa-cat"]} ${styles["fa-w-14"]} ${styles["fa-5x"]}`}
+                                    className={`${styles["svg-inline--fa"]} ${styles["fa-atom"]} ${styles["fa-w-14"]} ${styles["fa-5x"]}`}
                                 >
                                     <g className={styles["fa-group"]}>
                                         <path
@@ -89,7 +103,7 @@ const Navbar = () => {
                                     </g>
                                 </svg>
 
-                                <span className={styles["link-text"]}>Blog Posts</span>
+                                <span className={styles["link-text"]}>Blog</span>
                             </a>
                         </Link>
                     </li >
@@ -122,7 +136,7 @@ const Navbar = () => {
                     </li >
 
                     <li className={styles["nav-item"]}>
-                        <Link href="/aboutme" className={styles["nav-link"]}>
+                        <Link href="/about" className={styles["nav-link"]}>
                             <a href="#" className={styles["nav-link"]}>
                                 <svg
                                     aria-hidden="true"
@@ -132,7 +146,7 @@ const Navbar = () => {
                                     role="img"
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 640 512"
-                                    className={`${styles["svg-inline--fa"]} ${styles["fa-w-20"]} ${styles["fa-5x"]}`}
+                                // className={`${styles["svg-inline--fa"]} ${styles["fa-w-20"]} ${styles["fa-5x"]}`}
                                 >
                                     <g className={styles["fa-group"]} >
                                         <path
@@ -143,13 +157,39 @@ const Navbar = () => {
 
                                     </g>
                                 </svg >
-                                <span className={styles["link-text"]}>About Me</span>
+                                <span className={styles["link-text"]}>About</span>
+                            </a>
+                        </Link>
+                    </li >
+
+                    <li className={styles["nav-item"]}>
+                        <Link href="/about" className={styles["nav-link"]}>
+                            <a href="#" className={styles["nav-link"]}>
+                                <svg
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fad"
+                                    data-icon="chat"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 580 512"
+                                // className={`${styles["svg-inline--fa"]} ${styles["fa-w-16"]} ${styles["fa-7x"]}`}
+                                >
+                                    <g className={styles["fa-group"]} >
+                                        <path
+                                            fill="currentColor"
+                                            d="M511.1 63.1v287.1c0 35.25-28.75 63.1-64 63.1h-144l-124.9 93.68c-7.875 5.75-19.12 .0497-19.12-9.7v-83.98h-96c-35.25 0-64-28.75-64-63.1V63.1c0-35.25 28.75-63.1 64-63.1h384C483.2 0 511.1 28.75 511.1 63.1z"
+                                            className={styles["fa-secondary"]}
+                                        ></path>
+                                    </g>
+                                </svg >
+                                <span className={styles["link-text"]}>Contact</span>
                             </a>
                         </Link>
                     </li >
 
                     <li className={styles["nav-item"]}
-                        id="themeButton"
+                        id={styles["themeButton"]}
                     // onClick={toggleTheme()}
                     >
                         <a href="#" className={styles["nav-link"]}>

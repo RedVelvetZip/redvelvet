@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 
 // import Hero from '../components/home-page/hero';
-import FeaturedPosts from '../components/posts/featured-posts';
+import FeaturedPosts from '../components/posts/FeaturedPosts';
 import { getFeaturedPosts } from '../utils/posts-util';
 import Header from '../components/Header';
 
