@@ -2,27 +2,27 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 
 // import Hero from '../components/home-page/hero';
-import FeaturedPosts from '../components/featured-posts';
-import { getFeaturedPosts } from '../utils/posts-util';
+import AllPosts from '../components/posts/all-posts';
+import { getAllPosts } from '../utils/posts-util';
 import Header from '../components/Header';
 
-function AllPosts(props: { posts: any; }) {
+function Posts(props: { posts: any; }) {
     return (
         <>
             <Header />
-            <FeaturedPosts posts={props.posts} />
+            <AllPosts post={props.posts} />
         </>
     );
 }
 
 export function getStaticProps() {
-    const featuredPosts = getFeaturedPosts();
+    const allPosts = getAllPosts();
 
     return {
         props: {
-            posts: featuredPosts,
+            posts: allPosts,
         },
     };
 }
 
-export default AllPosts;
+export default Posts;

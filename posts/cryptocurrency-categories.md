@@ -8,7 +8,7 @@ tags: [Cryptocurrency, Guide, Token]
 isFeatured: true
 ---
 
-There are a **TON** of cryptocurrencies and blockchains out there. Bitcoin is the one everyone knows because it started it all, but not every altcoin aims to be like BTC. There are many use cases for blockchain technology, resulting in numerous projects. Some cryptos referenced in this article are so different in function that they can hardly be compared. I’ll be breaking down different types of cryptocurrencies and giving examples of each here.
+There are a **TON** of cryptocurrencies and blockchains out there. Bitcoin is the one everyone knows because it started it all(not exactly, BitGold and others tried and failed before Satoshi built on their work), but not every altcoin aims to be like BTC. There are many use cases for blockchain technology, resulting in the many distinct networks we have now. Some cryptos referenced in this article are so different in function that they can hardly be compared. I’ll be breaking down different types of cryptocurrencies and giving examples of each here.
 
 ## First, a few important points:
 

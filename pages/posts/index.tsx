@@ -14,7 +14,7 @@ function AllPostsPage(props: { posts: any; }) {
           content='A list of topics realted to crypto, coding, finance and more! '
         ></meta>
       </Head>
-      <AllPosts post={props.posts} />;
+      <AllPosts posts={props.posts} />;
     </Fragment>
   );
 }
