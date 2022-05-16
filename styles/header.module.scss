@@ -19,11 +19,13 @@
     .header {
         display: flex;
         flex-direction: column;
-        height: 10rem;
+        height: 13rem;
         justify-content: flex-start;
         align-items: center;
     }
     .logo {
         align-self: center;
+        height: 10rem;
+        width: 10rem;
     }
 }
