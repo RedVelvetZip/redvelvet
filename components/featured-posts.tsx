@@ -4,7 +4,7 @@ import styles from '../styles/featured-posts.module.scss';
 function FeaturedPosts(props: { posts: any; }) {
   return (
     <section className={styles["latest"]}>
-      <h2>Featured Posts</h2>
+      <h1>Featured Posts</h1>
       <PostsGrid posts={props.posts} />
     </section>
   );

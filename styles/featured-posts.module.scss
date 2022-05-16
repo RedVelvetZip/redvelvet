@@ -1,13 +1,13 @@
 .latest {
-  width: 90%;
-  max-width: 80rem;
+  padding: 2rem;
   margin: var(--size-8) auto;
 }
 
-.latest h2 {
+.latest h1 {
   font-size: var(--size-8);
   color: var(--color-grey-800);
   text-align: center;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 768px) {

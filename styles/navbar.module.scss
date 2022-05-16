@@ -30,7 +30,7 @@
     height: 5rem;
     color: var(--text-primary);
     text-decoration: none;
-    filter: grayscale(100%) opacity(0.8);
+    filter: grayscale(100%) opacity(0.8) invert(70%);
     transition: var(--transition-speed);
 }
 // .nav-link-logo {
@@ -60,17 +60,17 @@
 
 .fa-primary {
     // color: #fffff6;
-    // color: #760a02;
+    color: #760a02;
     // color:#ff7eee;
-    color: #279c2a;
+    // color: #279c2a;
     
 }
 
 .fa-secondary {
     // color: #fffff6;
-    // color: #a70b00;
+    color: #a70b00;
     // color: #df49a6;
-    color: #3ad02c;
+    // color: #3ad02c;
 }
 
 .fa-primary,

@@ -5,7 +5,7 @@ excerpt: A polygon NFT collection of 500 unique mushrooms.
 image: shroomies-nft-collection.png
 categories: [NFTS, Smart Contracts]
 tags: [Polygon, Software Development, Solidity, Token]
-isFeatured: true
+isFeatured: false
 ---
 
 I created a collection of 500 unique mushrooms titled Shroomies (MUSH). This collection was made as a proof-of-concept for the various methods involved in the process. There is absolutely no utility and they have no value; they’re just for fun 🙂
