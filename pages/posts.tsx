@@ -10,7 +10,7 @@ function Posts(props: { posts: any; }) {
     return (
         <>
             <Header />
-            <AllPosts post={props.posts} />
+            <AllPosts posts={props.posts} />
         </>
     );
 }
