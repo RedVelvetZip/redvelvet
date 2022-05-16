@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from '../styles/header.module.scss'
 import logo from "../assets/logo512.png"
-import logoGif from "../assets/logoX.gif"
+import logoGif from "../assets/logo2.gif"
 
 const Header = () => {
     return (
