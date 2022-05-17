@@ -3,8 +3,8 @@ title: How To Deploy an NFT Collection - Overview
 date: '2021-12-22'
 excerpt: Want To Create Your Own NFT Collection?
 image: how-to-deploy-an-nft-collection.png
-categories: ['NFTS', 'Smart Contracts']
-tags: [Polygon, Guide, Polygon, Software Development, Solidity]
+categories: [NFT, Smart Contract]
+tags: [Polygon, Guide, Ethereum, Software Development, Solidity, IPFS, Metadata, Minting Dapp, Smart Contract]
 isFeatured: true
 ---
 

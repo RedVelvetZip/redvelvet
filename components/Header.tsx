@@ -7,9 +7,15 @@ const Header = () => {
     return (
         <>
             <div className={styles["header"]}>
-                <h1 className={styles["title"]}>
-                    [ Red Velvet Wiki ]
-                </h1>
+                <p className={styles["title"]}>
+                    <span className={styles["brackets"]}>
+                        [
+                    </span>
+                    Red Velvet Wiki
+                    <span className={styles["brackets"]}>
+                        ]
+                    </span>
+                </p>
                 <div className={styles["logo"]}>
                     <Image
                         src={logoGif}

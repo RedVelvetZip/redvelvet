@@ -71,12 +71,12 @@
     display: flex;
     align-self: center;
     justify-content: center;
-    background-color: rgb(118, 10, 2, 0.8);
+    background-color: rgb(118, 10, 2, 1);
     width: 50%;
     margin-left: 25%;
     border-radius: 25px 25px 0px 0px;
     padding: 10px 0px;
-    color: rgb(201, 201, 201);
+    color: var(--text-primary);
 }
 
 
