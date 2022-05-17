@@ -27,13 +27,19 @@ function About() {
                 </div>
                 <div className={styles["skills"]}>
                     <h1>Skills</h1>
+                    <p className={styles["text"]}>
+                        I'm a professional full-stack developer with 3+ years work experience based in Denver, CO. I hold a Bachelor's of Science in Software Engineering from the University of Miami in 2019, which involved mainly C and C++. These days I focus more on frontend, in ReactJS. I've worked with several startups, and my skill set includes agile development, project management (CSPO certified), marketing, and QA.
+                    </p>
+
+
                     <h2 className={styles["role"]}>
                         Full Stack Web3 Developer
                     </h2>
                     <p className={styles["text"]}>
-                        I’ve been in the crypto space for a long time(2016), but I only recently (2021) got into smart contract development. This is the intersection of two of my passions – tech and finance. I left corporate life to pursue my own web3 projects full-time. Since that time, I've been working with startups and as a freelancer.
+                        I’ve been in the crypto space for a long time(2016), but I only recently (2021) got into smart contract development. ERC721s, ERC1155s, ERC20s, staking, DeFi, and more. My experience is limited to ETH and its Layer 2s. I swear I'll find the time to deploy some projects on Ada or Sol soon. This is the intersection of two of my passions – tech and finance. I left corporate life to pursue my own web3 projects full-time. Since that time, I've been working with startups and as a freelancer.
                     </p>
                     <div>RESUME</div>
+
 
                     <h2 className={styles["role"]}>
                         Frontend Web Developer - React/NextJS, Typescript, CSS
@@ -43,26 +49,28 @@ function About() {
                     </p>
                     <div>RESUME</div>
 
+
                     <h2 className={styles["role"]}>
                         Mobile Developer - React Native/Flutter
                     </h2>
                     <p className={styles["text"]}>
-
                         React is also my first choice for mobile development – typically paired with Firebase – although I'd create a responsive React app before using React Native if the choice was given. I also enjoy using Flutter, as that was my introduction to mobile dev. A couple project I’ve built with Flutter include a social media app (realtime messages, auth, gps location services) and a BLE (Bluetooth Low Energy) connective app linked to a solenoid lock on a physical wallet.
                     </p>
                     <div>…resume? I don’t do enough mobile native dev work for that rn. BUT you can always peep the portfolio and filter by native</div>
 
 
-
-
-
-
-                    <p></p>
-                    <p>
-
+                    <h2 className={styles["role"]}>
+                        Robotic Process Automation + Scripting
+                    </h2>
+                    <p className={styles["text"]}>
+                        RPA: I’ve spent two years working with backend automation – mainly centered around Power Automate, PowerApps, and other Microsoft Power tools. Other automation experience includes Python scripting, Selenium automated testing, and SalesForce Marketing Cloud. I’ve created backend automation processes that integrate with Sharepoint, Excel, PowerApps, Forms, Adobe, Outlook, file conversions, in-app push notifications, HTTP requests, Google Scripts, and more.
+                        <br /><br />
+                        Python Scripting: I’m certainly guilty of having spent more time to automate a mundane task than it would have taken me to just do said task. And guess what, I’d do it again. Really though, having Python scripts to assist in my personal projects and with my past gigs has been a huge help. I also love to teach my less tech-y friends how a little Python script can help them automate their day jobs. Don’t want to forget bots here – I've done some freelance work in that area.
                     </p>
-                    <p><br /><br />
-                        Past professional roles:<br />
+
+
+                    <h3><br />Other professional roles:</h3>
+                    <p className={styles["text"]}>
                         Founder<br />
                         Agile/Scrum Product Owner (CSPO certified)<br />
                         Quality Assurance (QA) Dev<br />
@@ -71,9 +79,11 @@ function About() {
                     </p>
                 </div>
                 <div className={styles["interests"]}>
-                    <h2>Enough tech for now, back to me,</h2>
+                    <h1 className={styles["role"]}>
+                        Enough tech for now, back to <span id={styles["italic"]}>me</span>,
+                    </h1>
 
-                    <p>
+                    <p className={styles["text"]}>
                         As far as the other ‘many things’ that I claim to be, they include<br />
                         Audiophile. All things techno, house, and DnB. I’m at shows and festivals every chance I get, or at a sunrise set at Club Space<br />
                         Cyclist. I’ve been car-less for years. I dig cardio and I h8 car-dependent infrastructure. My longest ride was a 180 mile one way trip from Miami to Key West, FL.<br />
