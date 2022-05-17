@@ -1,6 +1,6 @@
 ---
 title: Personal Finance Guide
-date: '2022-12-08'
+date: '2021-12-08'
 excerpt: A Personal Finance Guide for Budgeting, Saving, and Tracking Your Financial Goals
 image: personal-finance-guide.png
 categories: [Personal Finance]
@@ -79,13 +79,8 @@ At **$20/hour**, you’re in the negative. Base expenses are never going to chan
 
 [Link to Article](https://docs.google.com/spreadsheets/d/1h4euUifOWF63JuU5dDkJlWThcQuoqIKzBL1UakRdPcA/edit?usp=sharing)
 
-**Reddit:** If you use reddit, join these subs. Social media is a good way to leisurely take in small doses of information. These little bits of knowledge compound too.
+**Social Media:** I have a ton of sources for informational content on my [Passive Education With Communities](https://www.redvelvetwiki.com/posts/passive-education) article.
 
-[r/financialindependence](https://www.reddit.com/r/financialindependence/)
-
-[r/leanfire](https://www.reddit.com/r/leanfire)
-
-[r/fire](https://www.reddit.com/r/fire)
 
 ## Bonus Calculators/Trackers:
 
@@ -94,5 +89,3 @@ At **$20/hour**, you’re in the negative. Base expenses are never going to chan
 **Tracker/graph/calculator:** [Link](https://lab.madfientist.com/)
 
 ---
-
-[Travel vector created by vectorjuice - www.freepik.com](https://www.freepik.com/vectors/travel)

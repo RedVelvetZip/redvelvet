@@ -1,10 +1,10 @@
 ---
 title: Cryptocurrency Categories
 date: '2021-12-22'
-excerpt: Different Types of Crypto
+excerpt: Layer 1s, Infrastrucutre,
 image: cryptocurrency-categories.png
-categories: [Basics, Cryptocurrency]
-tags: [Cryptocurrency, Guide, Token]
+categories: [Cryptocurrency]
+tags: [Cryptocurrency, Guide, Basics]
 isFeatured: true
 ---
 

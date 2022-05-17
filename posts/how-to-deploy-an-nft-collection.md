@@ -5,7 +5,7 @@ excerpt: Want To Create Your Own NFT Collection?
 image: how-to-deploy-an-nft-collection.png
 categories: [NFT, Smart Contract]
 tags: [Polygon, Guide, Ethereum, Software Development, Solidity, IPFS, Metadata, Minting Dapp, Smart Contract]
-isFeatured: true
+isFeatured: false
 ---
 
 This is an extremely high-level overview on the necessary steps to launch your own NFT collection. There are plenty of in depth tutorials on YouTube to actually complete the whole process, but this article will give you a general idea of the steps needed. Also, while it is fun to create an NFT collection with no utility, it’s also completely worthless! Don’t expect to make money selling images, you need to sell function & utility! These steps outline the most common process.

@@ -1,9 +1,9 @@
 ---
 title: Smart Contract Gas Optimization
-date: '2022-10-16'
-excerpt: This article is written with ETH in mind, but the same principles apply to most other smart contract networks (SOL, ADA, MATIC, AVAX, …)
+date: '2022-01-12'
+excerpt: Gas optimization is the same as writing efficient code. If every line of code costs more gas, you want your functions to be succinct.
 image: smart-contract-gas-optimization.png
-categories: [Smart Contracts, Technology]
+categories: [Smart Contracts, Software Development]
 tags: [Ethereum, Smart Contracts, Software Development, Solidity]
 isFeatured: true
 ---
