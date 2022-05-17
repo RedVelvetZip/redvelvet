@@ -162,7 +162,7 @@ const Navbar = () => {
                     </li >
 
                     <li className={styles["nav-item"]}>
-                        <Link href="/about" className={styles["nav-link"]}>
+                        <Link href="/contact" className={styles["nav-link"]}>
                             <a href="#" className={styles["nav-link"]}>
                                 <svg
                                     aria-hidden="true"
