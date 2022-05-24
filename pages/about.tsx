@@ -175,7 +175,7 @@ function About() {
         </div>
         <div className={styles["interests"]}>
           <h1 className={styles["role"]}>
-            Enough tech for now, back to <span id={styles["italic"]}>me</span>,
+            Enough tech for now, back to <span id={styles["italic"]}>me</span>
           </h1>
 
           <p className={styles["text"]}>

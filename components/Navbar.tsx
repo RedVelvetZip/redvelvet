@@ -264,7 +264,7 @@ const Navbar = () => {
                                     ></path>
                                 </g>
                             </svg>
-                            <span className={styles["link-text"]}>Themify</span>
+                            <span className={styles["link-text"]}>Under Construction</span>
                         </a >
                     </li >
                 </ul >

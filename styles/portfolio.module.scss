@@ -1,0 +1,37 @@
+main.portfolio {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3rem;
+    line-height: 1.3;
+    h1 {
+        font-family: 'Space Mono';
+        padding-top: 1.5rem;
+    }
+}
+.fa-primary {
+    color: var(--bg-secondary);
+}
+.fa-secondary {
+    color: var(--text-secondary);
+}
+.fa-tertiary {
+    color: rgb(12, 92, 12);
+}
+.flex-container {
+    z-index: 15;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    
+    position: relative;
+    width: 50%;
+}
