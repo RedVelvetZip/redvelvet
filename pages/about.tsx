@@ -4,18 +4,11 @@ import Header from '../components/Header';
 function About() {
     return (
         <>
-            {/* <Header /> */}
+            <Header />
             <main className={styles["about"]}>
-                <div className={styles["title"]}>
-                    <h1 className={styles["hi"]}>Hi, my name is</h1>
-                    <h1 className={styles["name"]}>Bradley Sheehan</h1>
-                    <h1 className={styles["hi"]}>aka</h1>
-                    <h1 className={styles["red"]}>Red</h1>
-                </div>
-                
-                
-                
-                
+                {/* <div className={styles["title"]}>
+                    <h1>About Me</h1>
+                </div> */}
                 <div className={styles["abstract"]}>
                     <p>
                         Hey there, I&#39;m Red aka Brad. I am many things &#45; one of which is a software developer. If you&rsquo;re not in tech, that&rsquo;s a fairly specific title; if you are in tech, it&rsquo;s incredibly vague. You can find my interests, skills, and experience here. You&rsquo;ll also find various resumes, each with a specific focus.
