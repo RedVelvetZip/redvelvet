@@ -9,9 +9,6 @@ main.about {
         padding-top: 1.5rem;
     }
 }
-// .title {
-//     text-align: center;
-// }
 .abstract {
     padding-top: 1rem;
 }
@@ -23,4 +20,52 @@ main.about {
 }
 #italic {
     font-style: italic;
+}
+.interests {
+    background-color: rgba(143, 143, 143, 0.8);
+    border-radius: 50px;
+    padding: 20px;
+}
+.interests-cols {
+    display: flex;
+    column-gap: 30px;
+    padding-top: 40px;
+}
+.col {
+    width: 33%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.fa-primary {
+    color: var(--bg-secondary);
+}
+.fa-secondary {
+    color: var(--text-secondary);
+}
+.fa-tertiary {
+    color: rgb(12, 92, 12);
+}
+.finance {
+    font-weight: 900;
+    font-size: 1.1rem;
+    color: rgb(12, 92, 12);
+}
+.education {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+.privacy {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--bg-secondary);
 }
