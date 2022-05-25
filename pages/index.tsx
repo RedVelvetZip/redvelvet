@@ -17,6 +17,7 @@ function HomePage(props: { posts: any; }) {
         ></meta>
       </Head>
       <Header />
+      Under Construction :)
       <FeaturedPosts posts={props.posts} />
     </Fragment>
   );
