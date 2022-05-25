@@ -8,17 +8,17 @@ const Header = () => {
         <>
             <div className={styles["header"]}>
                 <p className={styles["title"]}>
-                    <span className={styles["brackets"]}>
+                    {/* <span className={styles["brackets"]}>
                         [
-                    </span>
-                    Red Velvet
-                    <span className={styles["brackets"]}>
+                    </span> */}
+                    [ Red Velvet ]
+                    {/* <span className={styles["brackets"]}>
                         ]
-                    </span>
+                    </span> */}
                 </p>
                 <div className={styles["logo"]}>
                     <Image
-                        src={logo}
+                        src={logoGif}
                         alt="Red Velvet logo"
                         layout="responsive"
                         objectFit="contain"
