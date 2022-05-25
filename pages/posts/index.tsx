@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { Fragment } from 'react';
-
+import Header from '../../components/Header';
 import AllPosts from '../../components/posts/all-posts';
 import { getAllPosts } from '../../utils/posts-util';
 
@@ -14,6 +14,8 @@ function AllPostsPage(props: { posts: any; }) {
           content='A list of topics realted to crypto, coding, finance and more! '
         ></meta>
       </Head>
+      <Header />
+      Under Construction
       <AllPosts posts={props.posts} />;
     </Fragment>
   );
