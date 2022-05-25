@@ -18,8 +18,8 @@ const Header = () => {
                 </p>
                 <div className={styles["logo"]}>
                     <Image
-                        src={logoGif}
-                        alt="logo"
+                        src={logo}
+                        alt="Red Velvet logo"
                         layout="responsive"
                         objectFit="contain"
                     >
