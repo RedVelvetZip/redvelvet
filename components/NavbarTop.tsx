@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/navbar.module.scss";
+import styles from "../styles/navbartop.module.scss";
 // import WalletConnect from "./WalletConnect";
 import logo from "../assets/logo-circle.png"
 import { ConnectButton } from '@rainbow-me/rainbowkit';
