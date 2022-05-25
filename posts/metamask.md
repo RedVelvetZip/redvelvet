@@ -7,12 +7,13 @@ categories: [Cryptocurrency]
 tags: [Cryptocurrency, Guide, Wallets]
 isFeatured: false
 ---
-**What is MetaMask?**
+#MetaMask - Your Go-To Browser Wallet
 
+##What is MetaMask?
 MetaMask is a browser plugin that serves as an Ethereum wallet. In addition to Ethereum, you can manually add other networks such as Binance Smart Chain or Avalanche Network. MetaMask is compatible with most web browsers, as well as mobile. MetaMask can allow you to interact with decentralized apps, since you can’t connect your Coinbase or other exchange wallet directly to these dapps.
 
  
-How To Get Started:
+##How To Get Started:
 
 Looking to use a DEX, buy an NFT, or just get your crypto off of an exchange? Then you’ll want to set up a MetaMask account. I’ll walk you through the steps here
 
@@ -30,7 +31,8 @@ Looking to use a DEX, buy an NFT, or just get your crypto off of an exchange? Th
 Hardware Wallets for Added Security:
 
 So you’re looking for added security? Not a bad move. Hardware wallets are objectively more secure than using MetaMask alone. If you own a Ledger or Trezor hardware wallet, you can create a new MetaMask account from your hardware wallet. Now the keys for this MetaMask account are stored on your Ledger/Trezor, and transactions from MM must be signed by your physical device before sending out. Ledger and Trezor have documentation for this process on their websites.
-Common Questions:
+
+##Common Questions:
 
 Q: I sent a new token to my wallet. Why can’t I see it?
 
