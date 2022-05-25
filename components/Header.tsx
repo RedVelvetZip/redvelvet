@@ -11,7 +11,7 @@ const Header = () => {
                     <span className={styles["brackets"]}>
                         [
                     </span>
-                    Red Velvet Wiki
+                    Red Velvet
                     <span className={styles["brackets"]}>
                         ]
                     </span>

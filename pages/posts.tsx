@@ -10,7 +10,7 @@ function Posts(props: { posts: any; }) {
     return (
         <Fragment>
             <Head>
-                <title>Red Velvet Wiki</title>
+                <title>Red Velvet</title>
                 <meta
                     name='description'
                     content='Crypto, Coding, Finance, and more'

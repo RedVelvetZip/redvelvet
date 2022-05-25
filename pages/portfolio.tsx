@@ -29,7 +29,7 @@ function Portfolio() {
                   rel="noreferrer"
                 >
                   <Image
-                    layout='fill'
+                    // layout='fill'
                     objectFit='contain'
                     src={vqLogo}
                     alt="VQ Games"

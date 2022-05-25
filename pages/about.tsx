@@ -22,7 +22,10 @@ function About() {
           <h1>Interests</h1>
           <p className={styles["text"]}>
             Other than the big obvious software development, my professional
-            interests include <span className={styles["finance"]}>finance</span>, <span className={styles["education"]}>education</span>, and <span className={styles["privacy"]}>privacy</span>. The intersection of these interests brought me to where I am, working in web3.
+            interests include <span className={styles["finance"]}>finance</span>
+            , <span className={styles["education"]}>education</span>, and{" "}
+            <span className={styles["privacy"]}>privacy</span>. The intersection
+            of these interests brought me to where I am, working in web3.
           </p>
           <div className={styles["interests-cols"]}>
             <div className={styles["col"]}>
@@ -37,7 +40,13 @@ function About() {
               </div>
               <h3 className={styles["finance"]}>FINANCE</h3>
               <p className={styles["text"]}>
-                Not everyone needs to know how a liquidity pool works, but we all need to understand basic personal finance, and most of us don't. I try to bridge that gap for personal finance by creating approachable and digestible content; although it's not all about my content, I also try to point others towards resources that I found particularly helpful on my own journey. Gatekeeping knowledge isn't cool.
+                Not everyone needs to know how a liquidity pool works, but we
+                all need to understand basic personal finance, and most of us
+                don't. I try to bridge that gap for personal finance by creating
+                approachable and digestible content; although it's not all about
+                my content, I also try to point others towards resources that I
+                found particularly helpful on my own journey. Gatekeeping
+                knowledge isn't cool.
               </p>
             </div>
             <div className={styles["col"]}>
@@ -61,15 +70,22 @@ function About() {
             <div className={styles["col"]}>
               <div className={styles["icon"]}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                  <path 
-                  fill="currentColor"
-                  d="M80 192V144C80 64.47 144.5 0 224 0C303.5 0 368 64.47 368 144V192H384C419.3 192 448 220.7 448 256V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V256C0 220.7 28.65 192 64 192H80zM144 192H304V144C304 99.82 268.2 64 224 64C179.8 64 144 99.82 144 144V192z"
-                  className={styles["fa-primary"]} />
+                  <path
+                    fill="currentColor"
+                    d="M80 192V144C80 64.47 144.5 0 224 0C303.5 0 368 64.47 368 144V192H384C419.3 192 448 220.7 448 256V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V256C0 220.7 28.65 192 64 192H80zM144 192H304V144C304 99.82 268.2 64 224 64C179.8 64 144 99.82 144 144V192z"
+                    className={styles["fa-primary"]}
+                  />
                 </svg>
               </div>
               <h3 className={styles["privacy"]}>PRIVACY</h3>
               <p className={styles["text"]}>
-                I'm very much doxxed, but privacy is still incredibly important to me. Half the battle is just being aware of the degree that your data is being collected. Most of our popular websites, apps, and search engines are terribly intrusive. Privacy is also a key step in creating truly permissionless tools. When dealing with decentralized financial assets, privacy is only second to security.
+                I'm very much doxxed, but privacy is still incredibly important
+                to me. Half the battle is just being aware of the degree that
+                your data is being collected. Most of our popular websites,
+                apps, and search engines are terribly intrusive. Privacy is also
+                a key step in creating truly permissionless tools. When dealing
+                with decentralized financial assets, privacy is only second to
+                security.
               </p>
             </div>
           </div>
@@ -128,10 +144,6 @@ function About() {
             Energy) connective app linked to a solenoid lock on a physical
             wallet.
           </p>
-          <div>
-            …resume? I don’t do enough mobile native dev work for that rn. BUT
-            you can always peep the portfolio and filter by native
-          </div>
 
           <h2 className={styles["role"]}>
             Robotic Process Automation + Scripting
@@ -177,14 +189,13 @@ function About() {
           <h1 className={styles["role"]}>
             Enough tech for now, back to <span id={styles["italic"]}>me</span>
           </h1>
-
           <p className={styles["text"]}>
             As far as the other ‘many things’ that I claim to be, they include
             <br />
             Audiophile. All things techno, house, and DnB. I’m at shows and
             festivals every chance I get, or at a sunrise set at Club Space
             <br />
-            Cyclist. I’ve been car-less for years. I dig cardio and I h8
+            Cyclist. I’ve been car-less for years. I h8 traffic and
             car-dependent infrastructure. My longest ride was a 180 mile one way
             trip from Miami to Key West, FL.
             <br />

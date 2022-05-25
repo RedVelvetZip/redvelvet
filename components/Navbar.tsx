@@ -5,11 +5,11 @@ import styles from "../styles/navbar.module.scss";
 import logo from "../assets/logo-circle.png"
 
 const Navbar = () => {
-    const themeMap = {
-        dark: "light",
-        light: "solar",
-        solar: "dark"
-    };
+    // const themeMap = {
+    //     dark: "light",
+    //     light: "solar",
+    //     solar: "dark"
+    // };
 
     //   const theme = localStorage.getItem('theme')
     //     || (tmp = Object.keys(themeMap)[0],
@@ -187,7 +187,7 @@ const Navbar = () => {
                         </Link>
                     </li >
 
-                    <li className={styles["nav-item"]}
+                    {/* <li className={styles["nav-item"]}
                         id={styles["themeButton"]}
                     // onClick={toggleTheme()}
                     >
@@ -266,7 +266,7 @@ const Navbar = () => {
                             </svg>
                             <span className={styles["link-text"]}>Under Construction</span>
                         </a >
-                    </li >
+                    </li > */}
                 </ul >
             </nav >
         </>
