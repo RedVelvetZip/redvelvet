@@ -12,12 +12,8 @@ import vqLogo from "../assets/portfolio/VQ Logo1.png";
 function Portfolio() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className={styles["portfolio"]}>
-        Under Construction
-        <br />
-        Under Construction
-        <br />
         Under Construction
         <div className={styles["flex-container"]}>
           <div className={styles["flex-item"]}>
