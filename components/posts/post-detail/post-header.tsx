@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import classes from './post-header.module.css';
 
-function PostHeader(props) {
+function PostHeader(props: { title: any; image: any; }) {
   const { title, image } = props;
 
   return (

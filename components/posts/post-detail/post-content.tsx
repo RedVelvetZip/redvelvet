@@ -11,34 +11,36 @@ import classes from './post-content.module.css';
 SyntaxHighlighter.registerLanguage('js', js)
 SyntaxHighlighter.registerLanguage('css', css)
 
-function PostContent(props) {
+function PostContent(props: { post: any; }) {
   const { post } = props;
 
   const imagePath = `/images/posts/${post.slug}/${post.image}`;
 
   const customRenderers = {
-    p(paragraph) {
+    p(paragraph: any ) {
       const { node } = paragraph;
 
       if (node.children[0].tagName === 'img') {
         const image = node.children[0];
 
         return (
+          <>
           <div className={classes.image}>
             <Image
               src={`/images/posts/${post.slug}/${image.properties.src}`}
               alt={image.alt}
               width={600}
-              height={300}
-            />
+              height={600}
+            />xxxxxx
           </div>
+          </>
         );
       }
 
       return <p>{paragraph.children}</p>;
     },
 
-    code(code) {
+    code(code: any) {
       const { className, children } = code;
       const language = className.split('-')[1]; // className is something like language-js => We need the "js" part here
       return (
