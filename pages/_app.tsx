@@ -1,14 +1,14 @@
 import React from 'react';
-
+import { AppProps } from 'next/app'
 import '../styles/globals.scss';
-import { LayoutBlog } from '../components';
-import { LayoutDev } from '../components';
+import { LayoutBlog } from '../components/Layout';
+import { LayoutDev } from '../components/dev/LayoutDev';
 const layouts = {
   L1: LayoutBlog,
   L2: LayoutDev,
 };
 
-const App = ({ Component, pageProps }) => {
+const App = ({ Component, pageProps }: AppProps) => {
   // const Layout = layouts[Component.layout] || ((children) => <>{children}</>);
   // const Layout = layouts[Component.layout] || ((children) => <>{children}</>);
   return (
