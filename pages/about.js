@@ -1,5 +1,4 @@
 import styles from "../styles/about.module.scss";
-import Header from "../components/Header";
 import NavbarSide from "../components/dev/NavbarSide";
 
 function About() {
@@ -17,7 +16,7 @@ function About() {
           </p>
         </div>
         <div className={styles["interests"]}>
-          <h1>Interests</h1>
+          <h2 className={styles["header"]}>Interests</h2>
           <p className={styles["text"]}>
             Other than the big obvious software development, my professional
             interests include <span className={styles["finance"]}>finance</span>
@@ -89,7 +88,7 @@ function About() {
           </div>
         </div>
         <div className={styles["skills"]}>
-          <h1>Skills</h1>
+          <h2 className={styles["header"]}>Skills</h2>
           <p className={styles["text"]}>
             I'm a professional full-stack developer with 3+ years work
             experience based in Denver, CO. I hold a Bachelor's of Science in
@@ -166,7 +165,7 @@ function About() {
             area.
           </p>
 
-          <h3>
+          <h3 className={styles["role"]}>
             <br />
             Other professional roles:
           </h3>
@@ -184,9 +183,9 @@ function About() {
           </p>
         </div>
         <div className={styles["interests"]}>
-          <h1 className={styles["role"]}>
+          <h2 className={styles["personal"]}>
             Enough tech for now, back to <span id={styles["italic"]}>me</span>
-          </h1>
+          </h2>
           <p className={styles["text"]}>
             As far as the other ‘many things’ that I claim to be, they include
             <br />

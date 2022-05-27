@@ -4,10 +4,6 @@ main.about {
     flex-direction: column;
     row-gap: 1.3rem;
     line-height: 1.3;
-    h1 {
-        font-family: "Space Mono";
-        padding-top: 1.5rem;
-    }
     width: 80%;
     margin-left: 10%;
     background-color: rgb(249, 249, 251, 0.9);
@@ -20,8 +16,19 @@ main.about {
 .text {
     padding-top: 0.8rem;
 }
+.header {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 1.5rem;
+}
 .role {
     padding-top: 1.8rem;
+    font-weight: 600;
+}
+.personal {
+    padding-top: 1.8rem;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 #italic {
     font-style: italic;
