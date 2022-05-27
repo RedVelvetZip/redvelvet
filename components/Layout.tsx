@@ -3,7 +3,11 @@ import Head from 'next/head'
 import Header from "./Header";
 import logo from '../assets/logo192.png'
 
-const LayoutBlog = ({ children }) => (
+const LayoutBlog = ({
+  children,
+}: {
+  children: React.ReactNode
+}) => (
   <>
     <Head>
       <link rel="icon" href="/favicon.ico" />
@@ -18,7 +22,7 @@ const LayoutBlog = ({ children }) => (
       <meta name="og:title" content="Red Velvet" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
-    <Header />
+    
     {children}
   </>
 );

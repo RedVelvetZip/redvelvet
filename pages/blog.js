@@ -23,6 +23,7 @@ export default function Blog({ posts }) {
     </div>
   );
 }
+Blog.blog=true;
 
 // Fetch data at build time
 export async function getStaticProps() {

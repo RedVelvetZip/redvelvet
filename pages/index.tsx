@@ -1,9 +1,17 @@
 import styles from "../styles/about.module.scss";
 import NavbarSide from "../components/dev/NavbarSide";
+import Head from 'next/head';
 
-const Dev = () => {
+function Dev(props: { posts: any; }) {
   return (
     <>
+     <Head>
+        <title>Red Velvet</title>
+        <meta
+          name='description'
+          content='Crypto, Coding, Finance, and more'
+        ></meta>
+      </Head>
       <NavbarSide />
       <main className={styles["about"]}>
         <div className={styles["abstract"]}>
@@ -18,3 +26,4 @@ const Dev = () => {
 Dev.layout = "L2";
 
 export default Dev;
+
