@@ -1,5 +1,5 @@
-import styles from "../styles/about.module.scss";
-import NavbarSide from "../components/dev/NavbarSide";
+import styles from "../../styles/about.module.scss";
+import NavbarSide from "../../components/dev/NavbarSide";
 
 function Dev() {
   return (

@@ -40,30 +40,30 @@ const Header = () => {
           <span className="font-bold text-4xl text-black px-2">
               | 
             </span>
-          <Link href="/portfolio">
+          <Link href="/blog">
             <span className="cursor-pointer font-bold text-4xl text-black">
                Blog
             </span>
           </Link>
         </div>
-        <div>
-          {/* <Link href={"contact"}>
+        {/* <div>
+          <Link href={"/contact"}>
             <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
               Contact
             </span>
-          </Link> */}
-          <Link href={"about"}>
+          </Link>
+          <Link href={"/about"}>
             <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
               About
             </span>
           </Link>
-          <Link href={"portfolio"}>
+          <Link href={"/portfolio"}>
             <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
               Portfolio
             </span>
           </Link>
-        </div>
-        {/* <div className="hidden md:float-left md:contents">
+        </div> */}
+        <div className="hidden md:float-left md:contents">
           {categories.map((category, index) => (
             <Link key={index} href={`/category/${category.slug}`}>
               <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
@@ -71,7 +71,7 @@ const Header = () => {
               </span>
             </Link>
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );

@@ -8,11 +8,12 @@ import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo1.png";
 import vqLogo from "../assets/portfolio/VQ Logo1.png";
+import NavbarSide from "../components/dev/NavbarSide";
 
 function Portfolio() {
   return (
     <>
-      {/* <Header /> */}
+      <NavbarSide />
       <main className={styles["portfolio"]}>
         Under Construction
         <div className={styles["flex-container"]}>
