@@ -19,3 +19,11 @@ main.contact {
         color: var(--bg-primary);
     }
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        padding-left: 0rem;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+}
