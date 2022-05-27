@@ -1,8 +1,6 @@
 import Navbar from "./NavbarSide";
-// import NavbarTop from "./NavbarTop";
-import Footer from"./Footer";
 
-export default function Layout(children) {
+export default function LayoutDev(children) {
     return (
         <>
             <Navbar />

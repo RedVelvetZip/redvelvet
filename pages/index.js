@@ -1,7 +1,7 @@
 import styles from "../styles/about.module.scss";
 import NavbarSide from "../components/dev/NavbarSide";
 
-function Dev() {
+const Dev = () => {
   return (
     <>
       <NavbarSide />
@@ -19,5 +19,6 @@ function Dev() {
     </>
   );
 }
+Dev.layout = "L2";
 
 export default Dev;

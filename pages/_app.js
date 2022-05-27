@@ -1,14 +1,30 @@
 import React from 'react';
 
 import '../styles/globals.scss';
-import { Layout } from '../components';
+import { LayoutBlog } from '../components';
+import { LayoutDev } from '../components';
+const layouts = {
+  L1: LayoutBlog,
+  L2: LayoutDev,
+};
 
-function MyApp({ Component, pageProps }) {
+const App = ({ Component, pageProps }) => {
+  // const Layout = layouts[Component.layout] || ((children) => <>{children}</>);
+  // const Layout = layouts[Component.layout] || ((children) => <>{children}</>);
   return (
-    <Layout>
+    <LayoutBlog>
       <Component {...pageProps} />
-    </Layout>
+    </LayoutBlog>
   );
-}
+};
+export default App;
 
-export default MyApp;
+// function MyApp({ Component, pageProps }) {
+//   return (
+//     <Layout>
+//       <Component {...pageProps} />
+//     </Layout>
+//   );
+// }
+
+// export default MyApp;
