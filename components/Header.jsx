@@ -33,16 +33,14 @@ const Header = () => {
         </div> */}
         <div className="md:float-left block px-25px">
           <Link href="/">
-            <span className="cursor-pointer font-bold text-4xl text-white">
+            <span className="cursor-pointer font-bold text-3xl text-white">
               [ Red Velvet ]
             </span>
           </Link>
-          <span className="font-bold text-4xl text-black px-2">
-              | 
-            </span>
+          <span className="font-bold text-3xl text-black px-2">|</span>
           <Link href="/blog">
-            <span className="cursor-pointer font-bold text-4xl text-black">
-               Blog
+            <span className="cursor-pointer font-bold text-3xl text-black">
+              Blog
             </span>
           </Link>
         </div>
