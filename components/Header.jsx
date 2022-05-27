@@ -19,16 +19,16 @@ const Header = () => {
     <div className={styles["header"]}>
       <div className={styles["header-content"]}>
         <div className={styles["title-box"]}>
-          <Link href="/">
+          <Link href="/" passHref>
             <span className={styles["title"]}>[ Red Velvet ]</span>
           </Link>
           <span className={styles["spacer"]}>|</span>
-          <Link href="/blog">
+          <Link href="/blog" passHref>
             <span className={styles["blog-title"]}>Blog</span>
           </Link>
         </div>
         <div className={styles["dev"]}>
-          <Link href={"/"}>
+          <Link href="/" passHref>
             <span className={styles["portfolio"]}>Portfolio</span>
           </Link>
         </div>
