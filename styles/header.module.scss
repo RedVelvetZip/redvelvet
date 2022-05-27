@@ -10,15 +10,11 @@
     padding-bottom: 2rem;
     width: 100%;
     border-bottom-width: 1px;
-    // border: 1px solid blue;
     display: flex;
     justify-content: space-between;
 }
 .title-box {
     display: block;
-    // padding-left: 2.5rem;
-    // padding-right: 2.5rem;
-    // border: 1px solid white
 }
 .title {
     color: #ffffff;
@@ -56,7 +52,11 @@
 
 /* Small screens */
 @media only screen and (max-width: 600px) {
-    .title-box {
-        // float: left;
+    .title {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+    .dev {
+        display: none;
     }
 }
