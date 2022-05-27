@@ -5,7 +5,7 @@ main.about {
     row-gap: 1.3rem;
     line-height: 1.3;
     h1 {
-        font-family: 'Space Mono';
+        font-family: "Space Mono";
         padding-top: 1.5rem;
     }
     width: 80%;
@@ -76,4 +76,14 @@ main.about {
     font-weight: 700;
     font-size: 1.1rem;
     color: var(--bg-secondary);
+}
+
+@media only screen and (max-width: 600px) {
+    .interests-cols {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .col {
+        width: 90%;
+    }
 }
