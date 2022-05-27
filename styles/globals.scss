@@ -7,10 +7,10 @@
 html,
 body {
   scrollbar-width: thin;
+  overflow-y: hidden;
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   &:before {
     content: "";
     content: "";

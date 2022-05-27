@@ -16,7 +16,7 @@ function Dev(props: { posts: any; }) {
       <main className={styles["about"]}>
         <div className={styles["abstract"]}>
           <p>
-            Under Construction. But the blog is up <a href="/blog">HERE</a>
+            Under Construction. But the blog is <a href="/blog">HERE</a>
           </p>
         </div>
       </main>

@@ -22,7 +22,7 @@ const LayoutBlog = ({
       <meta name="og:title" content="Red Velvet" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
-    
+    <Header />
     {children}
   </>
 );
