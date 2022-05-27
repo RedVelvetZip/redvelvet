@@ -6,9 +6,6 @@ function About() {
     <>
       {/* <Header /> */}
       <main className={styles["about"]}>
-        {/* <div className={styles["title"]}>
-                    <h1>About Me</h1>
-                </div> */}
         <div className={styles["abstract"]}>
           <p>
             Hey there, I&#39;m Red aka Brad. I am many things &#45; one of which

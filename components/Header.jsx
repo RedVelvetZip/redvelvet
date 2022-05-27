@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <div className="container mx-auto px-10 mb-8">
       <div className="border-b w-full inline-block border-white-400 py-8">
-        <div className="absolute md:float-left block">
+        {/* <div className="absolute md:float-left block">
           <Link href="/">
             <div className="h-20 w-20 relative">
               <Image
@@ -30,21 +30,28 @@ const Header = () => {
               ></Image>
             </div>
           </Link>
-        </div>
+        </div> */}
         <div className="md:float-left block px-25px">
           <Link href="/">
             <span className="cursor-pointer font-bold text-4xl text-white">
               [ Red Velvet ]
             </span>
           </Link>
+          <span className="font-bold text-4xl text-black px-2">
+              | 
+            </span>
+          <Link href="/portfolio">
+            <span className="cursor-pointer font-bold text-4xl text-black">
+               Blog
+            </span>
+          </Link>
         </div>
         <div>
-          <Link href={"contact"}>
+          {/* <Link href={"contact"}>
             <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
               Contact
             </span>
-          </Link>
-
+          </Link> */}
           <Link href={"about"}>
             <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
               About
