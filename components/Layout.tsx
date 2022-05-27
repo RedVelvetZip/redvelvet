@@ -3,11 +3,7 @@ import Head from 'next/head'
 import Header from "./Header";
 import logo from '../assets/logo192.png'
 
-const LayoutBlog = ({
-  children,
-}: {
-  children: React.ReactNode
-}) => (
+const LayoutBlog = ({children} : { children: any}) => (
   <>
     <Head>
       <link rel="icon" href="/favicon.ico" />

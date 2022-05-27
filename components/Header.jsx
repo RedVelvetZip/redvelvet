@@ -4,7 +4,7 @@ import Image from "next/image";
 import { getCategories } from "../services";
 import logo from "../assets/logo-circle.png";
 
-import styles from "../styles/navbar.module.scss";
+import styles from "../styles/header.module.scss";
 
 const Header = () => {
   const [categories, setCategories] = useState([]);
@@ -16,60 +16,31 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-10 mb-8">
-      <div className="border-b w-full inline-block border-white-400 py-8">
-        {/* <div className="absolute md:float-left block">
+    <div className={styles["header"]}>
+      <div className={styles["header-content"]}>
+        <div className={styles["title-box"]}>
           <Link href="/">
-            <div className="h-20 w-20 relative">
-              <Image
-                src={logo}
-                alt="Picture of the author"
-                layout="fill" // required
-                objectFit="cover" // change to suit your needs
-                // className="rounded-full" // just an example
-              ></Image>
-            </div>
+            <span className={styles["title"]}>[ Red Velvet ]</span>
           </Link>
-        </div> */}
-        <div className="md:float-left block px-25px">
-          <Link href="/">
-            <span className="cursor-pointer font-bold text-3xl text-white">
-              [ Red Velvet ]
-            </span>
-          </Link>
-          <span className="font-bold text-3xl text-black px-2">|</span>
+          <span className={styles["spacer"]}>|</span>
           <Link href="/blog">
-            <span className="cursor-pointer font-bold text-3xl text-black">
-              Blog
-            </span>
+            <span className={styles["blog-title"]}>Blog</span>
           </Link>
         </div>
-        {/* <div>
-          <Link href={"/contact"}>
-            <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
-              Contact
-            </span>
-          </Link>
-          <Link href={"/about"}>
-            <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
-              About
-            </span>
-          </Link>
-          <Link href={"/portfolio"}>
-            <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
-              Portfolio
-            </span>
-          </Link>
-        </div> */}
-        <div className="hidden md:float-left md:contents">
-          
+        <div className={styles["dev"]}>
           <Link href={"/"}>
-            <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
-              Portfolio
-            </span>
+            <span className={styles["portfolio"]}>Portfolio</span>
           </Link>
         </div>
-        {/* <div className="hidden md:float-left md:contents">
+      </div>
+    </div>
+  );
+};
+
+export default Header;
+
+{
+  /* <div className="hidden md:float-left md:contents">
           {categories.map((category, index) => (
             <Link key={index} href={`/category/${category.slug}`}>
               <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
@@ -77,10 +48,5 @@ const Header = () => {
               </span>
             </Link>
           ))}
-        </div> */}
-      </div>
-    </div>
-  );
-};
-
-export default Header;
+        </div> */
+}

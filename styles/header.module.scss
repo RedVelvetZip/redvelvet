@@ -1,40 +1,62 @@
-// @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 .header {
-    // font-family: 'Share Tech Mono';
-    font-family: 'Roboto';
-    font-weight: 900;
+    width: 100%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-bottom: 2rem;
+}
+.header-content {
+    display: inline-block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    border-bottom-width: 1px;
+    // border: 1px solid blue;
     display: flex;
-    flex-direction: row;
-    height: 5rem;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-between;
+}
+.title-box {
+    display: block;
+    // padding-left: 2.5rem;
+    // padding-right: 2.5rem;
+    // border: 1px solid white
 }
 .title {
-    align-self: center;
-    font-size: 2rem;
+    color: #ffffff;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    cursor: pointer;
 }
-.brackets {
-    color: var(--bg-tertiary);
+.spacer {
+    padding-left: 0.5rem;
+    color: #000000;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
 }
-.logo {
-    align-self: flex-end;
-    height: 6.5rem;
-    width: 6.5rem;
+.blog-title {
+    padding-left: 0.5rem;
+    color: #000000;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.dev {
+    display: flex;
+    align-items: center;
+}
+.portfolio {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 /* Small screens */
 @media only screen and (max-width: 600px) {
-    .header {
-        display: flex;
-        flex-direction: column;
-        height: 13rem;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .logo {
-        align-self: center;
-        height: 10rem;
-        width: 10rem;
+    .title-box {
+        // float: left;
     }
 }
