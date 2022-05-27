@@ -8,11 +8,7 @@ const Dev = () => {
       <main className={styles["about"]}>
         <div className={styles["abstract"]}>
           <p>
-            Hey there, I&#39;m Red aka Brad. I am many things &#45; one of which
-            is a software developer. If you&rsquo;re not in tech, that&rsquo;s a
-            fairly specific title; if you are in tech, it&rsquo;s incredibly
-            vague. You can find my interests, skills, and experience here.
-            You&rsquo;ll also find various resumes, each with a specific focus.
+            Under Construction. But the blog is up <a href="/blog">HERE</a>
           </p>
         </div>
       </main>
