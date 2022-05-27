@@ -3,6 +3,7 @@ import NavbarSide from "../components/dev/NavbarSide";
 import Head from 'next/head';
 import Link from "next/link";
 
+const isBlog = false;
 function Dev(props: { posts: any; }) {
   return (
     <>
