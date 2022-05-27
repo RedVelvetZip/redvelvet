@@ -1,6 +1,7 @@
 import styles from "../styles/about.module.scss";
 import NavbarSide from "../components/dev/NavbarSide";
 import Head from 'next/head';
+import Link from "next/link";
 
 function Dev(props: { posts: any; }) {
   return (
@@ -16,7 +17,7 @@ function Dev(props: { posts: any; }) {
       <main className={styles["about"]}>
         <div className={styles["abstract"]}>
           <p>
-            Under Construction. But the blog is <a href="/blog">HERE</a>
+            Under Construction. But the blog is <Link href="/blog">HERE</Link>
           </p>
         </div>
       </main>
