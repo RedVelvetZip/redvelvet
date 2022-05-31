@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from "next/link";
 
 import DevLayout from '../components/dev/LayoutDev'
-function Dev(props: { posts: any; }) {
+function Dev() {
   return (
     <>
      <Head>
