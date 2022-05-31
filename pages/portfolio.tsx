@@ -6,7 +6,7 @@ import linkLogo from "../assets/wallet-icons/link.svg";
 import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
-import moonLabLogo from "../assets/portfolio/MoonLab Logo1.png";
+import moonLabLogo from "../assets/portfolio/MoonLab Logo4.png";
 import vqLogo from "../assets/portfolio/VQ Logo1.png";
 import NavbarSide from "../components/dev/NavbarSide";
 import DevLayout from '../components/dev/LayoutDev'
@@ -15,10 +15,81 @@ function Portfolio() {
   return (
     <>
       <main className={styles["portfolio"]}>
-        Under Construction
+        Under Construction<br />current projects
         <div className={styles["flex-container"]}>
           <div className={styles["flex-item"]}>
-          <div className={styles["title"]}>
+            <div className={styles["title"]}>
+              <div className={styles["logo"]}>
+                <a
+                  href="https://moonlab.space"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    // layout='fill'
+                    objectFit='contain'
+                    src={moonLabLogo}
+                    alt="MoonLab"
+                  ></Image>
+                </a>
+              </div>
+              <div className={styles["links"]}>
+                <div className={styles["links-item"]}>
+                  <div>
+                    <a
+                      href="https://moonlab.space"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={linkLogo}
+                        alt="MoonLab Website"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                <div className={styles["links-item"]}>
+                  <div>
+                    <a
+                      href="https://twitter.com/Moonlab_HQ"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={twitterLogo}
+                        alt="MoonLab Twitter"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                <div className={styles["links-item"]}>
+                  <div>
+                    <a
+                      href="https://discord.gg/2gwcaPK4xK"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={discordLogo}
+                        alt="MoonLab Discord"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p className={styles["description"]}>
+              MoonLab is the parent company for MoonFactory and LunarCapital.
+              MoonFactory is a web3 gig platform, creating a permissionless
+              marketplace for talent. LunarCapital is an education platform
+              aimed at onboarding users into web3.
+            </p>
+          </div>
+          <div className={styles["flex-item"]}>
+            <div className={styles["title"]}>
               <div className={styles["logo"]}>
                 <a className={styles["logo-case"]}
                   href="https://vastquestions.com"
@@ -35,7 +106,7 @@ function Portfolio() {
               </div>
               <div className={styles["links"]}>
                 <div className={styles["links-item"]}>
-                  <div className={styles["logo"]}>
+                  <div >
                     <a
                       href="https://vastquestions.com"
                       target="_blank"
@@ -49,9 +120,8 @@ function Portfolio() {
                     </a>
                   </div>
                 </div>
-                <div className={styles["links-item"]}></div>
                 <div className={styles["links-item"]}>
-                  <div className={styles["logo"]}>
+                  <div >
                     <a
                       href="https://twitter.com/VQGamesOfficial"
                       target="_blank"
@@ -66,7 +136,7 @@ function Portfolio() {
                   </div>
                 </div>
                 <div className={styles["links-item"]}>
-                  <div className={styles["logo"]}>
+                  <div >
                     <a
                       href="https://t.co/vvnoW0vXWH"
                       target="_blank"
@@ -91,80 +161,7 @@ function Portfolio() {
               Stack: Next, Typescript, Solidity, Firebase, Web3React, Eth
               Mainnet, Chainlink VRF
             </p>
-            
-          </div>
-          <div className={styles["flex-item"]}>
-            <div className={styles["title"]}>
-              <div className={styles["logo"]}>
-                <a
-                  href="https://moonlab.space"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    // layout='fill'
-                    objectFit='contain'
-                    src={moonLabLogo}
-                    alt="MoonLab"
-                  ></Image>
-                </a>
-              </div>
-              <div className={styles["links"]}>
-                <div className={styles["links-item"]}>
-                  <div className={styles["logo"]}>
-                    <a
-                      href="https://moonlab.space"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={linkLogo}
-                        alt="MoonLab Website"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}></div>
-                <div className={styles["links-item"]}>
-                  <div className={styles["logo"]}>
-                    <a
-                      href="https://twitter.com/Moonlab_HQ"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={twitterLogo}
-                        alt="MoonLab Twitter"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div className={styles["logo"]}>
-                    <a
-                      href="https://discord.gg/2gwcaPK4xK"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={discordLogo}
-                        alt="MoonLab Discord"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <p className={styles["description"]}>
-              MoonLab is the parent company for MoonFactory and LunarCapital.
-              MoonFactory is a web3 gig platform, creating a permissionless
-              marketplace for talent. LunarCapital is an education platform
-              aimed at onboarding users into web3.
-            </p>
-            
+
           </div>
         </div>
       </main>
