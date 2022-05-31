@@ -72,3 +72,9 @@ main.portfolio {
         width: 50%;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .flex-item {
+        width: 100%;
+    }
+}

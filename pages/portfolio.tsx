@@ -9,6 +9,7 @@ import discordLogo from "../assets/wallet-icons/discord.svg";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo1.png";
 import vqLogo from "../assets/portfolio/VQ Logo1.png";
 import NavbarSide from "../components/dev/NavbarSide";
+import DevLayout from '../components/dev/LayoutDev'
 
 function Portfolio() {
   return (
@@ -227,5 +228,6 @@ function Portfolio() {
     </>
   );
 }
+Portfolio.layout = DevLayout
 
 export default Portfolio;

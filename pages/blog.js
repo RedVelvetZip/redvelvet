@@ -1,6 +1,7 @@
 import { FeaturedPosts } from '../sections/index';
 import { PostCard, Categories, PostWidget } from '../components';
 import { getPosts } from '../services';
+import BlogLayout from '../components/Layout'
 
 export default function Blog({ posts }) {
   return (
@@ -23,7 +24,7 @@ export default function Blog({ posts }) {
     </div>
   );
 }
-Blog.blog=true;
+Blog.layout = BlogLayout;
 
 // Fetch data at build time
 export async function getStaticProps() {

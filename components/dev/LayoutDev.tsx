@@ -1,7 +1,9 @@
 import { ReactElement } from "react";
 import Navbar from "./NavbarSide";
 
-export default function LayoutDev({children} : { children: ReactElement}) {
+import type { LayoutProps } from '../../types/pageWithLayouts'
+
+const LayoutDev: LayoutProps = ({ children }) => {
     return (
         <>
             <Navbar />
@@ -9,3 +11,5 @@ export default function LayoutDev({children} : { children: ReactElement}) {
         </>
     )
 }
+
+export default LayoutDev

@@ -1,5 +1,6 @@
 import styles from "../styles/about.module.scss";
 import NavbarSide from "../components/dev/NavbarSide";
+import DevLayout from '../components/dev/LayoutDev'
 
 function About() {
   return (
@@ -207,5 +208,6 @@ function About() {
     </>
   );
 }
+About.layout = DevLayout;
 
 export default About;

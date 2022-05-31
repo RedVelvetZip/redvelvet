@@ -5,6 +5,8 @@ import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loa
 import { getPosts, getPostDetails } from '../../services';
 import { AdjacentPosts } from '../../sections';
 
+import BlogLayout from '../../components/Layout'
+
 const PostDetails = ({ post }) => {
   const router = useRouter();
 
@@ -34,6 +36,8 @@ const PostDetails = ({ post }) => {
     </>
   );
 };
+PostDetails.layout = BlogLayout;
+
 export default PostDetails;
 
 // Fetch data at build time

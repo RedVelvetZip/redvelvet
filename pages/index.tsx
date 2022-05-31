@@ -3,7 +3,7 @@ import NavbarSide from "../components/dev/NavbarSide";
 import Head from 'next/head';
 import Link from "next/link";
 
-const isBlog = false;
+import DevLayout from '../components/dev/LayoutDev'
 function Dev(props: { posts: any; }) {
   return (
     <>
@@ -25,7 +25,7 @@ function Dev(props: { posts: any; }) {
     </>
   );
 }
-Dev.layout = "L2";
+Dev.layout = DevLayout
 
 export default Dev;
 

@@ -1,6 +1,7 @@
 import styles from '../styles/contact.module.scss'
 import Header from '../components/Header';
 import NavbarSide from "../components/dev/NavbarSide";
+import DevLayout from '../components/dev/LayoutDev'
 
 function Contact() {
     return (
@@ -34,5 +35,6 @@ function Contact() {
         </>
     );
 }
+Contact.layout = DevLayout
 
 export default Contact;

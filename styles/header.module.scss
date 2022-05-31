@@ -5,7 +5,7 @@
     margin-bottom: 2rem;
 }
 .header-dev {
-    display:none;
+    display: none;
 }
 .header-content {
     display: inline-block;
@@ -51,6 +51,14 @@
     color: #ffffff;
     font-weight: 600;
     cursor: pointer;
+    display: flex;
+    align-items: right;
+    column-gap: 10px;
+}
+.icon {
+    height: 50%;
+    width: 20px;
+    color: white;
 }
 
 /* Small screens */
