@@ -10,7 +10,7 @@ type AppLayoutProps = AppProps & {
 }
 
 function MyApp({ Component, pageProps }: AppLayoutProps) {
-  const Layout = Component.layout || ((children: ReactElement) => <>{children}</>)
+  const Layout = Component.layout || (BlogLayout)
   return (
     <Layout>
       <Component {...pageProps} />
