@@ -12,7 +12,6 @@ function About() {
             is a software developer. If you&rsquo;re not in tech, that&rsquo;s a
             fairly specific title; if you are in tech, it&rsquo;s incredibly
             vague. You can find my interests, skills, and experience here.
-            You&rsquo;ll also find various resumes, each with a specific focus.
           </p>
         </div>
         <div className={styles["interests"]}>
@@ -93,21 +92,18 @@ function About() {
             I'm a professional full-stack developer with 3+ years work
             experience based in Denver, CO. I hold a Bachelor's of Science in
             Software Engineering from the University of Miami in 2019, which
-            involved mainly C and C++. These days I focus more on frontend, in
-            ReactJS. I've worked with several startups, and my skill set
+            involved mainly C and C++. These days I focus mostly on web3 projects. I've worked with several startups, and my skill set also 
             includes agile development, project management (CSPO certified),
-            marketing, and QA.
+            marketing, QA, and social media.
           </p>
 
           <h2 className={styles["role"]}>Full Stack Web3 Developer</h2>
           <p className={styles["text"]}>
             I’ve been in the crypto space for a long time(2016), but I only
             recently (2021) got into smart contract development. ERC721s,
-            ERC1155s, ERC20s, staking, DeFi, and more. My experience is limited
-            to ETH and its Layer 2s. I swear I'll find the time to deploy some
-            projects on Ada or Sol soon. This is the intersection of two of my
+            ERC1155s, ERC20s, staking, DeFi, and more. My experience is is mostly with ETH and ETH L2s; I have a bit of experience with Sol and Rust, as well as some EVM compatible chains such as Avax's C-chain. This is the intersection of two of my
             passions – tech and finance. I left corporate life to pursue my own
-            web3 projects full-time. Since that time, I've been working with
+            web3 projects full-time. Since that time, I've been working both with
             startups and as a freelancer.
           </p>
           <div>RESUME</div>

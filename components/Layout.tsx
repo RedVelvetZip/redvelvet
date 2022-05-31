@@ -1,9 +1,9 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import Head from 'next/head'
 import Header from "./Header";
 import logo from '../assets/logo192.png'
 
-const LayoutBlog = ({children} : { children: any}) => (
+const LayoutBlog = ({children} : { children: ReactElement}) => (
   <>
     <Head>
       <link rel="icon" href="/favicon.ico" />
