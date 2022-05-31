@@ -14,11 +14,11 @@ function Dev() {
           content='Crypto, Coding, Finance, and more'
         ></meta>
       </Head>
-      <NavbarSide />
+      {/* <NavbarSide /> */}
       <main className={styles["about"]}>
         <div className={styles["abstract"]}>
           <p>
-            Under Construction. But the blog is <Link href="/blog">HERE</Link>
+            Under Construction. But the blog is live <Link href="/blog">HERE</Link>
           </p>
         </div>
       </main>

@@ -14,7 +14,7 @@ import DevLayout from '../components/dev/LayoutDev'
 function Portfolio() {
   return (
     <>
-      <NavbarSide />
+      {/* <NavbarSide /> */}
       <main className={styles["portfolio"]}>
         Under Construction
         <div className={styles["flex-container"]}>

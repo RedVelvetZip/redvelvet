@@ -5,7 +5,7 @@ import DevLayout from '../components/dev/LayoutDev'
 function About() {
   return (
     <>
-      <NavbarSide />
+      {/* <NavbarSide /> */}
       <main className={styles["about"]}>
         <div className={styles["abstract"]}>
           <p>
