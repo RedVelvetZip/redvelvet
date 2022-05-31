@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import styles from '../styles/devheader.module.scss'
-import logo from "../assets/logo512.png"
-import logoGif from "../assets/logo2.gif"
+import styles from '../../styles/devheader.module.scss'
+// import logo from "../../assets/logo512.png"
+import logoGif from "../../assets/logo2.gif"
 
 const DevHeader = () => {
     return (

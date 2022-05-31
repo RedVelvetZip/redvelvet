@@ -19,7 +19,11 @@ function Contact() {
                    <h1 className={styles["header"]}>Get In Touch</h1>
                     
                 </div>
-                <div className={styles["icons-row"]}>
+               
+
+
+            </main>
+            <div className={styles["icons-row"]}>
                     <div className={styles["icon-box"]}>
                         <a href="mailto:bradley.t.sheehan@gmail.com" target="_blank" rel="noreferrer">
                             <Image alt="email" src={emailLogo}></Image>
@@ -46,9 +50,6 @@ function Contact() {
                         </a>
                     </div>
                 </div>
-
-
-            </main>
         </>
     );
 }
