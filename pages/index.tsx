@@ -1,13 +1,12 @@
-import styles from "../styles/about.module.scss";
-import NavbarSide from "../components/dev/NavbarSide";
+import styles from "../styles/dev.module.scss";
 import Head from 'next/head';
-import Link from "next/link";
-
+import Image from "next/image";
+import logoGif from "../assets/logo2.gif"
 import DevLayout from '../components/dev/LayoutDev'
 function Dev() {
   return (
     <>
-     <Head>
+      <Head>
         <title>Red Velvet</title>
         <meta
           name='description'
@@ -15,11 +14,17 @@ function Dev() {
         ></meta>
       </Head>
       {/* <NavbarSide /> */}
-      <main className={styles["about"]}>
-        <div className={styles["abstract"]}>
-          <p>
-            Under Construction. But the blog is live <Link href="/blog">HERE</Link>
-          </p>
+      <main className={styles["dev"]}>
+        <div className={styles["circle"]}>
+          <div className={styles["logo"]}>
+            <Image
+              src={logoGif}
+              alt="Red Velvet logo"
+              layout="responsive"
+              objectFit="contain"
+            >
+            </Image>
+          </div>
         </div>
       </main>
     </>
