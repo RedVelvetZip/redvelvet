@@ -8,11 +8,12 @@ import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import linkedinLogo from "../assets/wallet-icons/linkedin.svg";
+import DevHeader from '../components/dev/DevHeader';
 
 function Contact() {
     return (
         <>
-            {/* <NavbarSide /> */}
+            <DevHeader />
             <main className={styles["contact"]}>
                 <div className={styles["info"]}>
                    <h1 className={styles["header"]}>Get In Touch</h1>
