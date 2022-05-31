@@ -90,13 +90,18 @@ main.about {
     main.about {
         margin-bottom: 5.5rem;
         width: 90%;
+        padding: 40px 20px;
     }
     .interests-cols {
         flex-direction: column;
         padding-top: 40px;
     }
     .col {
-        width: 90%;
+        width: 100%;
+        margin-top: 15px;
         padding-top: 15px;
+    }
+    .abstract, .interests, .skills {
+        padding: 0px 10px;
     }
 }
