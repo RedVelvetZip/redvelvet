@@ -2,6 +2,7 @@ import styles from "../styles/dev.module.scss";
 import Head from 'next/head';
 import Image from "next/image";
 import logoGif from "../assets/logo2.gif"
+// import logoWebm from "../assets/logo2.webm"
 import DevLayout from '../components/dev/LayoutDev'
 function Dev() {
   return (
