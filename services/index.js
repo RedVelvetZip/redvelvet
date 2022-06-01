@@ -73,7 +73,7 @@ export const getPostDetails = async (slug) => {
         createdAt
         slug
         content {
-          raw
+          html
         }
         categories {
           name
@@ -141,7 +141,7 @@ export const getAdjacentPosts = async (createdAt, slug) => {
 
   const result = await request(graphqlAPI, query, { slug, createdAt });
 
-  return { next: result?.next[0], previous: result?.previous[0] };
+  return { next: result.next[0], previous: result.previous[0] };
 };
 
 export const getCategoryPost = async (slug) => {
