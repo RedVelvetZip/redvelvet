@@ -2,7 +2,7 @@ import styles from "../styles/dev.module.scss";
 import Head from 'next/head';
 import Image from "next/image";
 import logoGif from "../assets/logo2.gif"
-// import logoWebm from "../assets/logo2.webm"
+// import logoMp4 from "../assets/logo2.mp4"
 import DevLayout from '../components/dev/LayoutDev'
 function Dev() {
   return (
@@ -18,13 +18,16 @@ function Dev() {
       <main className={styles["dev"]}>
         <div className={styles["circle"]}>
           <div className={styles["logo"]}>
-            <Image
+            {/* <Image
               src={logoGif}
               alt="Red Velvet logo"
               layout="responsive"
               objectFit="contain"
             >
-            </Image>
+            </Image> */}
+            <video autoPlay loop>
+              <source src="/logo2.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </main>
