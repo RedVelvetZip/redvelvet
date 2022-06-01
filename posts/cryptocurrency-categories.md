@@ -93,5 +93,3 @@ Hype, pump & dumps, and scams. With the rare project that may survive. Please pl
 - Rebase tokens
 
 ---
-
-[Logo vector created by freepik - www.freepik.com](https://www.freepik.com/vectors/logo)
