@@ -5,6 +5,7 @@ import logoGif from "../assets/logo2.gif"
 import logo from "../assets/logo512.png"
 // import logoMp4 from "../assets/logo2.mp4"
 import DevLayout from '../components/dev/LayoutDev'
+import Link from "next/link";
 function Dev() {
   return (
     <>
@@ -15,8 +16,25 @@ function Dev() {
           content='Crypto, Coding, Finance, and more'
         ></meta>
       </Head>
-      {/* <NavbarSide /> */}
       <main className={styles["dev"]}>
+        <div className={styles["blog"]}>
+          <Link href="/blog" passHref>
+            <span className={styles["blog-home"]}>
+              Blog
+              <svg
+                className={styles["icon"]}
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z"
+                  className={styles["icon"]}
+                />
+              </svg>
+            </span>
+          </Link>
+        </div>
         <div className={styles["circle"]}>
           <div className={styles["logo"]}>
             <Image
