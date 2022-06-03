@@ -16,6 +16,7 @@ function Dev() {
           content='Crypto, Coding, Finance, and more'
         ></meta>
       </Head>
+      <body className={styles["devbody"]}>
       <main className={styles["dev"]}>
         <div className={styles["blog"]}>
           <Link href="/blog" passHref>
@@ -50,6 +51,7 @@ function Dev() {
           </div>
         </div>
       </main>
+      </body>
     </>
   );
 }

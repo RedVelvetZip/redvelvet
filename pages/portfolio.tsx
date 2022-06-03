@@ -13,7 +13,7 @@ import DevLayout from '../components/dev/LayoutDev'
 
 function Portfolio() {
   return (
-    <>
+    <body className={styles["devbody"]}>
       <h2 className={styles["header"]}>Portfolio</h2>
       <main className={styles["portfolio"]}>
         Under Construction<br />current projects
@@ -165,7 +165,7 @@ function Portfolio() {
           </div>
         </div>
       </main>
-    </>
+    </body>
   );
 }
 Portfolio.layout = DevLayout

@@ -10,7 +10,7 @@ import linkedinLogo from "../assets/wallet-icons/linkedin.svg";
 
 function About() {
   return (
-    <>
+    <body className={styles["devbody"]}>
       <h2 className={styles["title"]}>About Me</h2>
       <main className={styles["about"]}>
         <div className={styles["abstract"]}>
@@ -119,7 +119,7 @@ function About() {
           </div>
         </div>
       </main>
-    </>
+    </body>
   );
 }
 About.layout = DevLayout;

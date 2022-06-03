@@ -12,7 +12,7 @@ import DevHeader from '../components/dev/DevHeader';
 
 function Contact() {
     return (
-        <>
+        <body className={styles["devbody"]}>
             {/* <DevHeader /> */}
             <main className={styles["contact"]}>
                 <div className={styles["info"]}>
@@ -46,7 +46,7 @@ function Contact() {
                         </a>
                     </div>
                 </div>
-        </>
+        </body>
     );
 }
 Contact.layout = DevLayout

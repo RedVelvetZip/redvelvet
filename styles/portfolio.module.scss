@@ -1,3 +1,21 @@
+body.devbody {
+    width: 100%;
+    height: 100%;
+    &:before {
+        content: "";
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-image: url("../public/bg.png");
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        // background-position: 50% 50%;
+        // background-repeat: no-repeat;
+        background-size: cover;
+      }
+}
 main.portfolio {
     margin: 1rem;
     margin-top: 2.5rem;

@@ -4,7 +4,7 @@ import DevLayout from '../components/dev/LayoutDev'
 
 function Skills() {
     return (
-        <>
+        <body className={styles["devbody"]}>
             <div className={styles["header"]}>
             <h2 className={styles["header-text"]}>Skills</h2>
             </div>
@@ -198,7 +198,7 @@ function Skills() {
           </p>
         </div> */}
             </main>
-        </>
+        </body>
     );
 }
 Skills.layout = DevLayout;
