@@ -15,9 +15,6 @@ const Navbar = () => {
                         <Link href="/" className={styles["nav-link"]}>
                             <a href="#" className={styles["nav-link"]}>
                                 <span className={`${styles["link-text"]} ${styles["logo-text"]}`}>Red Velvet</span>
-                                {/* <div className={styles["logo-image"]}>
-                                <Image src={logo}></Image>
-                            </div> */}
                                 <svg
                                     aria-hidden="true"
                                     focusable="false"

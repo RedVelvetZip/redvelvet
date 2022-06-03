@@ -5,7 +5,9 @@ import DevLayout from '../components/dev/LayoutDev'
 function Skills() {
     return (
         <>
-            <h2 className={styles["header"]}>Skills</h2>
+            <div className={styles["header"]}>
+            <h2 className={styles["header-text"]}>Skills</h2>
+            </div>
             <main className={styles["about"]}>
                 <div className={styles["skills"]}>
                     <p className={styles["text"]}>

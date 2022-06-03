@@ -30,7 +30,9 @@ main.about {
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
     margin-left: 2rem;
-    width: 100%;
+    width: calc(100% - 2rem);
+    display: flex;
+    justify-content: center;
     // margin-left: 14rem;
     // width: 68%;
     // border-bottom-right-radius: 50px;
