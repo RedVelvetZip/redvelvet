@@ -27,6 +27,32 @@ const Header = () => {
             <span className={styles["blog-title"]}>Blog</span>
           </Link>
         </div>
+
+
+{/* TODO: add menu for mobile(with portfolio) and desktop
+
+
+
+        <div className={styles["nav"]}>
+          <Link href="/" passHref>
+            <span className={styles["portfolio"]}>
+              Categories
+            </span>
+          </Link>
+        </div>
+        <div className={styles["nav"]}>
+          <Link href="/" passHref>
+            <span className={styles["portfolio"]}>
+              Search
+            </span>
+          </Link>
+        </div> */}
+
+
+
+
+
+
         <div className={styles["dev"]}>
           <Link href="/" passHref>
             <span className={styles["portfolio"]}>

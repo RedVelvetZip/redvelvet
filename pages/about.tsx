@@ -58,10 +58,7 @@ function About() {
               </div>
               <h3 className={styles["education"]}>EDUCATION</h3>
               <p className={styles["text"]}>
-                The best way to learn something is to teach it; that's part of
-                the reason I get into some tougher concepts too. Advanced
-                decentralized finance tools and low-level programming concepts
-                need some love too!
+                I have a formal education in software development, but most of my education is from free online resources; when it comes to finance and crypto, that's the sole source. I love to teach friends about my passions, so I took things a step further and created a personal blog for my favorite topics. I also do some gig work writing fintech content. The best way to learn something is to teach it! 
               </p>
             </div>
             <div className={styles["col"]}>
@@ -93,7 +90,7 @@ function About() {
             I'm a professional full-stack developer with 3+ years work
             experience based in Denver, CO. I hold a Bachelor's of Science in
             Software Engineering from the University of Miami in 2019, which
-            involved mainly C and C++. These days I focus mostly on web3 projects. I've worked with several startups, and my skill set also 
+            involved mainly C and C++. These days I focus mostly on web3 projects. I've worked with several startups, and my skill set also
             includes agile development, project management (CSPO certified),
             marketing, QA, and social media.
           </p>
@@ -107,7 +104,40 @@ function About() {
             web3 projects full-time. Since that time, I've been working both with
             startups and as a freelancer.
           </p>
-          <div>RESUME</div>
+          <div className={styles["resume"]}>
+            <a href="https://drive.google.com/file/d/1FGEiIXz8n58Z7s1OsEByT_GhownZAlFD/view?usp=sharing" target="_blank" rel="noreferrer">
+              <span className={styles["link"]}>Full Stack Developer Resume
+                <svg
+                  className={styles["icon"]}
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z"
+                    className={styles["icon"]}
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <div className={styles["resume"]}>
+            <a href="https://drive.google.com/file/d/1W3iRMZlmt52X1Xg-OayMmdBaFlFnZ6xa/view?usp=sharing" target="_blank" rel="noreferrer">
+              <span className={styles["link"]}>Smart Contract Developer Resume
+                <svg
+                  className={styles["icon"]}
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z"
+                    className={styles["icon"]}
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
 
           <h2 className={styles["role"]}>
             Frontend Web Developer - React/NextJS, Typescript, CSS
@@ -123,7 +153,23 @@ function About() {
             mostly involving NFTs; some landing pages for projects; some games.
             I have a bit of experience with VueJS as well.
           </p>
-          <div>RESUME</div>
+          <div className={styles["resume"]}>
+            <a  href="https://drive.google.com/file/d/1FGEiIXz8n58Z7s1OsEByT_GhownZAlFD/view?usp=sharing" target="_blank" rel="noreferrer">
+              <span className={styles["link"]}>Frontend Developer Resume
+                <svg
+                  className={styles["icon"]}
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z"
+                    className={styles["icon"]}
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
 
           <h2 className={styles["role"]}>
             Mobile Developer - React Native/Flutter
