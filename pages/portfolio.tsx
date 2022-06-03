@@ -14,6 +14,7 @@ import DevLayout from '../components/dev/LayoutDev'
 function Portfolio() {
   return (
     <>
+      <h2 className={styles["header"]}>Portfolio</h2>
       <main className={styles["portfolio"]}>
         Under Construction<br />current projects
         <div className={styles["flex-container"]}>
@@ -154,7 +155,7 @@ function Portfolio() {
             </div>
             <p className={styles["description"]}>
               VQ Games is a series of <strong>group-strategy, turn-by-turn, blockchain
-              games</strong>. Comparable to board games or card games where both luck and
+                games</strong>. Comparable to board games or card games where both luck and
               skill come into play.
             </p>
             <p className={styles["stack"]}>

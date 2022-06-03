@@ -5,10 +5,9 @@ import DevLayout from '../components/dev/LayoutDev'
 function Skills() {
     return (
         <>
-            {/* <NavbarSide /> */}
+            <h2 className={styles["header"]}>Skills</h2>
             <main className={styles["about"]}>
                 <div className={styles["skills"]}>
-                    <h2 className={styles["header"]}>Skills</h2>
                     <p className={styles["text"]}>
                         I'm a professional full-stack developer with 3+ years work
                         experience based in Denver, CO. I hold a Bachelor's of Science in
@@ -16,9 +15,6 @@ function Skills() {
                         involved mainly C and C++. These days I focus mostly on web3 projects. I've worked with several startups, and my skill set also
                         includes agile development, project management (CSPO certified), content writing, marketing, QA, and social media management.
                     </p>
-
-
-
                     <h2 className={styles["tools-header"]}>~my fav tools~</h2>
                     <div className={styles["tools-cols"]}>
                         <div className={styles["tools"]}>
@@ -45,10 +41,6 @@ function Skills() {
                             <p>Font Awesome</p>
                         </div>
                     </div>
-
-
-
-
                     <h2 className={styles["role"]}>Full Stack Web3 Developer</h2>
                     <p className={styles["text"]}>
                         I've been in the crypto space for a long time(2016), but I only
