@@ -83,9 +83,9 @@ function Portfolio() {
             </div>
             <p className={styles["description"]}>
               MoonLab is the parent company for MoonFactory and LunarCapital.
-              MoonFactory is a web3 gig platform, creating a permissionless
-              marketplace for talent. LunarCapital is an education platform
-              aimed at onboarding users into web3.
+              MoonFactory is a <strong>web3 gig platform</strong>, creating an accessible
+              marketplace for talent and community. LunarCapital is an <strong>education</strong> platform
+              aimed at teaching personal finance, defi, and overall onboarding users into web3.
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -153,15 +153,14 @@ function Portfolio() {
               </div>
             </div>
             <p className={styles["description"]}>
-              VQ Games is a series of group-strategy, turn-by-turn, blockchain
-              games. Comparable to board games or card games where both luck and
+              VQ Games is a series of <strong>group-strategy, turn-by-turn, blockchain
+              games</strong>. Comparable to board games or card games where both luck and
               skill come into play.
             </p>
             <p className={styles["stack"]}>
               Stack: Next, Typescript, Solidity, Firebase, Web3React, Eth
               Mainnet, Chainlink VRF
             </p>
-
           </div>
         </div>
       </main>

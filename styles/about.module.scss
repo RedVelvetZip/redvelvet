@@ -110,6 +110,34 @@ main.about {
     margin-top: 0.11rem;
     width: 20px;
 }
+.icons-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.icon-box {
+    background-color: rgb(249, 249, 251, 1.9);
+    border: 2px solid var(--bg-secondary);
+    border-radius: 20px;
+    width: 100px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    display: flex;
+    margin: 0px auto;
+    box-shadow: 1px 7px 16px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 1px 7px 16px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 7px 16px 5px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (min-width: 600px) {
+    .icon-box:hover {
+        padding: 5px;
+    }
+}
+
 
 @media only screen and (max-width: 600px) {
     main.about {
@@ -128,5 +156,12 @@ main.about {
     }
     .abstract, .interests, .skills {
         padding: 0px 10px;
+    }
+    .icons-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin-bottom: 5.5rem;
+        column-gap: 10px;
     }
 }

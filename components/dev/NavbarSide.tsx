@@ -1,10 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/navbar.module.scss";
-// import WalletConnect from "./WalletConnect";
 import logo from "../../assets/logo-circle.png"
 // import { ConnectButton } from '@rainbow-me/rainbowkit';
-import gstyles from "../../styles/dev.module.scss";
 
 const Navbar = () => {
 
@@ -49,7 +47,7 @@ const Navbar = () => {
 
                     <li className={styles["nav-item"]}
                         id={styles["mobile-home"]}
-                        >
+                    >
                         <Link href="/" className={styles["nav-link-logo"]}>
                             <a href="#" className={styles["nav-link-logo"]}>
                                 {/* <span className={`${styles["link-text"]} ${styles["logo-text"]}`}>Red Velvet</span> */}
@@ -115,7 +113,7 @@ const Navbar = () => {
                     </li >
 
                     <li className={styles["nav-item"]}>
-                        <Link href="/contact" className={styles["nav-link"]}>
+                        <Link href="/skills" className={styles["nav-link"]}>
                             <a href="#" className={styles["nav-link"]}>
                                 <svg
                                     aria-hidden="true"
@@ -124,20 +122,48 @@ const Navbar = () => {
                                     data-icon="chat"
                                     role="img"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 552 552"
-                                // className={`${styles["svg-inline--fa"]} ${styles["fa-w-16"]} ${styles["fa-7x"]}`}
+                                    viewBox="0 0 512 512"
                                 >
                                     <g className={styles["fa-group"]} >
                                         <path
                                             fill="currentColor"
-                                            d="M511.1 63.1v287.1c0 35.25-28.75 63.1-64 63.1h-144l-124.9 93.68c-7.875 5.75-19.12 .0497-19.12-9.7v-83.98h-96c-35.25 0-64-28.75-64-63.1V63.1c0-35.25 28.75-63.1 64-63.1h384C483.2 0 511.1 28.75 511.1 63.1z"
+                                            d="M331.8 224.1c28.29 0 54.88 10.99 74.86 30.97l19.59 19.59c40.01-17.74 71.25-53.3 81.62-96.65c5.725-23.92 5.34-47.08 .2148-68.4c-2.613-10.88-16.43-14.51-24.34-6.604l-68.9 68.9h-75.6V97.2l68.9-68.9c7.912-7.912 4.275-21.73-6.604-24.34c-21.32-5.125-44.48-5.51-68.4 .2148c-55.3 13.23-98.39 60.22-107.2 116.4C224.5 128.9 224.2 137 224.3 145l82.78 82.86C315.2 225.1 323.5 224.1 331.8 224.1zM384 278.6c-23.16-23.16-57.57-27.57-85.39-13.9L191.1 158L191.1 95.99l-127.1-95.99L0 63.1l96 127.1l62.04 .0077l106.7 106.6c-13.67 27.82-9.251 62.23 13.91 85.39l117 117.1c14.62 14.5 38.21 14.5 52.71-.0016l52.75-52.75c14.5-14.5 14.5-38.08-.0016-52.71L384 278.6zM227.9 307L168.7 247.9l-148.9 148.9c-26.37 26.37-26.37 69.08 0 95.45C32.96 505.4 50.21 512 67.5 512s34.54-6.592 47.72-19.78l119.1-119.1C225.5 352.3 222.6 329.4 227.9 307zM64 472c-13.25 0-24-10.75-24-24c0-13.26 10.75-24 24-24S88 434.7 88 448C88 461.3 77.25 472 64 472z"
                                             className={styles["fa-secondary"]}
                                         ></path>
                                     </g>
                                 </svg >
-                                <span className={styles["link-text"]}>Contact</span>
+                                <span className={styles["link-text"]}>Skills</span>
                             </a>
                         </Link>
+                    </li >
+
+                    <li className={styles["nav-item"]}>
+                        <a
+                            href="https://drive.google.com/file/d/1FGEiIXz8n58Z7s1OsEByT_GhownZAlFD/view"
+                            className={styles["nav-link"]}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <svg
+                                aria-hidden="true"
+                                focusable="false"
+                                data-prefix="fad"
+                                data-icon="chat"
+                                role="img"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"
+                            >
+                                <g className={styles["fa-group"]} >
+                                    <path
+                                        fill="currentColor"
+                                        d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256z"
+                                        // d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM407.4 331.5C412.4 319.7 400.4 309 388.1 312.8C348.4 324.9 303.7 331.8 256.3 331.8C208.9 331.8 164.1 324.9 124.5 312.8C112.2 309 100.2 319.7 105.2 331.5C130.1 390.6 188.4 432 256.3 432C324.2 432 382.4 390.6 407.4 331.5H407.4zM152.8 124.6L136.2 159.3L98.09 164.3C95.03 164.7 92.48 166.8 91.52 169.8C90.57 172.7 91.39 175.9 93.62 178L121.5 204.5L114.5 242.3C113.1 245.4 115.2 248.4 117.7 250.2C120.2 252.1 123.5 252.3 126.2 250.8L159.1 232.5L193.8 250.8C196.5 252.3 199.8 252.1 202.3 250.2C204.8 248.4 206 245.4 205.5 242.3L198.5 204.5L226.4 178C228.6 175.9 229.4 172.7 228.5 169.8C227.5 166.8 224.1 164.7 221.9 164.3L183.8 159.3L167.2 124.6C165.9 121.8 163.1 120 159.1 120C156.9 120 154.1 121.8 152.8 124.6V124.6zM344.8 124.6L328.2 159.3L290.1 164.3C287 164.7 284.5 166.8 283.5 169.8C282.6 172.7 283.4 175.9 285.6 178L313.5 204.5L306.5 242.3C305.1 245.4 307.2 248.4 309.7 250.2C312.2 252.1 315.5 252.3 318.2 250.8L352 232.5L385.8 250.8C388.5 252.3 391.8 252.1 394.3 250.2C396.8 248.4 398 245.4 397.5 242.3L390.5 204.5L418.4 178C420.6 175.9 421.4 172.7 420.5 169.8C419.5 166.8 416.1 164.7 413.9 164.3L375.8 159.3L359.2 124.6C357.9 121.8 355.1 120 352 120C348.9 120 346.1 121.8 344.8 124.6H344.8z"
+                                        className={styles["fa-secondary"]}
+                                    ></path>
+                                </g>
+                            </svg >
+                            <span className={styles["link-text"]}>Resume</span>
+                        </a>
                     </li >
 
                     <li className={styles["nav-item"]}>
