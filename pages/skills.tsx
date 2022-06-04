@@ -11,10 +11,8 @@ function Skills() {
             <main className={styles["about"]}>
                 <div className={styles["skills"]}>
                     <p className={styles["text"]}>
-                        I'm a professional full-stack developer with 3+ years work
-                        experience based in Denver, CO. I hold a Bachelor's of Science in
-                        Software Engineering from the University of Miami in 2019, which
-                        involved mainly C and C++. These days I focus mostly on web3 projects. I've worked with several startups, and my skill set also
+                        I'm a full-stack developer based in Denver, CO. I hold a Bachelor's of Science in
+                        Software Engineering from the University of Miami in 2019. These days I focus mostly on web3 and finance projects. I've worked with several startups, and my skill set also
                         includes agile development, project management (CSPO certified), content writing, marketing, QA, and social media management.
                     </p>
                     <h2 className={styles["tools-header"]}>~my fav tools~</h2>
