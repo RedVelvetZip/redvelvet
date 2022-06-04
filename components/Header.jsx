@@ -43,8 +43,7 @@ const Header = () => {
             <input type="text" placeholder="Search..(coming soon)"></input>
           </div>
         </div>
-
-        <div className={styles["dev"]}>
+        {/* <div className={styles["dev"]}>
           <Link href="/" passHref>
             <span className={styles["portfolio"]}>
               Portfolio
@@ -61,7 +60,7 @@ const Header = () => {
               </svg>
             </span>
           </Link>
-        </div>
+        </div> */}
         {active && (
           <div className={styles["navbar-holder"]} onClick={() => setActive(false)}>
           <div className={styles["navbar-nav"]}>
