@@ -20,7 +20,7 @@ const Header = () => {
     <div className={styles["header"]}>
       <div className={styles["header-content"]}>
         <div className={styles["title-box"]}>
-          <Link href="/blog" passHref>
+          <Link href="/" passHref>
             <span className={styles["title"]}>[ Red Velvet ]</span>
           </Link>
           <Link href="/blog" passHref>
