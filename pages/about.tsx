@@ -13,23 +13,17 @@ function About() {
     <body className={styles["devbody"]}>
       <h2 className={styles["title"]}>About Me</h2>
       <main className={styles["about"]}>
-        <div className={styles["abstract"]}>
-          <p>
+
+        <div className={styles["interests"]}>
+          <p className={styles["main-text"]}>
             Hey there, I&#39;m Red / Brad. I am many things &#45; one of which
             is a software developer. If you&rsquo;re not in tech, that&rsquo;s a
             fairly specific title; if you are in tech, it&rsquo;s incredibly
-            vague.
-            {/* You can find my interests, skills, and experience here. */}
-          </p>
-        </div>
-        <div className={styles["interests"]}>
-          <h2 className={styles["header"]}>Interests</h2>
-          <p className={styles["text"]}>
-            Other than the big obvious software development, my professional
+            vague.  Other than the big obvious software development, my professional
             interests include <span className={styles["finance"]}>finance</span>
             , <span className={styles["education"]}>education</span>, and{" "}
             <span className={styles["privacy"]}>privacy</span>. The intersection
-            of these interests brought me to where I am, working in web3.
+            of these interests brought me to where I am right now, working in web3.
           </p>
           <div className={styles["interests-cols"]}>
             <div className={styles["col"]}>
@@ -81,11 +75,11 @@ function About() {
               <h3 className={styles["privacy"]}>PRIVACY</h3>
               <p className={styles["text"]}>
                 I'm very much doxxed, but privacy is still incredibly important
-                to me. Half the battle is just being aware of the degree that
-                your data is being collected. Most of our popular websites,
+                to me. Half the battle is just being aware of the degree at which
+                your data is being collected. Most of our favorite websites,
                 apps, and search engines are terribly intrusive. Privacy is also
-                a key step in creating truly permissionless tools. When dealing
-                with decentralized financial assets, privacy is only second to
+                a key step in creating truly permissionless tools. And when dealing
+                with decentralized financial systems, privacy is only second to
                 security.
               </p>
             </div>
