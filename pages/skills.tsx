@@ -33,12 +33,46 @@ function Skills() {
                             <h2 className={styles["tools-title"]}>design</h2>
                             <p>Figma</p>
                             <p>Dribbble</p>
+                            <p>Adobe XD</p>
                         </div>
                         <div className={styles["tools"]}>
                             <h2 className={styles["tools-title"]}>marketing</h2>
-                            <p>Canva / GIMP / TinyPNG</p>
-                            <p>Copy.ai</p>
+                            <p>Canva / GIMP</p>
+                            <p>CopyAI</p>
                             <p>Font Awesome</p>
+                        </div>
+                    </div>
+                    <h2 className={styles["tools-header"]}>~dev stuff~</h2>
+                    <div className={styles["tools-cols"]}>
+                        <div className={styles["tools"]}>
+                            <h2 className={styles["tools-title"]}>frontend</h2>
+                            <p>Typescript</p>
+                            <p>SCSS</p>
+                            <p>NextJS / React</p>
+                        </div>
+                        <div className={styles["tools"]}>
+                            <h2 className={styles["tools-title"]}>backend</h2>
+                            <p>Node</p>
+                            <p>Python</p>
+                            <p>C++</p>
+                        </div>
+                        {/* <div className={styles["tools"]}>
+                            <h2 className={styles["tools-title"]}>CMS</h2>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                        </div> */}
+                        <div className={styles["tools"]}>
+                            <h2 className={styles["tools-title"]}>db</h2>
+                            <p>Firebase</p>
+                            <p>Mongo</p>
+                            <p></p>
+                        </div>
+                        <div className={styles["tools"]}>
+                            <h2 className={styles["tools-title"]}>web3</h2>
+                            <p>RainbowKit</p>
+                            <p>Web3React</p>
+                            <p>Hardhat</p>
                         </div>
                     </div>
                     <h2 className={styles["role"]}>Full Stack Web3 Developer</h2>
