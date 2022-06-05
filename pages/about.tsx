@@ -16,14 +16,14 @@ function About() {
 
         <div className={styles["interests"]}>
           <p className={styles["main-text"]}>
-            Hey there, I&#39;m Red / Brad. I am many things &#45; one of which
+            Hey there, I&#39;m Red / Brad. This website houses my portfolio and resumes, as well as my tech/finance blog. I am many things &#45; one of which
             is a software developer. If you&rsquo;re not in tech, that&rsquo;s a
             fairly specific title; if you are in tech, it&rsquo;s incredibly
-            vague.  Other than the big obvious software development, my professional
+            vague.  Coding aside, my professional
             interests include <span className={styles["finance"]}>finance</span>
             , <span className={styles["education"]}>education</span>, and{" "}
             <span className={styles["privacy"]}>privacy</span>. The intersection
-            of these interests brought me to where I am right now, working in web3.
+            of these interests brought me to where I am right now - web3.
           </p>
           <div className={styles["interests-cols"]}>
             <div className={styles["col"]}>
@@ -40,11 +40,10 @@ function About() {
               <p className={styles["text"]}>
                 Not everyone needs to know how a liquidity pool works, but we
                 all need to understand basic personal finance, and most of us
-                don't. I try to bridge that gap for personal finance by creating
-                approachable and digestible content; although it's not all about
-                my content, I also try to point others towards resources that I
-                found particularly helpful on my own journey. Gatekeeping
-                knowledge isn't cool.
+                don't. I try to bridge that gap by creating
+                approachable and digestible content. It's not all about
+                my own personal content though; I also try to point others towards resources that I
+                found particularly helpful on my own journey. Financial literacy isn't a zero-sum game.
               </p>
             </div>
             <div className={styles["col"]}>
@@ -59,7 +58,7 @@ function About() {
               </div>
               <h3 className={styles["education"]}>EDUCATION</h3>
               <p className={styles["text"]}>
-                I have a formal education in software development, but most of my education is from free online resources; when it comes to finance and crypto, that's the sole source. I love to teach friends about my passions, so I took things a step further and created a personal blog for my favorite topics. I also do some gig work writing fintech content. The best way to learn something is to teach it!
+                I have a formal education in software development, but most of my education is from free online resources; when it comes to finance and crypto, my education is straight up Youtube university. I love to teach friends about my passions, so I took things a step further and created a personal blog for my favorite topics. I also do some gig work writing fintech content. The best way to learn something is to teach it!
               </p>
             </div>
             <div className={styles["col"]}>
