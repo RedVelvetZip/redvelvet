@@ -66,7 +66,7 @@ function Skills() {
                             <h2 className={styles["tools-title"]}>db</h2>
                             <p>Firebase</p>
                             <p>Mongo</p>
-                            <p></p>
+                            <p>SQL</p>
                         </div>
                         <div className={styles["tools"]}>
                             <h2 className={styles["tools-title"]}>web3</h2>
