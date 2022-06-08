@@ -1,4 +1,5 @@
 export { default as PostCard } from './PostCard';
+export { default as PostCardSmall } from './PostCardSmall';
 export { default as PostDetail } from './PostDetail';
 export { default as BlogLayout } from './Layout';
 export { default as Categories } from './Categories';
@@ -9,6 +10,5 @@ export { default as FeaturedPostCard } from './FeaturedPostCard';
 export { default as Comments } from './Comments';
 export { default as CommentsForm } from './CommentsForm';
 export { default as Loader } from './Loader';
-
 export { default as LayoutDev } from './dev/LayoutDev';
 export { default as NavbarSide } from './dev/NavbarSide';

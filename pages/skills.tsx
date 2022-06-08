@@ -20,7 +20,7 @@ function Skills() {
                         <div className={styles["tools"]}>
                             <h2 className={styles["tools-title"]}>dev</h2>
                             <p>Visual Studio Code</p>
-                            <p>GraphCMS / WordPress</p>
+                            <p>GraphCMS & WordPress</p>
                             <p>Vercel</p>
                         </div>
                         <div className={styles["tools"]}>
@@ -37,7 +37,7 @@ function Skills() {
                         </div>
                         <div className={styles["tools"]}>
                             <h2 className={styles["tools-title"]}>marketing</h2>
-                            <p>Canva / GIMP</p>
+                            <p>Canva & GIMP</p>
                             <p>CopyAI</p>
                             <p>Font Awesome</p>
                         </div>
@@ -48,7 +48,7 @@ function Skills() {
                             <h2 className={styles["tools-title"]}>frontend</h2>
                             <p>Typescript</p>
                             <p>SCSS</p>
-                            <p>NextJS / React</p>
+                            <p>React / NextJS</p>
                         </div>
                         <div className={styles["tools"]}>
                             <h2 className={styles["tools-title"]}>backend</h2>

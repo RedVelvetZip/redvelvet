@@ -1,14 +1,13 @@
 import styles from "../styles/portfolio.module.scss";
-import Header from "../components/Header";
-import Link from "next/link";
+// import Header from "../components/Header";
+// import Link from "next/link";
 import Image from "next/image";
 import linkLogo from "../assets/wallet-icons/link.svg";
-import githubLogo from "../assets/wallet-icons/github.svg";
+// import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo4.png";
 import vqLogo from "../assets/portfolio/VQ Logo1.png";
-import NavbarSide from "../components/dev/NavbarSide";
 import DevLayout from '../components/dev/LayoutDev'
 
 function Portfolio() {
@@ -27,7 +26,6 @@ function Portfolio() {
                   rel="noreferrer"
                 >
                   <Image
-                    // layout='fill'
                     objectFit='contain'
                     src={moonLabLogo}
                     alt="MoonLab"

@@ -13,7 +13,6 @@ function About() {
     <body className={styles["devbody"]}>
       <h2 className={styles["title"]}>About Me</h2>
       <main className={styles["about"]}>
-
         <div className={styles["interests"]}>
           <p className={styles["main-text"]}>
             Hey there, I&#39;m Red / Brad. This website houses my portfolio and resumes, as well as my tech/finance blog. I am many things &#45; one of which

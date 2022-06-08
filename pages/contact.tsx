@@ -13,7 +13,6 @@ import DevHeader from '../components/dev/DevHeader';
 function Contact() {
     return (
         <body className={styles["devbody"]}>
-            {/* <DevHeader /> */}
             <main className={styles["contact"]}>
                 <div className={styles["info"]}>
                    <h1 className={styles["header"]}>Get In Touch</h1>
