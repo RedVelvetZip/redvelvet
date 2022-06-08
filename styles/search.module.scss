@@ -9,7 +9,7 @@ main.search {
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 20px;
-    row-gap: 50px;
+    row-gap: 20px;
 }
 .flex-item {
     display: flex;
@@ -34,7 +34,7 @@ main.search {
     font-weight: 600;
     text-align: center;
     cursor: pointer;
-    height: 60px;
+    height: 55px;
 }
 .post-card-excerpt {
     padding-left: 0;
