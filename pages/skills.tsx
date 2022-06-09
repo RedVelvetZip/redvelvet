@@ -15,33 +15,7 @@ function Skills() {
                         Software Engineering from the University of Miami in 2019. These days I focus mostly on web3 and finance projects. I've worked with several startups, and my skill set also
                         includes agile development, project management (CSPO certified), content writing, marketing, QA, and social media management.
                     </p>
-                    <h2 className={styles["tools-header"]}>~my fav tools~</h2>
-                    <div className={styles["tools-cols"]}>
-                        <div className={styles["tools"]}>
-                            <h2 className={styles["tools-title"]}>dev</h2>
-                            <p>Visual Studio Code</p>
-                            <p>GraphCMS & WordPress</p>
-                            <p>Vercel</p>
-                        </div>
-                        <div className={styles["tools"]}>
-                            <h2 className={styles["tools-title"]}>team</h2>
-                            <p>Notion</p>
-                            <p>Discord</p>
-                            <p>Miro</p>
-                        </div>
-                        <div className={styles["tools"]}>
-                            <h2 className={styles["tools-title"]}>design</h2>
-                            <p>Figma</p>
-                            <p>Dribbble</p>
-                            <p>Adobe XD</p>
-                        </div>
-                        <div className={styles["tools"]}>
-                            <h2 className={styles["tools-title"]}>marketing</h2>
-                            <p>Canva & GIMP</p>
-                            <p>CopyAI</p>
-                            <p>Font Awesome</p>
-                        </div>
-                    </div>
+                   
                     <h2 className={styles["tools-header"]}>~dev stuff~</h2>
                     <div className={styles["tools-cols"]}>
                         <div className={styles["tools"]}>
@@ -185,8 +159,8 @@ function Skills() {
                         want to forget bots here – I've done some freelance work in that
                         area.
                     </p>
+                    
                     <h3 className={styles["role"]}>
-                        <br />
                         Other professional roles:
                     </h3>
                     <p className={styles["text"]}>
@@ -203,6 +177,33 @@ function Skills() {
                         Business Analyst
                         <br />
                     </p>
+                    <h2 className={styles["tools-header"]}><br />~my fav tools~</h2>
+                    <div className={styles["tools-cols"]}>
+                        <div className={styles["tools"]}>
+                            <h2 className={styles["tools-title"]}>dev</h2>
+                            <p>Visual Studio Code</p>
+                            <p>GraphCMS & WordPress</p>
+                            <p>Vercel</p>
+                        </div>
+                        <div className={styles["tools"]}>
+                            <h2 className={styles["tools-title"]}>team</h2>
+                            <p>Notion</p>
+                            <p>Discord</p>
+                            <p>Miro</p>
+                        </div>
+                        <div className={styles["tools"]}>
+                            <h2 className={styles["tools-title"]}>design</h2>
+                            <p>Figma</p>
+                            <p>Dribbble</p>
+                            <p>Adobe XD</p>
+                        </div>
+                        <div className={styles["tools"]}>
+                            <h2 className={styles["tools-title"]}>marketing</h2>
+                            <p>Canva & GIMP</p>
+                            <p>CopyAI</p>
+                            <p>Font Awesome</p>
+                        </div>
+                    </div>
                 </div>
                 {/* <div className={styles["interests"]}>
           <h2 className={styles["personal"]}>
