@@ -128,10 +128,10 @@ function Skills() {
                         React is also my first choice for mobile development – typically
                         paired with Firebase – although I'd create a responsive React app
                         before using React Native if the choice was given. I also enjoy
-                        using Flutter, as that was my introduction to mobile dev. A couple
-                        project I've built with Flutter include a social media app (realtime
+                        using Flutter, as that was my introduction to mobile dev. My professional experience is limited to one short term project in React Native. A couple
+                        projects I've built with Flutter include a social media app (realtime
                         messages, auth, gps location services) and a BLE (Bluetooth Low
-                        Energy) connective app linked to a solenoid lock on a physical
+                        Energy) connective app linked to a solenoid lock on a physical 3D printed
                         wallet.
                     </p>
 
