@@ -1,10 +1,10 @@
 import React from 'react';
-import Image from 'next/image';
-import moment from 'moment';
+// import Image from 'next/image';
+// import moment from 'moment';
 import Link from 'next/link';
 import styles from '../styles/search.module.scss'
 
-import { graphCMSImageLoader } from '../util';
+// import { graphCMSImageLoader } from '../util';
 
 const PostCard = ({ post }) => (
   <div className="bg-white shadow-lg rounded-lg p-0 lg:p-3 pb-12 mb-8">

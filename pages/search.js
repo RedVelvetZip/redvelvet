@@ -3,11 +3,11 @@ import { getPosts } from "../services";
 import BlogLayout from "../components/Layout";
 import styles from "../styles/search.module.scss";
 
-export default function Search(posts: any) {
+export default function Search({ posts }) {
   return (
     <main className={styles["search"]}>
       <div className={styles["flex-container"]}>
-        {posts.map((post: any, index: number) => (
+        {posts.map((post, index) => (
           <div className={styles["flex-item"]}>
             <PostCardSmall key={index} post={post.node} />
           </div>
@@ -15,7 +15,7 @@ export default function Search(posts: any) {
       </div>
     </main>
   );
-} 
+}
 Search.layout = BlogLayout;
 
 // Fetch data at build time
