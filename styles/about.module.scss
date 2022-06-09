@@ -14,7 +14,7 @@ body.devbody {
         // background-position: 50% 50%;
         // background-repeat: no-repeat;
         background-size: cover;
-      }
+    }
 }
 main.about {
     margin: 1rem;
@@ -35,7 +35,7 @@ main.about {
     font-size: 2.2rem;
     font-weight: 700;
     padding-top: 1.5rem;
-    height: 5rem;
+    height: 4.5rem;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -91,8 +91,8 @@ main.about {
     border-radius: 50px;
     padding: 20px 35px;
     box-shadow: 10px 10px 5px 0px rgba(112, 112, 112, 0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(103, 103, 103, 0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(91, 91, 91, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(103, 103, 103, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(91, 91, 91, 0.75);
 }
 .icon {
     width: 60%;
@@ -159,7 +159,7 @@ main.about {
     margin-bottom: 2rem;
 }
 .icon-box {
-    background-color: rgb(249, 249, 251, .9);
+    background-color: rgb(249, 249, 251, 0.9);
     border: 1px solid rgba(126, 126, 126, 0.7);
     border-radius: 20px;
     width: 100px;
@@ -185,7 +185,6 @@ main.about {
     }
 }
 
-
 @media only screen and (max-width: 600px) {
     main.about {
         margin-bottom: 5.5rem;
@@ -202,7 +201,8 @@ main.about {
         margin-top: 15px;
         padding-top: 15px;
     }
-    .interests, .skills {
+    .interests,
+    .skills {
         padding: 0px 10px;
     }
     .icons-row {
@@ -214,6 +214,6 @@ main.about {
     }
     .title {
         margin-left: 0;
-        width: 100%
+        width: 100%;
     }
 }

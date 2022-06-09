@@ -15,12 +15,15 @@ function Portfolio() {
     <body className={styles["devbody"]}>
       <h2 className={styles["header"]}>Portfolio</h2>
       <main className={styles["portfolio"]}>
-        Under Construction<br />current projects
+      <h1 className={styles["section-title"]}>
+                    Under Construction
+                </h1>
         <div className={styles["flex-container"]}>
           <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
               <div className={styles["logo"]}>
                 <a
+                  className={styles["logo-case"]}
                   href="https://moonlab.space"
                   target="_blank"
                   rel="noreferrer"
@@ -90,7 +93,8 @@ function Portfolio() {
           <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
               <div className={styles["logo"]}>
-                <a className={styles["logo-case"]}
+                <a
+                  className={styles["logo-case"]}
                   href="https://vastquestions.com"
                   target="_blank"
                   rel="noreferrer"

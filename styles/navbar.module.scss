@@ -31,7 +31,7 @@
 .nav-link {
     display: flex;
     align-items: center;
-    height: 5rem;
+    height: 4.5rem;
     color: var(--text-tertiary);
     text-decoration: none;
     filter: grayscale(100%) opacity(0.8) invert(100%);
@@ -125,7 +125,7 @@
     }
 
     .nav-item {
-        width: 20%;
+        width: calc(100% / 7);
     }
 
     .nav-link {
