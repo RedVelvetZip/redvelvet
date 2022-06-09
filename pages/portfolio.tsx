@@ -18,11 +18,20 @@ function Portfolio() {
         <h1 className={styles["section-title"]}>
           Under Construction
         </h1>
+        <h2>WEB3 PROJECTS - demos links and tech stacks on the way soon I promise 😅😅  </h2>
         <p>VQ Games</p>
-        <p>LLTK</p>
-        <p>Tutorra</p>
         <p>Tiny Tix</p>
         <p>Pablo Pieces</p>
+        <p>Staking Contract</p>
+        <p>Shroomies ETH MATIC</p>
+        <p>Solana deployment</p>
+
+        <br /><br />
+        <h2>LANDING PAGES:</h2>
+        <p>LLTK</p>
+        <p>Tutorra</p>
+        
+        
         <p></p>
         {/* <div className={styles["flex-container"]}>
           <div className={styles["flex-item"]}>
