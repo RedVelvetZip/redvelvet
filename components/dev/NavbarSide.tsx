@@ -65,8 +65,8 @@ const Navbar = () => {
                                     data-icon="space-station-moon-alt"
                                     role="img"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 560 512"
-                                    className={`${styles["svg-inline--fa"]} ${styles["fa-w-12"]} ${styles["fa-3x"]}`}
+                                    viewBox="0 0 512 512"
+                                    className={`${styles["svg-inline--fa"]} ${styles["fa-w-12"]} ${styles["nav-link-icon"]}`}
                                 >
                                     <g className={styles["fa-group"]} >
                                         <path
@@ -146,7 +146,7 @@ const Navbar = () => {
                                     data-icon="chat"
                                     role="img"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512"
+                                    viewBox="0 0 600 512"
                                 >
                                     <g className={styles["fa-group"]} >
                                         <path
@@ -176,8 +176,9 @@ const Navbar = () => {
                                 role="img"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 512 512"
+                                className={`${styles["svg-inline--fa"]} ${styles["fa-w-12"]} ${styles["nav-link-icon"]}`}
                             >
-                                <g className={styles["fa-group"]} >
+                                <g className={styles["nav-link-icon"]} >
                                     <path
                                         fill="currentColor"
                                         d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256z"
