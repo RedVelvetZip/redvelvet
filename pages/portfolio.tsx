@@ -15,10 +15,16 @@ function Portfolio() {
     <body className={styles["devbody"]}>
       <h2 className={styles["header"]}>Portfolio</h2>
       <main className={styles["portfolio"]}>
-      <h1 className={styles["section-title"]}>
-                    Under Construction
-                </h1>
-        <div className={styles["flex-container"]}>
+        <h1 className={styles["section-title"]}>
+          Under Construction
+        </h1>
+        <p>VQ Games</p>
+        <p>LLTK</p>
+        <p>Tutorra</p>
+        <p>Tiny Tix</p>
+        <p>Pablo Pieces</p>
+        <p></p>
+        {/* <div className={styles["flex-container"]}>
           <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
               <div className={styles["logo"]}>
@@ -165,7 +171,7 @@ function Portfolio() {
               Mainnet, Chainlink VRF
             </p>
           </div>
-        </div>
+        </div> */}
       </main>
     </body>
   );
