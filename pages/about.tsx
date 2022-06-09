@@ -110,6 +110,7 @@ function About() {
             </a>
           </div>
         </div>
+        {/* //TODO: add icons for Spotify, Chess.com, etc */}
       </main>
     </body>
   );

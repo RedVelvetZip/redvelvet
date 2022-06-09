@@ -157,6 +157,8 @@ main.about {
     width: 80%;
     margin: auto;
     margin-bottom: 2rem;
+    padding-bottom: 25px;
+    border-bottom: 2px solid rgb(39, 39, 39);
 }
 .icon-box {
     background-color: rgb(249, 249, 251, 0.9);
@@ -174,7 +176,7 @@ main.about {
 }
 @media only screen and (min-width: 600px) {
     .icon-box:hover {
-        padding: 5px;
+        padding: 15px;
     }
     .main-text {
         width: 60%;
