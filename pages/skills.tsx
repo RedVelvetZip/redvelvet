@@ -18,9 +18,9 @@ function Skills() {
                     <div className={styles["tools-cols"]}>
                         <div className={styles["tools"]}>
                             <h2 className={styles["tools-title"]}>frontend</h2>
+                            <p>React / NextJS</p>
                             <p>Typescript</p>
                             <p>SCSS</p>
-                            <p>React / NextJS</p>
                         </div>
                         <div className={styles["tools"]}>
                             <h2 className={styles["tools-title"]}>backend</h2>
@@ -42,9 +42,9 @@ function Skills() {
                         </div>
                         <div className={styles["tools"]}>
                             <h2 className={styles["tools-title"]}>web3</h2>
-                            <p>RainbowKit</p>
-                            <p>Web3React</p>
+                            <p>Solidity</p>
                             <p>Hardhat</p>
+                            <p>Rust</p>
                         </div>
                     </div>
                     <h2 className={styles["role"]}>Full Stack Web3 Developer</h2>

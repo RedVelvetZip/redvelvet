@@ -72,10 +72,12 @@ main.about {
 .tools-cols {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .tools {
     width: 25%;
     text-align: center;
+    border: 2px solid green;
 }
 .resume {
     text-align: center;
