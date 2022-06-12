@@ -1,7 +1,6 @@
-
 import styles from "../styles/search.module.scss";
-import React, { useState } from 'react';
-import { PostCardSmall } from "../components";
+import React, { useState } from "react";
+import { PostCardSmall, PostCard } from "../components";
 import { getPosts } from "../services";
 import BlogLayout from "../components/Layout";
 
@@ -12,28 +11,34 @@ export default function Search({ posts }) {
     <main className={styles["search"]}>
       <div className={styles["searchbar"]}>
         <form>
-          <input 
-            type="text" 
-            placeholder="Search..." 
-            onChange={(event) => {setSearchTerm(event.target.value)}}
+          <input
+            type="text"
+            placeholder="Search..."
+            onChange={(event) => {
+              setSearchTerm(event.target.value);
+            }}
           />
         </form>
       </div>
       <div className={styles["flex-container"]}>
         {posts
-          // .filter(postItem => 
-          //   postItem.node.title.toLowerCase().includes(searchTerm.toLowerCase())
-          //   |
-          //   postItem.node.excerpt.toLowerCase().includes(searchTerm.toLowerCase())
-          //   | //TODO: make this below array search case insensitive w another function
-          //   postItem.node.categories.map(cat => cat.name).toString().toLowerCase().includes(searchTerm.toLowerCase())
-          //   )
+          .filter(
+            (postItem) =>
+              postItem.node.title
+                .toLowerCase()
+                .includes(searchTerm.toLowerCase()) |
+              postItem.node.excerpt
+                .toLowerCase()
+                .includes(searchTerm.toLowerCase()) | //TODO: make this below array search case insensitive w another function
+              postItem.node.categories
+                .map((cat) => cat.name)
+                .toString()
+                .toLowerCase()
+                .includes(searchTerm.toLowerCase())
+          )
           .map((post, index) => (
-          <div className={styles["flex-item"]}>
             <PostCardSmall key={index} post={post.node} />
-          </div>
-        ))
-        }
+          ))}
       </div>
     </main>
   );
