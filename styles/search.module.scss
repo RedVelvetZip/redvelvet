@@ -1,6 +1,10 @@
 main.search {
     width: 92%;
     margin: 0px 4%;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
 }
 .flex-container {
     width: 100%;
@@ -54,5 +58,22 @@ main.search {
     @media (min-width: 1024px) {
         padding-left: 0;
         padding-right: 0;
+    }
+}
+.searchbar {
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    padding: 5px 15px;
+    width: 300px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    .icon {
+        width: 20px;
+        display: flex;
+        padding-right: 5px;
+        margin-right: 5px;
     }
 }
