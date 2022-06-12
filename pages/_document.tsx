@@ -1,7 +1,8 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
 import BlogLayout from '../components/Layout'
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
+  static layout: import("c:/Users/brads/Desktop/GitHub/redvelvet/types/pageWithLayouts").LayoutProps;
+  static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps };
   }

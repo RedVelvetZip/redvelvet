@@ -10,7 +10,7 @@ const Categories = () => {
     getCategories().then((newCategories) => {
       setCategories(newCategories);
     });
-  }, []);
+  }, [categories]);
 
   //TODO: sort alphabetically
   return (
