@@ -102,7 +102,7 @@
     display: flex;
     column-gap: 10px;
     row-gap: 15px;
-    height: 200px;
+    height: 220px;
     border-radius: 25px;
     font-weight: 600;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -116,6 +116,16 @@
     .navbar-categories {
         margin-left: 20px;
         height: 100%;
+        padding-bottom: 20px;
+        .cols-title {
+            text-align: center;
+            // width: 100%;
+            margin-right: 20%;
+            font-size: 0.9rem;
+            font-weight: 400;
+            margin-bottom: 15px;
+            margin-top: -10px;
+        }
         .cols {
             display: flex;
             flex-direction: row;
@@ -175,6 +185,9 @@
         .navbar-categories {
             margin-left: 0px;
             height: 100%;
+            .cols-title {
+                margin-right: 0;
+            }
             .cols {
                 display: flex;
                 flex-direction: row;

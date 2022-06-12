@@ -29,7 +29,7 @@ export default function Search({ posts }) {
                 .includes(searchTerm.toLowerCase()) |
               postItem.node.excerpt
                 .toLowerCase()
-                .includes(searchTerm.toLowerCase()) | //TODO: make this below array search case insensitive w another function
+                .includes(searchTerm.toLowerCase()) |
               postItem.node.categories
                 .map((cat) => cat.name)
                 .toString()
