@@ -16,6 +16,7 @@ import tutorra from "../assets/portfolio/tutorra.png";
 import vqgames from "../assets/portfolio/VQ.png";
 import tinytix from "../assets/portfolio/tinytix.png";
 import pablo from "../assets/portfolio/pablo.png";
+import blog from "../assets/portfolio/blog.png";
 
 function Portfolio() {
   return (
@@ -23,7 +24,6 @@ function Portfolio() {
       <h2 className={styles["header"]}>Portfolio</h2>
       <main className={styles["portfolio"]}>
         <div className={styles["flex-container"]}>
-         
           <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
               <div className={styles["logo"]}>
@@ -226,6 +226,64 @@ function Portfolio() {
             </p>
             <p className={styles["stack"]}>
               Stack: React, Solidity
+            </p>
+          </div>
+          <div className={styles["flex-item"]}>
+            <div className={styles["title"]}>
+              <div className={styles["logo"]}>
+                <a
+                  className={styles["logo-case"]}
+                  href="https://redvelvet.tech"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    // layout='fill'
+                    objectFit='cover'
+                    src={blog}
+                    alt="redvelvet"
+                  ></Image>
+                </a>
+              </div>
+              <div className={styles["links"]}>
+                <div className={styles["links-item"]}>
+                  <div >
+                    <a
+                      href="https://redvelvet.tech/blog"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={linkLogo}
+                        alt="RedVelvet blog"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                <div className={styles["links-item"]}>
+                  <div >
+                    <a
+                      href="https://github.com/RedVelvetZip/redvelvet"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={githubLogo}
+                        alt="RedVelvet Github"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 className={styles["proj-title"]}>Red Velvet Blog</h2>
+            <p className={styles["description"]}>
+              My personal crypto/tech blog
+            </p>
+            <p className={styles["stack"]}>
+              Stack: Next, GraphCMS, Typescript
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -474,160 +532,9 @@ function Portfolio() {
           
         </div>
 
-
-
         <h2><a href="https://github.com/RedVelvetZip" target="_blank" rel="noreferrer">github.com/redvelvetzip</a></h2>
-        <h2>WEB3 PROJECTS - demos links and tech stacks on the way soon</h2>
         <p>Staking Contract</p>
         <p>Solana deployment</p>
-        {/* <div className={styles["flex-container"]}>
-          <div className={styles["flex-item"]}>
-            <div className={styles["title"]}>
-              <div className={styles["logo"]}>
-                <a
-                  className={styles["logo-case"]}
-                  href="https://moonlab.space"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    objectFit='contain'
-                    src={moonLabLogo}
-                    alt="MoonLab"
-                  ></Image>
-                </a>
-              </div>
-              <div className={styles["links"]}>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://moonlab.space"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={linkLogo}
-                        alt="MoonLab Website"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://twitter.com/Moonlab_HQ"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={twitterLogo}
-                        alt="MoonLab Twitter"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://discord.gg/2gwcaPK4xK"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={discordLogo}
-                        alt="MoonLab Discord"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <p className={styles["description"]}>
-              MoonLab is the parent company for MoonFactory and LunarCapital.
-              MoonFactory is a <strong>web3 gig platform</strong>, creating an accessible
-              marketplace for talent and community. LunarCapital is an <strong>education</strong> platform
-              aimed at teaching personal finance, defi, and overall onboarding users into web3.
-            </p>
-          </div>
-          <div className={styles["flex-item"]}>
-            <div className={styles["title"]}>
-              <div className={styles["logo"]}>
-                <a
-                  className={styles["logo-case"]}
-                  href="https://vastquestions.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    // layout='fill'
-                    objectFit='contain'
-                    src={vqLogo}
-                    alt="VQ Games"
-                  ></Image>
-                </a>
-              </div>
-              <div className={styles["links"]}>
-                <div className={styles["links-item"]}>
-                  <div >
-                    <a
-                      href="https://vastquestions.com"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={linkLogo}
-                        alt="VQ Games Website"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div >
-                    <a
-                      href="https://twitter.com/VQGamesOfficial"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={twitterLogo}
-                        alt="VQ Games Twitter"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div >
-                    <a
-                      href="https://t.co/vvnoW0vXWH"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={discordLogo}
-                        alt="VQ Games Discord"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <p className={styles["description"]}>
-              VQ Games is a series of <strong>group-strategy, turn-by-turn, blockchain
-                games</strong>. Comparable to board games or card games where both luck and
-              skill come into play.
-            </p>
-            <p className={styles["stack"]}>
-              Stack: Next, Typescript, Solidity, Firebase, Web3React, Eth
-              Mainnet, Chainlink VRF
-            </p>
-          </div>
-        </div> */}
       </main>
     </body>
   );
