@@ -6,7 +6,8 @@ body.devbody {
         content: "";
         width: 100%;
         height: 100%;
-        background-image: url("../public/bg.png");
+        // background-image: url("../public/bg.png");
+        background: var(--bg-secondary);
         position: fixed;
         left: 0;
         top: 0;
@@ -15,6 +16,8 @@ body.devbody {
         // background-repeat: no-repeat;
         background-size: cover;
     }
+    display: flex;
+    flex-direction: column;
 }
 main.portfolio {
     margin: 1rem;
@@ -44,13 +47,17 @@ main.portfolio {
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
     margin-left: 2rem;
-    width: calc(100% - 2rem);
+    // width: calc(100% - 2rem);
     display: flex;
     justify-content: center;
     // margin-left: 14rem;
     // width: 68%;
     // border-bottom-right-radius: 50px;
     // border-bottom-left-radius: 50px;
+    width: 400px;
+    justify-self: center;
+    align-self: center;
+    border-bottom: 2px solid rgb(209, 209, 209);
 }
 .section-title {
     font-size: 2.2rem;
