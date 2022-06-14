@@ -18,7 +18,8 @@ function Portfolio() {
         <h1 className={styles["section-title"]}>
           Under Construction
         </h1>
-        <h2>WEB3 PROJECTS - demos links and tech stacks on the way soon I promise 😅😅  </h2>
+        <h2><a href="https://github.com/RedVelvetZip" target="_blank" rel="noreferrer">github.com/redvelvetzip</a></h2>
+        <h2>WEB3 PROJECTS - demos links and tech stacks on the way soon</h2>
         <p>VQ Games</p>
         <p>Tiny Tix</p>
         <p>Pablo Pieces</p>
