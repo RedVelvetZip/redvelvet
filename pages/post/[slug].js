@@ -1,11 +1,19 @@
-import React from 'react';
-import { useRouter } from 'next/router';
+import React from "react";
+import { useRouter } from "next/router";
 
-import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader } from '../../components';
-import { getPosts, getPostDetails } from '../../services';
-import { AdjacentPosts } from '../../sections';
+import {
+  PostDetail,
+  Categories,
+  PostWidget,
+  Author,
+  Comments,
+  CommentsForm,
+  Loader,
+} from "../../components";
+import { getPosts, getPostDetails } from "../../services";
+import { AdjacentPosts } from "../../sections";
 
-import BlogLayout from '../../components/Layout'
+import BlogLayout from "../../components/Layout";
 
 const PostDetails = ({ post }) => {
   const router = useRouter();
@@ -16,6 +24,19 @@ const PostDetails = ({ post }) => {
 
   return (
     <>
+      <Head>
+        <title>{post.title}</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="description" content={post.excerpt} key="desc" />
+        <meta property="og:title" content={post.title} />
+        <meta
+          property="og:image"
+          content={post.featuredImage.url}
+        />
+        
+      </Head>
       <div className="container mx-auto px-10 mb-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <div className="col-span-1 lg:col-span-8">
@@ -27,7 +48,10 @@ const PostDetails = ({ post }) => {
           </div>
           <div className="col-span-1 lg:col-span-4">
             <div className="relative lg:sticky top-8">
-              <PostWidget slug={post.slug} categories={post.categories.map((category) => category.slug)} />
+              <PostWidget
+                slug={post.slug}
+                categories={post.categories.map((category) => category.slug)}
+              />
               {/* <Categories /> */}
             </div>
           </div>

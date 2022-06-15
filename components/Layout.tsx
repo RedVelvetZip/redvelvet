@@ -12,12 +12,12 @@ const BlogLayout: LayoutProps = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Crypto, Coding, Finance, and more"
+          content="Crypto, Coding, Finance, & More"
         />
         {/* <meta
-        property="og:image"
-        content={logo}
-      /> */}
+          property="og:image"
+          content={logo}
+        /> */}
         <meta name="og:title" content="Red Velvet" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>

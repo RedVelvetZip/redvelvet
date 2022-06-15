@@ -20,7 +20,7 @@ function Dev() {
         <title>Red Velvet</title>
         <meta
           name='description'
-          content='Crypto, Coding, Finance, and more'
+          content='Crypto, Coding, Finance, & More'
         ></meta>
       </Head>
 
