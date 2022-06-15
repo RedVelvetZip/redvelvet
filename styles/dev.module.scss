@@ -31,11 +31,24 @@ body.devbody {
 }
 .dev {
     // background: green;
-    background: var(--bg-secondary);
+    background: black;
     // background-image: url('../public/bg3.mp4');
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.bg-video {
+    // display: relative;
+    // z-index: 50;
+    position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	// background-color: #232a34;
 }
 .circle {
     background-color: white;
@@ -55,6 +68,7 @@ body.devbody {
     height: 170px;
 }
 .blog {
+    z-index: 90;
     display: flex;
     align-items: right;
     padding-bottom: 20px;
@@ -75,6 +89,7 @@ body.devbody {
     width: 1.5rem;
 }
 .icons-row {
+    z-index: 81;
     display: flex;
     flex-direction: row;
     justify-content: center;

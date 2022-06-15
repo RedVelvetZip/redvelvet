@@ -11,6 +11,8 @@ import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import linkedinLogo from "../assets/wallet-icons/linkedin.svg";
+// import video from "../assets/bg3.mp4";
+
 function Dev() {
   return (
     <>
@@ -21,8 +23,12 @@ function Dev() {
           content='Crypto, Coding, Finance, and more'
         ></meta>
       </Head>
+
       <body className={styles["devbody"]}>
         <main className={styles["dev"]}>
+          <video className={styles["bg-video"]} autoPlay loop muted>
+            <source src="/video/bg3.mp4" type="video/mp4" />
+          </video>
           <div className={styles["icons-row"]}>
             <div className={styles["icon-box"]}>
               <a href="mailto:bradley.t.sheehan@gmail.com" target="_blank" rel="noreferrer" className={styles["icon-link"]}>
