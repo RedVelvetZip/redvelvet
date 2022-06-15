@@ -105,38 +105,18 @@ body.devbody {
 }
 
 @media only screen and (max-width: 600px) {
-    // .circle {
-    //     width: 300px;
-    //     height: 300px;
-    // }
-    .logo {
-        margin: 50px 0px 0px 50px;
-        width: 200px;
-        height: 200px;
+    .circle {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 10rem;
     }
-    .icons-row {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        column-gap: 30px;
-        padding: 0px 25px;
-        margin-bottom: 1rem;
-        margin-top: 30px;
-        background-color: white;
-        border-radius: 60px;
-        // padding-bottom: 5px;
-        // border: 2px solid green;
+    .logo {
+        margin: 40px 0px 0px 40px;
+        width: 170px;
+        height: 170px;
     }
     .icon-box {
-        // background-color: rgb(249, 249, 251, 1);
-        // border: 1px solid rgba(126, 126, 126, 1);
-        border-radius: 20px;
         width: 2.5rem;
         padding: 2px;
-        cursor: pointer;
-        transition: all 0.3s linear;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 }
