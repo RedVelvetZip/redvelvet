@@ -4,62 +4,62 @@ import moment from "moment";
 import styles from '../styles/postdetail.module.scss'
 
 const PostDetail = ({ post }) => {
-  const getContentFragment = (index, text, obj, type) => {
-    let modifiedText = text;
+  // const getContentFragment = (index, text, obj, type) => {
+  //   let modifiedText = text;
 
-    if (obj) {
-      if (obj.bold) {
-        modifiedText = <b key={index}>{text}</b>;
-      }
+  //   if (obj) {
+  //     if (obj.bold) {
+  //       modifiedText = <b key={index}>{text}</b>;
+  //     }
 
-      if (obj.italic) {
-        modifiedText = <em key={index}>{text}</em>;
-      }
+  //     if (obj.italic) {
+  //       modifiedText = <em key={index}>{text}</em>;
+  //     }
 
-      if (obj.underline) {
-        modifiedText = <u key={index}>{text}</u>;
-      }
-    }
+  //     if (obj.underline) {
+  //       modifiedText = <u key={index}>{text}</u>;
+  //     }
+  //   }
 
-    switch (type) {
-      case "heading-one":
-        return (
-          <h3 key={index} className="text-xl font-semibold mb-4">
-            {modifiedText.map((item, i) => (
-              <React.Fragment key={i}>{item}</React.Fragment>
-            ))}
-          </h3>
-        );
-      case "paragraph":
-        return (
-          <p key={index} className="mb-8">
-            {modifiedText.map((item, i) => (
-              <React.Fragment key={i}>{item}</React.Fragment>
-            ))}
-          </p>
-        );
-      case "heading-four":
-        return (
-          <h4 key={index} className="text-md font-semibold mb-4">
-            {modifiedText.map((item, i) => (
-              <React.Fragment key={i}>{item}</React.Fragment>
-            ))}
-          </h4>
-        );
-      case "image":
-        return (
-          <img
-            key={index}
-            alt={obj.title}
-            height={obj.height}
-            width={obj.width}
-            src={obj.src}
-          />
-        );
-      default:
-        return modifiedText;
-    }
-  };
+  //   switch (type) {
+  //     case "heading-one":
+  //       return (
+  //         <h3 key={index} className="text-xl font-semibold mb-4">
+  //           {modifiedText.map((item, i) => (
+  //             <React.Fragment key={i}>{item}</React.Fragment>
+  //           ))}
+  //         </h3>
+  //       );
+  //     case "paragraph":
+  //       return (
+  //         <p key={index} className="mb-8">
+  //           {modifiedText.map((item, i) => (
+  //             <React.Fragment key={i}>{item}</React.Fragment>
+  //           ))}
+  //         </p>
+  //       );
+  //     case "heading-four":
+  //       return (
+  //         <h4 key={index} className="text-md font-semibold mb-4">
+  //           {modifiedText.map((item, i) => (
+  //             <React.Fragment key={i}>{item}</React.Fragment>
+  //           ))}
+  //         </h4>
+  //       );
+  //     case "image":
+  //       return (
+  //         <img
+  //           key={index}
+  //           alt={obj.title}
+  //           height={obj.height}
+  //           width={obj.width}
+  //           src={obj.src}
+  //         />
+  //       );
+  //     default:
+  //       return modifiedText;
+  //   }
+  // };
 
   return (
     <>
@@ -73,16 +73,6 @@ const PostDetail = ({ post }) => {
         </div>
         <div className="px-4 lg:px-0">
           <div className="flex items-center mb-8 w-full">
-            {/* <div className="hidden md:flex items-center justify-center lg:mb-0 lg:w-auto mr-8 items-center">
-              <img
-                alt={post.author.name}
-                height="30px"
-                width="30px"
-                className="align-middle rounded-full"
-                src={post.author.photo.url}
-              />
-              <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">{post.author.name}</p>
-            </div> */}
             <div className="font-medium text-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,6 +101,7 @@ const PostDetail = ({ post }) => {
           })} */}
           <div className={styles["postdetail"]}>
             {parse(post.content.html)}
+            {console.log('raw HTML', post.content.html)}
           </div>
         </div>
       </div>
