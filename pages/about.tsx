@@ -83,7 +83,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className={styles["icons-row"]}>
+        {/* <div className={styles["icons-row"]}>
           <div className={styles["icon-box"]}>
             <a href="mailto:bradley.t.sheehan@gmail.com" target="_blank" rel="noreferrer">
               <Image alt="email" src={emailLogo}></Image>
@@ -109,8 +109,7 @@ function About() {
               <Image alt="LinkedIn" src={linkedinLogo} ></Image>
             </a>
           </div>
-        </div>
-        {/* //TODO: add icons for Spotify, Chess.com, etc */}
+        </div> */}
       </main>
     </body>
   );

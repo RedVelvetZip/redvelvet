@@ -24,6 +24,7 @@ function Portfolio() {
     <body className={styles["devbody"]}>
       <h2 className={styles["header"]}>Portfolio</h2>
       <main className={styles["portfolio"]}>
+        {/* //TODO: add Scrum Dapp, ChainLink DeFi staking project, Solana NFT deployment, */}
         <div className={styles["flex-container"]}>
           <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
@@ -578,11 +579,7 @@ function Portfolio() {
               React
             </p>
           </div>
-          
         </div>
-
-        <p>Staking Contract</p>
-        <p>Solana deployment</p>
       </main>
     </body>
   );

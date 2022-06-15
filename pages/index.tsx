@@ -40,7 +40,7 @@ function Dev() {
               </a>
             </div>
             <div className={styles["icon-box"]}>
-              <a href="https://discordapp.com/users/redvelvet#4018" target="_blank" rel="noreferrer" className={styles["icon-link"]}>
+              <a href="https://discordapp.com/users/redvelvet#4018" target="_blank" rel="noreferrer">
                 <Image alt="Discord" src={discordLogo}></Image>
               </a>
             </div>
@@ -68,7 +68,7 @@ function Dev() {
               </span>
             </Link>
           </div>
-          <div className={styles["circle"]}>
+          {/* <div className={styles["circle"]}>
             <div className={styles["logo"]}>
               <Image
                 src={logoGif}
@@ -77,11 +77,8 @@ function Dev() {
                 objectFit="contain"
               >
               </Image>
-              {/* <video autoPlay loop>
-              <source src="/logo2.mp4" type="video/mp4" />
-            </video> */}
             </div>
-          </div>
+          </div> */}
         </main>
       </body>
     </>
