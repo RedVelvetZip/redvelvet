@@ -31,11 +31,13 @@ const PostDetails = ({ post }) => {
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta name="description" content={post.excerpt} key="desc" />
         <meta property="og:title" content={post.title} />
+        <meta property="og:url" content="redvelvet.tech" />
+        <meta property="og:type" content="website" />
         <meta
           property="og:image"
           content={post.featuredImage.url}
         />
-        
+        <meta name="twitter:card" content="summary" />
       </Head>
       <div className="container mx-auto px-10 mb-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">

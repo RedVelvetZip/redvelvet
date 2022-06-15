@@ -22,6 +22,14 @@ function Dev() {
           name='description'
           content='Crypto, Coding, Finance, & More'
         ></meta>
+        <meta property="og:url" content="redvelvet.tech" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          // content="https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/cmZC7lweSeWqErebLo7A"
+          content="https://www.redvelvet.tech/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo512.b090d4f0.png&w=1920&q=75"
+        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <body className={styles["devbody"]}>
