@@ -15,9 +15,6 @@ function Projects() {
         <body className={styles["devbody"]}>
             <h2 className={styles["header"]}>Current Projects</h2>
             <main className={styles["portfolio"]}>
-                <h1 className={styles["section-title"]}>
-                    Under Construction
-                </h1>
                 <div className={styles["flex-container"]}>
                     <div className={styles["flex-item"]}>
                         <div className={styles["title"]}>

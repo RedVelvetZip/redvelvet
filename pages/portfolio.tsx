@@ -7,7 +7,8 @@ import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import infoLogo from "../assets/wallet-icons/info.svg";
-import ethLogo from "../assets/wallet-icons/eth.svg";
+import ethLogo from "../assets/wallet-icons/eth.png";
+import polygonLogo from "../assets/wallet-icons/polygon.png";
 import DevLayout from '../components/dev/LayoutDev'
 import lltk from "../assets/portfolio/LLTK.png";
 import moonlab from "../assets/portfolio/moonlab.png";
@@ -60,6 +61,21 @@ function Portfolio() {
                 <div className={styles["links-item"]}>
                   <div >
                     <a
+                      href="https://etherscan.io/address/0x12e106626b84ed5fc38cfde56ce05eafef17d424"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={ethLogo}
+                        alt="VQ Games smart contract"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                <div className={styles["links-item"]}>
+                  <div >
+                    <a
                       href="https://twitter.com/VQGamesOfficial"
                       target="_blank"
                       rel="noreferrer"
@@ -94,7 +110,7 @@ function Portfolio() {
               Turn-by-turn NFT game
             </p>
             <p className={styles["stack"]}>
-              Stack: Next, Typescript, Solidity, Firebase
+              Next, TS, Solidity, Firebase
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -152,7 +168,7 @@ function Portfolio() {
               Tickets on the blockchain
             </p>
             <p className={styles["stack"]}>
-              Stack: React, Solidity, Go
+              React, Solidity, Go
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -184,6 +200,21 @@ function Portfolio() {
                         object-fit="contain"
                         src={linkLogo}
                         alt="TinyTix article"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                <div className={styles["links-item"]}>
+                  <div >
+                    <a
+                      href="https://etherscan.io/address/0x86f0f8592f1f4fb4fbfa7f02c39188e8bf992a31"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={ethLogo}
+                        alt="Pablo smart contract"
                       ></Image>
                     </a>
                   </div>
@@ -225,7 +256,7 @@ function Portfolio() {
               Pfp NFT project
             </p>
             <p className={styles["stack"]}>
-              Stack: React, Solidity
+              React, Solidity
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -283,7 +314,7 @@ function Portfolio() {
               My personal crypto/tech blog
             </p>
             <p className={styles["stack"]}>
-              Stack: Next, GraphCMS, Typescript
+              Next, GraphCMS, TS
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -352,7 +383,10 @@ function Portfolio() {
             </div>
             <h2 className={styles["proj-title"]}>MoonLab</h2>
             <p className={styles["description"]}>
-              Web3 agency
+              Web3 agency landing page
+            </p>
+            <p className={styles["stack"]}>
+              Webflow
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -391,6 +425,21 @@ function Portfolio() {
                 <div className={styles["links-item"]}>
                   <div >
                     <a
+                      href="https://polygonscan.com/token/0xc49e6cde4a903391824b99fd20a0094ccff7ab13"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={polygonLogo}
+                        alt="Shroomies smart contract"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                <div className={styles["links-item"]}>
+                  <div >
+                    <a
                       href="https://www.redvelvet.tech/post/shroomies"
                       target="_blank"
                       rel="noreferrer"
@@ -410,7 +459,7 @@ function Portfolio() {
               Minting Dapp for Polygon ERC721 NFT token
             </p>
             <p className={styles["stack"]}>
-              Stack: React, ethers.js, Solidity
+              React, Solidity, Polygon
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -468,7 +517,7 @@ function Portfolio() {
               NFT shoe project with physical validation
             </p>
             <p className={styles["stack"]}>
-              Stack: React, AVAX
+              React, AVAX
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -526,13 +575,12 @@ function Portfolio() {
               Tutoring landing page
             </p>
             <p className={styles["stack"]}>
-              Stack: React
+              React
             </p>
           </div>
           
         </div>
 
-        <h2><a href="https://github.com/RedVelvetZip" target="_blank" rel="noreferrer">github.com/redvelvetzip</a></h2>
         <p>Staking Contract</p>
         <p>Solana deployment</p>
       </main>
