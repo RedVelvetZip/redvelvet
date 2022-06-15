@@ -1,5 +1,5 @@
 import { FeaturedPosts } from '../sections/index';
-import { PostCard, Categories, PostWidget, PostCardSmall } from '../components';
+import { PostCardSmall } from '../components';
 import { getPosts } from '../services';
 import BlogLayout from '../components/Layout'
 import styles from '../styles/blog.module.scss'
@@ -14,12 +14,12 @@ export default function Blog({ posts }) {
             <PostCardSmall key={index} post={post.node} />
           ))}
         </div>
-        <div className={styles["recent-posts"]}>
+        {/* <div className={styles["recent-posts"]}>
           <div className="lg:sticky relative top-8">
             <PostWidget />
-            {/* <Categories /> */}
+            <Categories />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
