@@ -1,12 +1,12 @@
 import styles from "../styles/about.module.scss";
-import NavbarSide from "../components/dev/NavbarSide";
+// import NavbarSide from "../components/dev/NavbarSide";
 import DevLayout from '../components/dev/LayoutDev'
-import Image from 'next/image';
-import emailLogo from '../assets/wallet-icons/email.svg'
-import githubLogo from "../assets/wallet-icons/github.svg";
-import twitterLogo from "../assets/wallet-icons/twitter.svg";
-import discordLogo from "../assets/wallet-icons/discord.svg";
-import linkedinLogo from "../assets/wallet-icons/linkedin.svg";
+// import Image from 'next/image';
+// import emailLogo from '../assets/wallet-icons/email.svg'
+// import githubLogo from "../assets/wallet-icons/github.svg";
+// import twitterLogo from "../assets/wallet-icons/twitter.svg";
+// import discordLogo from "../assets/wallet-icons/discord.svg";
+// import linkedinLogo from "../assets/wallet-icons/linkedin.svg";
 
 function About() {
   return (

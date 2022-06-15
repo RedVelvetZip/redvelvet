@@ -68,7 +68,7 @@ function Dev() {
               </span>
             </Link>
           </div>
-          {/* <div className={styles["circle"]}>
+          <div className={styles["circle"]}>
             <div className={styles["logo"]}>
               <Image
                 src={logoGif}
@@ -78,7 +78,7 @@ function Dev() {
               >
               </Image>
             </div>
-          </div> */}
+          </div>
         </main>
       </body>
     </>
