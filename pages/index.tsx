@@ -2,7 +2,7 @@ import styles from "../styles/dev.module.scss";
 import Head from 'next/head';
 import Image from "next/image";
 import logoGif from "../assets/logo2.gif"
-import logo from "../assets/logo512.png"
+// import logo from "../assets/logo512.png"
 // import logoMp4 from "../assets/logo2.mp4"
 import DevLayout from '../components/dev/LayoutDev'
 import Link from "next/link";

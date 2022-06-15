@@ -42,6 +42,7 @@ body.devbody {
     height: 250px;
     display: block;
     border-radius: 900px;
+    margin-top: 80px;
 }
 .logo {
     z-index: 99;
@@ -104,10 +105,10 @@ body.devbody {
 }
 
 @media only screen and (max-width: 600px) {
-    .circle {
-        width: 300px;
-        height: 300px;
-    }
+    // .circle {
+    //     width: 300px;
+    //     height: 300px;
+    // }
     .logo {
         margin: 50px 0px 0px 50px;
         width: 200px;
