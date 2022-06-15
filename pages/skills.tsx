@@ -12,7 +12,7 @@ function Skills() {
                 <div className={styles["skills"]}>
                     <p className={styles["text"]}>
                         I'm a full-stack developer based in Denver, CO. I hold a Bachelor's of Science in
-                        Software Engineering from the University of Miami in 2019. These days I focus mostly on web3 and finance projects. My skill set includes agile development, project management (CSPO certified), content writing, marketing, QA, and social media management.
+                        Software Engineering from the University of Miami in 2019. These days I focus mostly on web3 and finance projects. My skill set includes agile development, development consultation, project management (CSPO certified), content writing, marketing, QA, and social media management.
                     </p>
                     <h2 className={styles["tools-header"]}>~dev stuff~</h2>
                     <div className={styles["tools-cols"]}>
