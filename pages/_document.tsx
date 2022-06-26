@@ -12,21 +12,21 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {/* <meta name="viewport" content="width=device-width,minimum-scale=1, initial-scale=1" /> */}
-          <title>
-          Red Velvet
-        </title>
-        <meta property="og:url" content="redvelvet.tech" />
-        <meta property="og:type" content="website" />
-        {/* <meta
+          {/* <title>
+            Red Velvet
+          </title> */}
+          <meta property="og:url" content="redvelvet.tech" />
+          <meta property="og:type" content="website" />
+          {/* <meta
           property="og:title"
           content="Social Media Preview Working?"
         /> */}
-        <meta name="twitter:card" content="summary" />
-        <meta
-          property="og:description"
-          content="Crypto, Coding, Finance & More"
-        />
-        <meta property="og:image" content={"url of image"} />
+          <meta name="twitter:card" content="summary" />
+          <meta
+            property="og:description"
+            content="Crypto, Coding, Finance & More"
+          />
+          <meta property="og:image" content={"url of image"} />
         </Head>
         <body>
           <Main />
