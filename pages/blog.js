@@ -3,27 +3,14 @@ import { PostCardSmall } from "../components";
 import { getPosts } from "../services";
 import BlogLayout from "../components/Layout";
 import styles from "../styles/blog.module.scss";
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Blog({ posts }) {
   return (
     <>
-    <Head>
-          {/* <meta name="viewport" content="width=device-width,minimum-scale=1, initial-scale=1" /> */}
-          <title>
-            Red Velvet Blog
-          </title>
-          {/* <meta
-          property="og:title"
-          content="Social Media Preview Working?"
-        /> */}
-          {/* <meta name="twitter:card" content="summary" /> */}
-          {/* <meta
-            property="og:description"
-            content="Crypto, Coding, Finance & More"
-          />
-          <meta property="og:image" content={"url of image"} /> */}
-        </Head>
+      <Head>
+        <title>Red Velvet Blog</title>
+      </Head>
       <div className="container mx-auto px-10 mb-8">
         <FeaturedPosts />
         <div className={styles["grid"]}>
