@@ -13,7 +13,6 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <link rel="icon" href="https://redvelvet.tech/favicon.ico" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
           <meta
             name="description"

@@ -1,9 +1,7 @@
 import styles from "../styles/dev.module.scss";
 import Head from 'next/head';
 import Image from "next/image";
-// import logoGif from "../assets/logo2.gif"
 import logo from "../assets/logo512.png"
-// import logoMp4 from "../assets/logo2.mp4"
 import DevLayout from '../components/dev/LayoutDev'
 import Link from "next/link";
 import emailLogo from '../assets/wallet-icons/email.svg'
@@ -11,8 +9,7 @@ import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import linkedinLogo from "../assets/wallet-icons/linkedin.svg";
-// import video from "../assets/bg3.mp4";
-
+import { InlineWidget } from "react-calendly";
 function Dev() {
   return (
     <>
@@ -21,7 +18,7 @@ function Dev() {
         <meta
           name='description'
           content='Crypto, Coding, Finance, & More'
-        ></meta>
+        />
         <meta property="og:url" content="redvelvet.tech" />
         <meta property="og:type" content="website" />
         <meta
@@ -30,12 +27,8 @@ function Dev() {
         />
         <meta name="twitter:card" content="summary" />
       </Head>
-
       <body className={styles["devbody"]}>
         <main className={styles["dev"]}>
-          {/* <video className={styles["bg-video"]} autoPlay loop muted>
-            <source src="/video/bg3.mp4" type="video/mp4" />
-          </video> */}
           <div className={styles["icons-row"]}>
             <div className={styles["icon-box"]}>
               <a href="mailto:bradley.t.sheehan@gmail.com" target="_blank" rel="noreferrer" className={styles["icon-link"]}>
@@ -81,7 +74,21 @@ function Dev() {
               </span>
             </Link>
           </div>
-          <div className={styles["circle"]}>
+          <div className={styles["calendly"]}>
+                Get In Touch
+          </div>
+          <InlineWidget
+            url="https://calendly.com/bradley-s/15-min-discovery?primary_color=760a02"
+            styles={{
+              height: '1000px',
+              width: '100%',
+              maxWidth: '1050px',
+              // padding: '0px',
+              // margin: '0px',
+              // border: '2px solid white'
+            }}
+          />
+          {/* <div className={styles["circle"]}>
             <div className={styles["logo"]}>
               <Image
                 src={logo}
@@ -91,7 +98,7 @@ function Dev() {
               >
               </Image>
             </div>
-          </div>
+          </div> */}
         </main>
       </body>
     </>
