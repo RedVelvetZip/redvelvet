@@ -10,6 +10,7 @@ import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import linkedinLogo from "../assets/wallet-icons/linkedin.svg";
 import { InlineWidget } from "react-calendly";
+// import { Carousel } from 'react-responsive-carousel';
 function Dev() {
   return (
     <>
