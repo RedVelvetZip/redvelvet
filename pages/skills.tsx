@@ -57,7 +57,7 @@ function Skills() {
                         startups and as a freelancer.
                     </p>
                     <div className={styles["resume"]}>
-                        <a href="https://drive.google.com/file/d/1FGEiIXz8n58Z7s1OsEByT_GhownZAlFD/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/1-QJOKlJx3rP_B-3ZnDGwyLgxVFoGVpcO/view?usp=sharing" target="_blank" rel="noreferrer">
                             <span className={styles["link"]}>Full Stack Developer Resume
                                 <svg
                                     className={styles["icon"]}
@@ -105,7 +105,7 @@ function Skills() {
                         I have a bit of experience with VueJS as well.
                     </p>
                     <div className={styles["resume"]}>
-                        <a href="https://drive.google.com/file/d/1FGEiIXz8n58Z7s1OsEByT_GhownZAlFD/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/1-QJOKlJx3rP_B-3ZnDGwyLgxVFoGVpcO/view?usp=sharing" target="_blank" rel="noreferrer">
                             <span className={styles["link"]}>Frontend Developer Resume
                                 <svg
                                     className={styles["icon"]}

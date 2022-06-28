@@ -10,7 +10,9 @@ import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import linkedinLogo from "../assets/wallet-icons/linkedin.svg";
 import { InlineWidget } from "react-calendly";
-// import { Carousel } from 'react-responsive-carousel';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 function Dev() {
   return (
     <>
@@ -75,8 +77,25 @@ function Dev() {
               </span>
             </Link>
           </div>
+          {/* <div className={styles["carousel"]}>
+            <Carousel
+              infiniteLoop={true}
+            >
+              <div>
+                <img src="/logo512.png" alt="image1" />
+                <p className="legend">Red was knowledgeable and quick in building out my NFT project. He set up the smart contract, metadata, art generation, and minting dapp. Would definitely work with him again! - Conner, PabloPieces</p>
+
+              </div>
+              <div>
+                <img src="/logo512.png" alt="image1" />
+                <p className="legend">Image 2</p>
+
+              </div>
+            </Carousel>
+          </div> */}
+
           <div className={styles["calendly"]}>
-                Get In Touch
+            Get In Touch
           </div>
           <InlineWidget
             url="https://calendly.com/bradley-s/15-min-discovery?primary_color=760a02"
