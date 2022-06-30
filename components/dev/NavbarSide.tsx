@@ -163,7 +163,7 @@ const Navbar = () => {
 
                     <li className={styles["nav-item"]}>
                         <a
-                            href="https://drive.google.com/file/d/1-QJOKlJx3rP_B-3ZnDGwyLgxVFoGVpcO/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1Spyw5AvPXAF83IHTkP6Mmlv0kx3V4rYf/view?usp=sharing"
                             className={styles["nav-link"]}
                             target="_blank"
                             rel="noreferrer"
