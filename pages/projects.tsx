@@ -81,10 +81,11 @@ function Projects() {
                             </div>
                         </div>
                         <p className={styles["description"]}>
-                            MoonLab is the parent company for MoonFactory and LunarCapital.
-                            MoonFactory is a <strong>web3 gig platform</strong>, creating an accessible
-                            marketplace for talent and community. LunarCapital is an <strong>education</strong> platform
-                            aimed at teaching personal finance, defi, and overall onboarding users into web3.
+                            MoonLab is a <strong>full-service web3 agency</strong> that takes ideas from concept to launch. We offer a la carte services for every step of the business development process.
+
+                        </p>
+                        <p className={styles["stack"]}>
+                            Stack: Webflow, Notion, Hubspot
                         </p>
                     </div>
                     <div className={styles["flex-item"]}>
@@ -158,7 +159,7 @@ function Projects() {
                             skill come into play.
                         </p>
                         <p className={styles["stack"]}>
-                            Stack: Next, Typescript, Solidity, Firebase, Web3React, Eth
+                            Stack: Next, TS, Solidity, Firebase, Eth
                             Mainnet, Chainlink VRF
                         </p>
                     </div>

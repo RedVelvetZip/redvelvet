@@ -93,7 +93,9 @@ function Dev() {
               </div>
             </Carousel>
           </div> */}
-
+{/* <div className={styles["temp"]}>
+  <strong>MOON</strong>EDU
+</div> */}
           <div className={styles["calendly"]}>
             Get In Touch
           </div>

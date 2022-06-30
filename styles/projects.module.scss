@@ -139,6 +139,11 @@ main.portfolio {
         // position: relative;
     }
 }
+.stack {
+    padding-top: 10px;
+    text-align: left;
+    align-self: flex-start;
+}
 
 @media only screen and (max-width: 600px) {
     main.portfolio {
