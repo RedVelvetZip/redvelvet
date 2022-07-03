@@ -520,7 +520,7 @@ function Portfolio() {
               </div>
               <h2 className={styles["proj-title"]}>Long Live The Kiks</h2>
               <p className={styles["description"]}>
-                NFT shoe project with physical validation
+                NFT shoe project with on-chain validation of physical products
               </p>
               <p className={styles["stack"]}>
                 React, AVAX
