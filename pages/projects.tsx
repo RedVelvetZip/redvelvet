@@ -85,7 +85,7 @@ function Projects() {
 
                         </p>
                         <p className={styles["stack"]}>
-                            Stack: Webflow, Notion, Hubspot
+                            Stack: Webflow, Figma, Notion, Hubspot, Miro
                         </p>
                     </div>
                     <div className={styles["flex-item"]}>
