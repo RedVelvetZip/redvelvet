@@ -111,20 +111,23 @@ const Header = () => {
                 <div className={styles["cols-title"]}>
                   <p>Categories</p>
                 </div>
-                <div className={styles["cols"]}>
-
-                  <div className={styles["col"]}>
-                    <Link href="/category/crypto-concepts" prefetch={false}>
+                <div className={styles["flex-container"]}>
+                  <div className={styles["flex-item"]}>
+                    <Link href="/category/crypto-concepts" passHref prefetch={false}>
                       Crypto Concepts
                     </Link>
-                    <Link href="/category/crypto-protocols" prefetch={false}>
+                  </div>
+                  <div className={styles["flex-item"]}>
+                    <Link href="/category/crypto-protocols" passHref prefetch={false}>
                       Crypto Protocols
                     </Link>
-                    <Link href="/category/crypto-tips" prefetch={false}>
+                  </div>
+                  <div className={styles["flex-item"]}>
+                    <Link href="/category/crypto-tips" passHref prefetch={false}>
                       Quick Crypto Tips
                     </Link>
                   </div>
-                  <div className={styles["col"]}>
+                  <div className={styles["flex-item"]}>
                     <Link
                       href="/category/defi-concepts"
                       passHref
@@ -132,6 +135,8 @@ const Header = () => {
                     >
                       DeFi Concepts
                     </Link>
+                  </div>
+                  <div className={styles["flex-item"]}>
                     <Link
                       href="/category/defi-protocols"
                       passHref
@@ -139,19 +144,30 @@ const Header = () => {
                     >
                       DeFi Protocols
                     </Link>
+                  </div>
+                  <div className={styles["flex-item"]}>
                     <Link href="/category/tradfi" passHref prefetch={false}>
                       Traditional Finance
                     </Link>
                   </div>
-                  <div className={styles["col"]}>
+                  <div className={styles["flex-item"]}>
                     <Link href="/category/dev" passHref prefetch={false}>
                       Software Development
                     </Link>
+                  </div>
+                  <div className={styles["flex-item"]}>
+                    <Link href="/category/dev-tips" prefetch={false}>
+                      Quick Dev Tips
+                    </Link>
+                  </div>
+                  <div className={styles["flex-item"]}>
                     <Link href="/category/privacy" prefetch={false}>
                       Privacy
                     </Link>
-                    <Link href="/category/dev-tips" prefetch={false}>
-                      Quick Dev Tips
+                  </div>
+                  <div className={styles["flex-item"]}>
+                    <Link href="/category/random" passHref prefetch={false}>
+                      Random
                     </Link>
                   </div>
                 </div>
