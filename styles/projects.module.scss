@@ -82,6 +82,7 @@ main.portfolio {
     justify-content: center;
     padding-top: 30px;
     column-gap: 7%;
+    row-gap: 3%;
 }
 .flex-item {
     display: flex;
@@ -143,6 +144,19 @@ main.portfolio {
     padding-top: 10px;
     text-align: left;
     align-self: flex-start;
+}
+.project {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    font-weight: bold;
+    // .name {
+    //     font-weight: bold;
+    // }
+    // .role {
+    //     font-weight: bold;
+    // }
 }
 
 @media only screen and (max-width: 600px) {

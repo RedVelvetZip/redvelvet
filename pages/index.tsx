@@ -12,6 +12,7 @@ import linkedinLogo from "../assets/wallet-icons/linkedin.svg";
 import { InlineWidget } from "react-calendly";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { reviewOne, reviewTwo } from '../components/Carousel/Data'
 
 function Dev() {
   return (
@@ -78,6 +79,17 @@ function Dev() {
             </Link>
           </div>
           {/* <div className={styles["carousel"]}>
+            <div className={styles["carousel-arrow"]}>
+              <p>x</p>
+            </div>
+            <div className={styles["carousel-item"]}>
+              {reviewOne.text}
+              <p>- {reviewOne.name}</p>
+            </div>
+            <div className={styles["carousel-item"]}>
+              {reviewTwo.text}
+              <p>- {reviewTwo.name}</p>
+            </div>
             <Carousel
               infiniteLoop={true}
             >
@@ -93,7 +105,7 @@ function Dev() {
               </div>
             </Carousel>
           </div> */}
-{/* <div className={styles["temp"]}>
+          {/* <div className={styles["temp"]}>
   <strong>MOON</strong>EDU
 </div> */}
           <div className={styles["calendly"]}>

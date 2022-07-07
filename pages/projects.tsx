@@ -6,6 +6,7 @@ import linkLogo from "../assets/wallet-icons/link.svg";
 // import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
+import hack3rsLogo from "../assets/portfolio/Hack3rsClub.png";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo4.png";
 import vqLogo from "../assets/portfolio/VQ Logo1.png";
 import DevLayout from '../components/dev/LayoutDev'
@@ -80,12 +81,85 @@ function Projects() {
                                 </div>
                             </div>
                         </div>
+                        <div className={styles["project"]}>
+                            <p className={styles["name"]}>
+                                MoonLab
+                            </p>
+                            <p className={styles["role"]}>
+                                Co-founder & CTO
+                            </p>
+                        </div>
                         <p className={styles["description"]}>
                             MoonLab is a <strong>full-service web3 agency</strong> that takes ideas from concept to launch. We offer a la carte services for every step of the business development process.
 
                         </p>
                         <p className={styles["stack"]}>
-                            Stack: Webflow, Figma, Notion, Hubspot, Miro
+                            Tools: Webflow, Figma, Notion, Hubspot, Miro
+                        </p>
+                    </div>
+                    <div className={styles["flex-item"]}>
+                        <div className={styles["title"]}>
+                            <div className={styles["logo"]}>
+                                <a
+                                    className={styles["logo-case"]}
+                                    href="https://hack3rs.hackathon.com/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <Image
+                                        // layout='fill'
+                                        objectFit='contain'
+                                        src={hack3rsLogo}
+                                        alt="Hack3rsClub"
+                                    ></Image>
+                                </a>
+                            </div>
+                            <div className={styles["links"]}>
+                                <div className={styles["links-item"]}>
+                                    <div >
+                                        <a
+                                            href="https://hack3rs.hackathon.com/"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                object-fit="contain"
+                                                src={linkLogo}
+                                                alt="Hack3rsClub Website"
+                                            ></Image>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className={styles["links-item"]}>
+                                    <div >
+                                        <a
+                                            href="https://discord.com/invite/XAhxSgaM3E"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                object-fit="contain"
+                                                src={discordLogo}
+                                                alt="Hack3rsClub Discord"
+                                            ></Image>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles["project"]}>
+                            <p className={styles["name"]}>
+                                Hack3rsClub
+                            </p>
+                            <p className={styles["role"]}>
+                                Lead Educator
+                            </p>
+                        </div>
+                        <p className={styles["description"]}>
+                            Hack3rsClub is a community of developers hosted by BeMyApp and Hackathon.com. We <strong>teach Web2 developers the basics of Web3</strong> through code-alongs, workshops, and other tutorials.
+                        </p>
+                        <p className={styles["stack"]}>
+                            Tools: Discord, Solidity, VS Code, React
                         </p>
                     </div>
                     <div className={styles["flex-item"]}>
@@ -153,16 +227,24 @@ function Projects() {
                                 </div>
                             </div>
                         </div>
+                        <div className={styles["project"]}>
+                            <p className={styles["name"]}>
+                                VQ Games
+                            </p>
+                            <p className={styles["role"]}>
+                                Co-founder & CTO
+                            </p>
+                        </div>
                         <p className={styles["description"]}>
                             VQ Games is a series of <strong>group-strategy, turn-by-turn, blockchain
                                 games</strong>. Comparable to board games or card games where both luck and
                             skill come into play.
                         </p>
                         <p className={styles["stack"]}>
-                            Stack: Next, TS, Solidity, Firebase, Eth
-                            Mainnet, Chainlink VRF
+                            Tools: Next, TS, Solidity, Firebase, Eth, Chainlink VRF
                         </p>
                     </div>
+
                 </div>
             </main>
         </body>
