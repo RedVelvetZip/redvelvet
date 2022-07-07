@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "../../styles/navbar.module.scss";
 import logo from "../../assets/logo-circle.png"
 // import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { resumeFS } from "../../data/resume"
 
 const Navbar = () => {
 
@@ -163,7 +164,7 @@ const Navbar = () => {
 
                     <li className={styles["nav-item"]}>
                         <a
-                            href="https://drive.google.com/file/d/1Spyw5AvPXAF83IHTkP6Mmlv0kx3V4rYf/view?usp=sharing"
+                            href={resumeFS}
                             className={styles["nav-link"]}
                             target="_blank"
                             rel="noreferrer"

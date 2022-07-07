@@ -1,0 +1,2 @@
+export const resumeFS = "https://drive.google.com/file/d/1BDPRHWgVfNIz9aNRFV3fWK1PMkLx29JB/view?usp=sharing"
+export const resumeSmartContract = "https://drive.google.com/file/d/1bXspOMLHYNJBTd9DEsyR9cLhsRdsYDng/view?usp=sharing"
