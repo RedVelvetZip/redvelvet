@@ -8,6 +8,7 @@ import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import hack3rsLogo from "../assets/portfolio/Hack3rsClub.png";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo4.png";
+import redvelvetLogo from "../assets/logo2.gif"
 import vqLogo from "../assets/portfolio/VQ Logo1.png";
 import DevLayout from '../components/dev/LayoutDev'
 
@@ -160,6 +161,71 @@ function Projects() {
                         </p>
                         <p className={styles["stack"]}>
                             Tools: Discord, Solidity, VS Code, React
+                        </p>
+                    </div>
+                    <div className={styles["flex-item"]}>
+                        <div className={styles["title"]}>
+                            <div className={styles["logo"]}>
+                                <a
+                                    className={styles["logo-case"]}
+                                    href="https://redvelvet.tech/blog/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <Image
+                                        // layout='fill'
+                                        objectFit='contain'
+                                        src={redvelvetLogo}
+                                        alt="Red Velvet Blog"
+                                    ></Image>
+                                </a>
+                            </div>
+                            <div className={styles["links"]}>
+                                <div className={styles["links-item"]}>
+                                    <div >
+                                        <a
+                                            href="https://redvelvet.tech/blog/"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                object-fit="contain"
+                                                src={linkLogo}
+                                                alt="Blog"
+                                            ></Image>
+                                        </a>
+                                    </div>
+                                </div>
+                                {/* <div className={styles["links-item"]}>
+                                    <div >
+                                        <a
+                                            href="https://discord.com/invite/XAhxSgaM3E"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                object-fit="contain"
+                                                src={discordLogo}
+                                                alt="Hack3rsClub Discord"
+                                            ></Image>
+                                        </a>
+                                    </div>
+                                </div> */}
+                            </div>
+                        </div>
+                        <div className={styles["project"]}>
+                            <p className={styles["name"]}>
+                                RedVelvetBlog
+                            </p>
+                            <p className={styles["role"]}>
+                                Content Writer
+                            </p>
+                        </div>
+                        <p className={styles["description"]}>
+                            This is my personal <strong>crypto/software development/finance/tech blog</strong>. I do all the research, create all the content, and design the graphics for these articles. It started out as me creating finance guides for friends, and has grown into something much bigger!
+                        </p>
+                        <p className={styles["stack"]}>
+                            Tools: NextJS, GraphCMS, Canva
                         </p>
                     </div>
                     <div className={styles["flex-item"]}>
