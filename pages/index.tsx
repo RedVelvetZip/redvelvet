@@ -115,7 +115,7 @@ function Dev() {
             url="https://calendly.com/bradley-s/15-min-discovery?primary_color=760a02"
             styles={{
               height: '1000px',
-              width: '100%',
+              width: '90%',
               maxWidth: '1050px',
               // padding: '0px',
               // margin: '0px',
