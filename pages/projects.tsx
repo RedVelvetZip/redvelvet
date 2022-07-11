@@ -87,6 +87,9 @@ function Projects() {
                                 MoonLab
                             </p>
                             <p className={styles["role"]}>
+                                -
+                            </p>
+                            <p className={styles["role"]}>
                                 Co-founder & CTO
                             </p>
                         </div>
@@ -153,6 +156,9 @@ function Projects() {
                                 Hack3rsClub
                             </p>
                             <p className={styles["role"]}>
+                                -
+                            </p>
+                            <p className={styles["role"]}>
                                 Lead Educator
                             </p>
                         </div>
@@ -216,6 +222,9 @@ function Projects() {
                         <div className={styles["project"]}>
                             <p className={styles["name"]}>
                                 RedVelvetBlog
+                            </p>
+                            <p className={styles["role"]}>
+                                -
                             </p>
                             <p className={styles["role"]}>
                                 Content Writer
@@ -296,6 +305,9 @@ function Projects() {
                         <div className={styles["project"]}>
                             <p className={styles["name"]}>
                                 VQ Games
+                            </p>
+                            <p className={styles["role"]}>
+                                -
                             </p>
                             <p className={styles["role"]}>
                                 Co-founder & CTO
