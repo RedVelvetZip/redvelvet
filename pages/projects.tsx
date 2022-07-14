@@ -83,14 +83,11 @@ function Projects() {
                             </div>
                         </div>
                         <div className={styles["project"]}>
-                            <p className={styles["name"]}>
-                                MoonLab
-                            </p>
+                            {/* <p className={styles["name"]}>
+                            MoonLab
+                            </p> */}
                             <p className={styles["role"]}>
-                                -
-                            </p>
-                            <p className={styles["role"]}>
-                                Co-founder & CTO
+                                Co-founder & CTO, MoonLab
                             </p>
                         </div>
                         <p className={styles["description"]}>
@@ -153,20 +150,14 @@ function Projects() {
                         </div>
                         <div className={styles["project"]}>
                             <p className={styles["name"]}>
-                                Hack3rsClub
-                            </p>
-                            <p className={styles["role"]}>
-                                -
-                            </p>
-                            <p className={styles["role"]}>
-                                Lead Educator
+                                Educator, Hack3rsClub
                             </p>
                         </div>
                         <p className={styles["description"]}>
-                            Hack3rsClub is a community of developers hosted by BeMyApp and Hackathon.com. We <strong>teach Web2 developers the basics of Web3</strong> through code-alongs, workshops, and other tutorials.
+                            Hack3rsClub is a community of developers hosted by BeMyApp and Hackathon.com. I <strong>teach Web2 developers the basics of Web3 development</strong> through webinars, code-alongs, and workshops.
                         </p>
                         <p className={styles["stack"]}>
-                            Tools: Discord, Solidity, VS Code, React
+                            Tools: Discord, Solidity, VS Code, React, Canva
                         </p>
                     </div>
                     <div className={styles["flex-item"]}>
@@ -220,14 +211,8 @@ function Projects() {
                             </div>
                         </div>
                         <div className={styles["project"]}>
-                            <p className={styles["name"]}>
-                                RedVelvetBlog
-                            </p>
                             <p className={styles["role"]}>
-                                -
-                            </p>
-                            <p className={styles["role"]}>
-                                Content Writer
+                                Content Writer, RedVelvetBlog
                             </p>
                         </div>
                         <p className={styles["description"]}>
@@ -303,14 +288,8 @@ function Projects() {
                             </div>
                         </div>
                         <div className={styles["project"]}>
-                            <p className={styles["name"]}>
-                                VQ Games
-                            </p>
                             <p className={styles["role"]}>
-                                -
-                            </p>
-                            <p className={styles["role"]}>
-                                Co-founder & CTO
+                                Co-founder & CTO, VQ Games
                             </p>
                         </div>
                         <p className={styles["description"]}>

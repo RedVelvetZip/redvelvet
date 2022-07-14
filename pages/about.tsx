@@ -57,7 +57,7 @@ function About() {
               </div>
               <h3 className={styles["education"]}>EDUCATION</h3>
               <p className={styles["text"]}>
-                I have a formal education in software development, but most of my education is from free online resources; when it comes to finance and crypto, my education is straight up Youtube university. I love to teach friends about my passions, so I took things a step further and created a personal blog for my favorite topics. I also do some gig work writing fintech content. The best way to learn something is to teach it!
+                I have a formal education in software development, but most of my education is from free online resources; when it comes to finance and crypto, my education is straight up Youtube university. I have a personal blog for my favorite topics. I also teach webinars for coding and host in-person educational events in Denver. The best way to learn something is to teach it!
               </p>
             </div>
             <div className={styles["col"]}>
