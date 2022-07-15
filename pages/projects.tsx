@@ -7,6 +7,7 @@ import linkLogo from "../assets/wallet-icons/link.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import hack3rsLogo from "../assets/portfolio/Hack3rsClub.png";
+import infoLogo from "../assets/wallet-icons/info.svg";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo4.png";
 import redvelvetLogo from "../assets/logo2.gif"
 import vqLogo from "../assets/portfolio/VQ Logo1.png";
@@ -251,6 +252,21 @@ function Projects() {
                                                 object-fit="contain"
                                                 src={linkLogo}
                                                 alt="VQ Games Website"
+                                            ></Image>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className={styles["links-item"]}>
+                                    <div >
+                                        <a
+                                            href="https://medium.com/@TheEsportsPlug/behind-the-curtains-creation-of-a-long-term-nft-project-8e8c57ffe988"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                object-fit="contain"
+                                                src={infoLogo}
+                                                alt="Article"
                                             ></Image>
                                         </a>
                                     </div>

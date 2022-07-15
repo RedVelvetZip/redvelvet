@@ -29,7 +29,8 @@ function Portfolio() {
       <body className={styles["devbody"]}>
         <h2 className={styles["header"]}>Portfolio</h2>
         <main className={styles["portfolio"]}>
-          {/* //TODO: add Scrum Dapp, ChainLink DeFi staking project, Solana NFT deployment, */}
+          {/* //TODO: add Scrum Dapp, ChainLink DeFi staking project, Solana NFT deployment, 
+          */}
           <div className={styles["flex-container"]}>
             <div className={styles["flex-item"]}>
               <div className={styles["title"]}>
@@ -105,6 +106,21 @@ function Portfolio() {
                           object-fit="contain"
                           src={discordLogo}
                           alt="VQ Games Discord"
+                        ></Image>
+                      </a>
+                    </div>
+                  </div>
+                  <div className={styles["links-item"]}>
+                    <div >
+                      <a
+                        href="https://medium.com/@TheEsportsPlug/behind-the-curtains-creation-of-a-long-term-nft-project-8e8c57ffe988"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Image
+                          object-fit="contain"
+                          src={infoLogo}
+                          alt="Article"
                         ></Image>
                       </a>
                     </div>
@@ -389,7 +405,7 @@ function Portfolio() {
               </div>
               <h2 className={styles["proj-title"]}>MoonLab</h2>
               <p className={styles["description"]}>
-                Web3 agency landing page
+                Agency landing page
               </p>
               <p className={styles["stack"]}>
                 Webflow
@@ -512,6 +528,21 @@ function Portfolio() {
                           object-fit="contain"
                           src={twitterLogo}
                           alt="VQ Games Twitter"
+                        ></Image>
+                      </a>
+                    </div>
+                  </div>
+                  <div className={styles["links-item"]}>
+                    <div >
+                      <a
+                        href="https://www.redvelvet.tech/post/blockchain-validation-of-physical-items"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Image
+                          object-fit="contain"
+                          src={infoLogo}
+                          alt="Article"
                         ></Image>
                       </a>
                     </div>
