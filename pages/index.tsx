@@ -49,11 +49,11 @@ function Dev() {
                 <Image alt="Twitter" src={twitterLogo}></Image>
               </a>
             </div>
-            <div className={styles["icon-box"]}>
+            {/* <div className={styles["icon-box"]}>
               <a href="https://discordapp.com/users/redvelvet#4018" target="_blank" rel="noreferrer">
                 <Image alt="Discord" src={discordLogo}></Image>
               </a>
-            </div>
+            </div> */}
             <div className={styles["icon-box"]}>
               <a href="https://www.linkedin.com/in/bradleysheehan/" target="_blank" rel="noreferrer" className={styles["icon-link"]}>
                 <Image alt="LinkedIn" src={linkedinLogo} ></Image>
