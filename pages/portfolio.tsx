@@ -153,6 +153,21 @@ function Portfolio() {
                   </a>
                 </div>
                 <div className={styles["links"]}>
+                <div className={styles["links-item"]}>
+                    <div >
+                      <a
+                        href="https://tinytix.xyz"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Image
+                          object-fit="contain"
+                          src={linkLogo}
+                          alt="Tiny Tix demo"
+                        ></Image>
+                      </a>
+                    </div>
+                  </div>
                   <div className={styles["links-item"]}>
                     <div >
                       <a
