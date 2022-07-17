@@ -15,7 +15,7 @@ function About() {
       <main className={styles["about"]}>
         <div className={styles["interests"]}>
           <p className={styles["main-text"]}>
-            Hey there, I&#39;m Red. This website houses my portfolio and my resumes, as well as my tech/finance blog. I am many things &#45; one of which
+            Hey there, I&#39;m Red. This website houses my portfolio/resumes as well as my tech/finance blog. I am many things &#45; one of which
             is a software developer. If you&rsquo;re not in tech, that&rsquo;s a
             fairly specific title; if you are in tech, it&rsquo;s incredibly
             vague. Specifically, I'm a fullstack web3 developer.  Coding aside, my professional
