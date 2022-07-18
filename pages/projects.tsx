@@ -6,7 +6,7 @@ import linkLogo from "../assets/wallet-icons/link.svg";
 // import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
-import hack3rsLogo from "../assets/portfolio/Hack3rsClub.png";
+import hack3rsLogo from "../assets/portfolio/Hack3rs.jpg";
 import infoLogo from "../assets/wallet-icons/info.svg";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo4.png";
 import redvelvetLogo from "../assets/logo2.gif"
