@@ -108,10 +108,10 @@ function Dev() {
           {/* <div className={styles["temp"]}>
   <strong>MOON</strong>EDU
 </div> */}
-          <div className={styles["calendly"]}>
+          {/* <div className={styles["calendly"]}>
             Get In Touch
-          </div>
-          <InlineWidget
+          </div> */}
+          {/* <InlineWidget
             url="https://calendly.com/bradley-s/15-min-discovery?primary_color=760a02"
             styles={{
               height: '1000px',
@@ -121,7 +121,7 @@ function Dev() {
               // margin: '0px',
               // border: '2px solid white'
             }}
-          />
+          /> */}
           {/* <div className={styles["circle"]}>
             <div className={styles["logo"]}>
               <Image
