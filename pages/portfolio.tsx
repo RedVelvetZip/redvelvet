@@ -129,7 +129,7 @@ function Portfolio() {
               </div>
               <h2 className={styles["proj-title"]}>Battle for New Venice</h2>
               <p className={styles["description"]}>
-                Turn-by-turn NFT game
+                Group-strategy, turn-by-turn, blockchain games
               </p>
               <p className={styles["stack"]}>
                 Next, TS, Solidity, Firebase
@@ -153,7 +153,7 @@ function Portfolio() {
                   </a>
                 </div>
                 <div className={styles["links"]}>
-                <div className={styles["links-item"]}>
+                  <div className={styles["links-item"]}>
                     <div >
                       <a
                         href="https://tinytix.xyz"
