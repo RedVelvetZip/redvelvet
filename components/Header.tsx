@@ -165,11 +165,11 @@ const Header = () => {
                       Privacy
                     </Link>
                   </div>
-                  <div className={styles["flex-item"]}>
+                  {/* <div className={styles["flex-item"]}>
                     <Link href="/category/random" passHref prefetch={false}>
                       Random
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
