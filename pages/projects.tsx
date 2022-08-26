@@ -166,6 +166,86 @@ function Projects() {
                             <div className={styles["logo"]}>
                                 <a
                                     className={styles["logo-case"]}
+                                    href="https://moonlab.space"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <Image
+                                        objectFit='contain'
+                                        src={moonLabLogo}
+                                        alt="MoonLab"
+                                    ></Image>
+                                </a>
+                            </div>
+                            <div className={styles["links"]}>
+                                <div className={styles["links-item"]}>
+                                    <div>
+                                        <a
+                                            href="https://www.youtube.com/watch?v=qImzfh39GXs"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                object-fit="contain"
+                                                src={linkLogo}
+                                                alt="MoonLab Youtube"
+                                            ></Image>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className={styles["links-item"]}>
+                                    <div>
+                                        <a
+                                            href="https://twitter.com/Moonlab_HQ"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                object-fit="contain"
+                                                src={twitterLogo}
+                                                alt="MoonLab Twitter"
+                                            ></Image>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className={styles["links-item"]}>
+                                    <div>
+                                        <a
+                                            href="https://discord.gg/2gwcaPK4xK"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                object-fit="contain"
+                                                src={discordLogo}
+                                                alt="MoonLab Discord"
+                                            ></Image>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles["project"]}>
+                            {/* <p className={styles["name"]}>
+                            MoonLab
+                            </p> */}
+                            <p className={styles["role"]}>
+                                Speaker, MoonLab Meets & Cryptorado
+                            </p>
+                        </div>
+                        <p className={styles["description"]}>
+                            MoonLab Meets & Cryptorado host educational events in Denver. I speak at and help organize these events. Lectures, panels, and more!
+
+                        </p>
+                        <p className={styles["stack"]}>
+                            Tools: Discord
+                        </p>
+                    </div>
+                    <div className={styles["flex-item"]}>
+                        <div className={styles["title"]}>
+                            <div className={styles["logo"]}>
+                                <a
+                                    className={styles["logo-case"]}
                                     href="https://redvelvet.tech/blog/"
                                     target="_blank"
                                     rel="noreferrer"
