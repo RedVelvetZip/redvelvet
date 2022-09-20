@@ -238,7 +238,7 @@ function Projects() {
 
                         </p>
                         <p className={styles["stack"]}>
-                            Tools: Discord
+                            Tools: Meetup, Eventbrite, Streamyard, Discord
                         </p>
                     </div>
                     <div className={styles["flex-item"]}>
