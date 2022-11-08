@@ -162,7 +162,7 @@ const Navbar = () => {
                         </Link>
                     </li >
 
-                    <li className={styles["nav-item"]}>
+                    {/* <li className={styles["nav-item"]}>
                         <a
                             href={resumeFS}
                             className={styles["nav-link"]}
@@ -190,7 +190,7 @@ const Navbar = () => {
                             </svg >
                             <span className={styles["link-text"]}>Resume</span>
                         </a>
-                    </li >
+                    </li > */}
 
                     <li className={styles["nav-item"]}>
                         <Link href="/blog" className={styles["nav-link"]}>
