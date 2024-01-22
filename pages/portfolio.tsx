@@ -37,7 +37,7 @@ function Portfolio() {
                 <div className={styles["logo"]}>
                   <a
                     className={styles["logo-case"]}
-                    href="https://vastquestions.com"
+                    href="https://vq-2.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -53,7 +53,7 @@ function Portfolio() {
                   <div className={styles["links-item"]}>
                     <div >
                       <a
-                        href="https://vastquestions.com"
+                        href="https://vq-2.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
