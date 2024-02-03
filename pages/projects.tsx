@@ -5,13 +5,14 @@ import Image from "next/image";
 import linkLogo from "../assets/wallet-icons/link.svg";
 // import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
+import meetupLogo from "../assets/wallet-icons/meetup.png";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import hack3rsLogo from "../assets/portfolio/Hack3rs.jpg";
-import infoLogo from "../assets/wallet-icons/info.svg";
+// import infoLogo from "../assets/wallet-icons/info.svg";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo4.png";
 import cryptoradoLogo from "../assets/portfolio/cryptoradoBanner_wide.png";
 import redvelvetLogo from "../assets/logo2.gif"
-import vqLogo from "../assets/portfolio/VQ Logo1.png";
+// import vqLogo from "../assets/portfolio/VQ Logo1.png";
 import DevLayout from '../components/dev/LayoutDev'
 
 function Projects() {
@@ -38,6 +39,21 @@ function Projects() {
                             </div>
                             <div className={styles["links"]}>
                                 <div className={styles["links-item"]}>
+                                        <div>
+                                            <a
+                                                href="https://www.meetup.com/cryptorado-community/"
+                                                target="_blank"
+                                                rel="noreferrer"
+                                            >
+                                                <Image
+                                                    object-fit="contain"
+                                                    src={meetupLogo}
+                                                    alt="Cryptorado Meetup page"
+                                                ></Image>
+                                            </a>
+                                        </div>
+                                    </div>
+                                <div className={styles["links-item"]}>
                                     <div>
                                         <a
                                             href="http://cryptorado.org/"
@@ -62,7 +78,7 @@ function Projects() {
                                             <Image
                                                 object-fit="contain"
                                                 src={twitterLogo}
-                                                alt="MoonLab Twitter"
+                                                alt="Cryptorado Twitter"
                                             ></Image>
                                         </a>
                                     </div>
@@ -96,11 +112,11 @@ function Projects() {
                             Cryptorado is a community in Colorado for all things crypto. Coworking, lectures/workshops, hangouts, and adventures. I speak at and help organize some of these events. Lectures, panels, and more!
 
                         </p>
-                        <p className={styles["stack"]}>
+                        {/* <p className={styles["stack"]}>
                             Tools: Meetup, Discord
-                        </p>
+                        </p> */}
                     </div>
-                    <div className={styles["flex-item"]}>
+                    {/* <div className={styles["flex-item"]}>
                         <div className={styles["title"]}>
                             <div className={styles["logo"]}>
                                 <a
@@ -165,9 +181,9 @@ function Projects() {
                             </div>
                         </div>
                         <div className={styles["project"]}>
-                            {/* <p className={styles["name"]}>
+                            <p className={styles["name"]}>
                             MoonLab
-                            </p> */}
+                            </p>
                             <p className={styles["role"]}>
                                 Co-founder & CTO, MoonLab
                             </p>
@@ -179,8 +195,8 @@ function Projects() {
                         <p className={styles["stack"]}>
                             Tools: Webflow, Figma, Notion, Hubspot, Miro
                         </p>
-                    </div>
-                    <div className={styles["flex-item"]}>
+                    </div> */}
+                    {/* <div className={styles["flex-item"]}>
                         <div className={styles["title"]}>
                             <div className={styles["logo"]}>
                                 <a
@@ -213,7 +229,7 @@ function Projects() {
                                         </a>
                                     </div>
                                 </div>
-                                {/* <div className={styles["links-item"]}>
+                                <div className={styles["links-item"]}>
                                     <div >
                                         <a
                                             href="https://discord.com/invite/XAhxSgaM3E"
@@ -227,7 +243,7 @@ function Projects() {
                                             ></Image>
                                         </a>
                                     </div>
-                                </div> */}
+                                </div>
                             </div>
                         </div>
                         <div className={styles["project"]}>
@@ -303,7 +319,7 @@ function Projects() {
                         <p className={styles["stack"]}>
                             Tools: Discord, Solidity, VS Code, React, Canva
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </main>
         </body>
