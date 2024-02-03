@@ -1,7 +1,8 @@
 import styles from "../styles/dev.module.scss";
 import Head from 'next/head';
 import Image from "next/image";
-import logo from "../assets/logo512.png"
+// import logo from "../assets/logo512.png"
+import logo from "../assets/logo2.gif"
 import DevLayout from '../components/dev/LayoutDev'
 import Link from "next/link";
 import emailLogo from '../assets/wallet-icons/email.svg'
@@ -141,7 +142,7 @@ function Dev() {
               // border: '2px solid white'
             }}
           /> */}
-          {/* <div className={styles["circle"]}>
+          <div className={styles["circle"]}>
             <div className={styles["logo"]}>
               <Image
                 src={logo}
@@ -151,7 +152,7 @@ function Dev() {
               >
               </Image>
             </div>
-          </div> */}
+          </div>
         </main>
       </body>
     </>

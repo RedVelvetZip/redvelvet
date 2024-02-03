@@ -1,5 +1,8 @@
 import styles from "../styles/about.module.scss";
+import styles2 from "../styles/dev.module.scss";
 import DevLayout from '../components/dev/LayoutDev'
+import Image from "next/image";
+import logo from "../assets/logo2.gif"
 
 function About() {
   return (
@@ -24,6 +27,23 @@ function About() {
 
             <br/><br/>-Pickled cucumbers are mids and undeserving of the moniker of 'pickle'. Pickled onions, pickled jalapenos, pickled mushrooms etc. are all superior. It's outrageous that Americans have arbitrarily awarded the name "pickle" to cucumbers. <br/>
           </p>
+          <div className={styles2["devbody"]}>
+        <div className={styles2["dev"]}>
+        <div className={styles2["circle"]}>
+            <div className={styles2["logo"]}>
+              <Image
+                src={logo}
+                alt="Red Velvet logo"
+                layout="responsive"
+                objectFit="contain"
+              >
+              </Image>
+            </div>
+          </div>
+        </div>
+        <br/><br/><br/>
+        </div>
+          
     </body>
   );
 }
