@@ -113,7 +113,7 @@ function Portfolio() {
               </div>
               <h2 className={styles["proj-title"]}>Opcode Critters</h2>
               <p className={styles["description"]}>
-                An educational game
+                An educational game about Bitcoin's OP_CAT opcode
               </p>
               <p className={styles["stack"]}>
                 React
