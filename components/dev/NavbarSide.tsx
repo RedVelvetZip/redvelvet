@@ -78,7 +78,7 @@ const Navbar = () => {
 
                                     </g >
                                 </svg >
-                                <span className={styles["link-text"]}>Current Projects</span>
+                                <span className={styles["link-text"]}>Roles</span>
                             </a>
                         </Link>
                     </li >
@@ -132,7 +132,7 @@ const Navbar = () => {
 
                                     </g>
                                 </svg >
-                                <span className={styles["link-text"]}>About</span>
+                                <span className={styles["link-text"]}>About Me</span>
                             </a>
                         </Link>
                     </li >
@@ -193,8 +193,8 @@ const Navbar = () => {
                     </li > */}
 
                     <li className={styles["nav-item"]}>
-                        <Link href="/blog" className={styles["nav-link"]}>
-                            <a href="#" className={styles["nav-link"]}>
+                        <Link href="https://redvelvetzip.substack.com/" className={styles["nav-link"]}>
+                            <a href="https://redvelvetzip.substack.com/" className={styles["nav-link"]}>
                                 <svg
                                     aria-hidden="true"
                                     focusable="false"

@@ -20,7 +20,7 @@ import DevLayout from '../components/dev/LayoutDev'
 function Projects() {
     return (
         <body className={styles["devbody"]}>
-            <h2 className={styles["header"]}>Current Projects</h2>
+            <h2 className={styles["header"]}>Current Roles</h2>
             <main className={styles["portfolio"]}>
                 <div className={styles["flex-container"]}>
                 <div className={styles["flex-item"]}>
@@ -237,7 +237,7 @@ function Projects() {
                 </div>
                 
             </main>
-            <h2 className={styles["header"]}>Previous Projects</h2>
+            <h2 className={styles["header"]}>Previous Roles</h2>
             <main className={styles["portfolio"]}>
                 <div className={styles["flex-container"]}>
                     <div className={styles["flex-item"]}>
