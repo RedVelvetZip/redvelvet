@@ -19,6 +19,7 @@ import vqgames from "../assets/portfolio/VQ.png";
 import tinytix from "../assets/portfolio/tinytix.png";
 import pablo from "../assets/portfolio/pablo.png";
 import blog from "../assets/portfolio/blog.png";
+import opcode from "../assets/portfolio/opcode-critters.png";
 
 function Portfolio() {
   return (
@@ -29,9 +30,95 @@ function Portfolio() {
       <body className={styles["devbody"]}>
         <h2 className={styles["header"]}>Portfolio</h2>
         <main className={styles["portfolio"]}>
-          {/* //TODO: add Scrum Dapp, ChainLink DeFi staking project, Solana NFT deployment, 
-          */}
           <div className={styles["flex-container"]}>
+          <div className={styles["flex-item"]}>
+              <div className={styles["title"]}>
+                <div className={styles["logo"]}>
+                  <a
+                    className={styles["logo-case"]}
+                    href="https://opcodecritters.redvelvet.tech/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image
+                      // layout='fill'
+                      objectFit='cover'
+                      src={opcode}
+                      alt="Tiny Tix"
+                    ></Image>
+                  </a>
+                </div>
+                <div className={styles["links"]}>
+                  <div className={styles["links-item"]}>
+                    <div >
+                      <a
+                        href="https://opcodecritters.redvelvet.tech/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Image
+                          object-fit="contain"
+                          src={linkLogo}
+                          alt="Opcode Critters hosting"
+                        ></Image>
+                      </a>
+                    </div>
+                  </div>
+                  <div className={styles["links-item"]}>
+                    <div >
+                      <a
+                        href="https://github.com/RedVelvetZip/opcodecritters"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Image
+                          object-fit="contain"
+                          src={githubLogo}
+                          alt="Website github"
+                        ></Image>
+                      </a>
+                    </div>
+                  </div>
+                  <div className={styles["links-item"]}>
+                    <div >
+                      <a
+                        href="https://redvelvetzip.github.io/pokemon-battle-system/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Image
+                          object-fit="contain"
+                          src={linkLogo}
+                          alt="Opcode Critters hosting"
+                        ></Image>
+                      </a>
+                    </div>
+                  </div>
+                  <div className={styles["links-item"]}>
+                    <div >
+                      <a
+                        href="https://github.com/RedVelvetZip/pokemon-battle-system"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <Image
+                          object-fit="contain"
+                          src={githubLogo}
+                          alt="Website github"
+                        ></Image>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 className={styles["proj-title"]}>Opcode Critters</h2>
+              <p className={styles["description"]}>
+                An educational game
+              </p>
+              <p className={styles["stack"]}>
+                React
+              </p>
+            </div>
             <div className={styles["flex-item"]}>
               <div className={styles["title"]}>
                 <div className={styles["logo"]}>

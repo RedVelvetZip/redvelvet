@@ -5,7 +5,7 @@ body.devbody {
         content: "";
         content: "";
         width: 100%;
-        height: 100%;
+        // height: 100%;
         // background-image: url("../public/bg.png");
         background: var(--bg-secondary);
         position: fixed;
@@ -18,20 +18,6 @@ body.devbody {
     }
     display: flex;
     flex-direction: column;
-}
-main.about {
-    margin: 1rem;
-    margin-top: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.3rem;
-    line-height: 1.3;
-    width: 85%;
-    margin-left: 10%;
-    // margin-inline: auto;
-    background-color: rgb(249, 249, 251, 0.93);
-    border-radius: 50px;
-    padding: 40px 30px;
 }
 .title {
     text-align: center;
@@ -61,127 +47,26 @@ main.about {
     // border-bottom-left-radius: 50px;
     border-bottom: 2px solid rgb(209, 209, 209);
 }
-.text {
-    padding-top: 0.8rem;
+.main-text {
     text-align: center;
-    line-height: 1.5;
-}
-.role {
-    padding-top: 1.8rem;
-    font-weight: 600;
-}
-.personal {
-    padding-top: 1.8rem;
-    font-size: 1.3rem;
-    font-weight: 600;
-}
-#italic {
-    font-style: italic;
-}
-.interests {
-    // background-color: rgba(143, 143, 143, 0.8);
-    // border-radius: 50px;
-    // padding: 20px;
-}
-.interests-cols {
-    display: flex;
-    column-gap: 60px;
-    padding-top: 40px;
-    padding-bottom: 80px;
-}
-.col {
-    width: 33%;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
     background-color: white;
-    border-radius: 50px;
-    padding: 20px 35px;
-    box-shadow: 10px 10px 5px 0px rgba(112, 112, 112, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(103, 103, 103, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(91, 91, 91, 0.75);
-}
-.icon {
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 15px;
-}
-.fa-primary {
-    color: var(--bg-secondary);
-}
-.fa-secondary {
-    color: blue;
-}
-.fa-tertiary {
-    color: rgb(12, 92, 12);
-}
-.finance {
-    font-weight: 900;
-    font-size: 1.1rem;
-    color: rgb(12, 92, 12);
-}
-.education {
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: blue;
-}
-.privacy {
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: var(--bg-secondary);
-}
-.resume {
-    text-align: center;
-    font-weight: 800;
-    font-size: 1.2rem;
-    margin: 5px;
-    color: rgb(36, 36, 252);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    // margin-top: 0.5rem;
-    // margin-left: 1rem;
+    border-radius: 4px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 15px 5px rgba(135, 135, 135, 0.3);
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(135, 135, 135, 0.3);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(135, 135, 135, 0.3);
+    font-weight: 500;
 }
 .link {
-    margin-top: 0.5rem;
-    margin-left: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    display: flex;
-    align-items: right;
-    column-gap: 5px;
-}
-.icon {
-    margin-top: 0.11rem;
-    width: 20px;
-}
-.icons-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 2rem;
-    padding-bottom: 25px;
-    border-bottom: 2px solid rgb(39, 39, 39);
-}
-.icon-box {
-    background-color: rgb(249, 249, 251, 0.9);
-    border: 1px solid rgba(126, 126, 126, 0.7);
-    border-radius: 20px;
-    width: 100px;
-    padding: 20px;
-    cursor: pointer;
-    transition: all 0.3s linear;
-    display: flex;
-    margin: 0px auto;
-    // box-shadow: 1px 7px 16px 5px rgba(0, 0, 0, 0.3);
-    // -webkit-box-shadow: 1px 7px 16px 5px rgba(0, 0, 0, 0.3);
-    // -moz-box-shadow: 1px 7px 16px 5px rgba(0, 0, 0, 0.3);
-}
+    color: blue;
+    text-decoration: none;
+  
+    &:hover {
+      color: darkblue;
+      text-decoration: underline;
+    }
+  }
 @media only screen and (min-width: 600px) {
     .icon-box:hover {
         padding: 15px;
@@ -189,9 +74,7 @@ main.about {
     .main-text {
         width: 60%;
         margin-left: 20%;
-        text-align: center;
-        line-height: 1.58;
-        font-weight: 500;
+        padding: 30px;
     }
 }
 
@@ -201,26 +84,6 @@ main.about {
         width: 90%;
         padding: 40px 20px;
         margin-left: 5%;
-    }
-    .interests-cols {
-        flex-direction: column;
-        padding-top: 40px;
-    }
-    .col {
-        width: 100%;
-        margin-top: 15px;
-        padding-top: 15px;
-    }
-    .interests,
-    .skills {
-        padding: 0px 10px;
-    }
-    .icons-row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        margin-bottom: 5.5rem;
-        column-gap: 10px;
     }
     .title {
         margin-left: 0;
