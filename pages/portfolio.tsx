@@ -435,7 +435,7 @@ function Portfolio() {
               </div>
               <h2 className={styles["proj-title"]}>Red Velvet Blog</h2>
               <p className={styles["description"]}>
-                My personal crypto/tech blog
+                My personal crypto/tech blog (moved to Substack)
               </p>
               <p className={styles["stack"]}>
                 Next, GraphCMS, TS
@@ -458,7 +458,7 @@ function Portfolio() {
                   </a>
                 </div>
                 <div className={styles["links"]}>
-                  <div className={styles["links-item"]}>
+                  {/* <div className={styles["links-item"]}>
                     <div>
                       <a
                         href="https://moonlab.space"
@@ -472,7 +472,7 @@ function Portfolio() {
                         ></Image>
                       </a>
                     </div>
-                  </div>
+                  </div> */}
                   <div className={styles["links-item"]}>
                     <div>
                       <a
@@ -488,26 +488,11 @@ function Portfolio() {
                       </a>
                     </div>
                   </div>
-                  <div className={styles["links-item"]}>
-                    <div>
-                      <a
-                        href="https://discord.gg/2gwcaPK4xK"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <Image
-                          object-fit="contain"
-                          src={discordLogo}
-                          alt="MoonLab Discord"
-                        ></Image>
-                      </a>
-                    </div>
-                  </div>
                 </div>
               </div>
               <h2 className={styles["proj-title"]}>MoonLab</h2>
               <p className={styles["description"]}>
-                Agency landing page
+                Web3 development and design agency
               </p>
               <p className={styles["stack"]}>
                 Webflow
