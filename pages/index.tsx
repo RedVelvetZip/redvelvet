@@ -142,7 +142,7 @@ function Dev() {
               // border: '2px solid white'
             }}
           /> */}
-          <div className={styles["circle"]}>
+          {/* <div className={styles["circle"]}>
             <div className={styles["logo"]}>
               <Image
                 src={logo}
@@ -152,7 +152,7 @@ function Dev() {
               >
               </Image>
             </div>
-          </div>
+          </div> */}
         </main>
       </body>
     </>
