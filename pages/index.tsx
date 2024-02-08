@@ -10,7 +10,7 @@ import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import linkedinLogo from "../assets/wallet-icons/linkedin.svg";
-import warpLogo from "../assets/wallet-icons/warpLogo.jpg";
+import warpLogo from "../assets/wallet-icons/warpcast.png";
 import { InlineWidget } from "react-calendly";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -83,7 +83,7 @@ function Dev() {
           <div className={styles["blog"]}>
             <Link href="https://redvelvetzip.substack.com/" passHref>
               <span className={styles["blog-home"]}>
-                Personal Tech Blog
+                Personal Blog
                 <svg
                   className={styles["icon"]}
                   xmlns="http://www.w3.org/2000/svg"
