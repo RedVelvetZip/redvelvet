@@ -5,6 +5,7 @@ import Image from "next/image";
 import linkLogo from "../assets/wallet-icons/link.svg";
 // import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
+import warpcastLogo from "../assets/wallet-icons/warpcast.png";
 import meetupLogo from "../assets/wallet-icons/meetup.png";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import hack3rsLogo from "../assets/portfolio/Hack3rs.jpg";
@@ -12,7 +13,7 @@ import hack3rsLogo from "../assets/portfolio/Hack3rs.jpg";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo4.png";
 import cryptoradoLogo from "../assets/portfolio/cryptoradoBanner_wide.png";
 import messariLogo from "../assets/portfolio/messari.png";
-import l2bitLogo from "../assets/portfolio/l2bit.png";
+import bitcoinlayersLogo from "../assets/portfolio/bitcoinlayers.jpg";
 import redvelvetLogo from "../assets/logo2.gif"
 // import vqLogo from "../assets/portfolio/VQ Logo1.png";
 import DevLayout from '../components/dev/LayoutDev'
@@ -92,8 +93,8 @@ function Projects() {
                                 >
                                     <Image
                                         objectFit='contain'
-                                        src={l2bitLogo}
-                                        alt="l2bit"
+                                        src={bitcoinlayersLogo}
+                                        alt="bitcoinlayers"
                                     ></Image>
                                 </a>
                             </div>
@@ -116,7 +117,7 @@ function Projects() {
                                 <div className={styles["links-item"]}>
                                     <div>
                                         <a
-                                            href="https://twitter.com/BitcoinRollups"
+                                            href="https://twitter.com/BitcoinLayers"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
@@ -128,18 +129,30 @@ function Projects() {
                                         </a>
                                     </div>
                                 </div>
+                                <div className={styles["links-item"]}>
+                                    <div>
+                                        <a
+                                            href="https://warpcast.com/bitcoinlayers"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                object-fit="contain"
+                                                src={warpcastLogo}
+                                                alt="Warpcast"
+                                            ></Image>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className={styles["project"]}>
-                            {/* <p className={styles["name"]}>
-                            MoonLab
-                            </p> */}
                             <p className={styles["role"]}>
-                                Builder/Educator, Bitcoin Rollups
+                                Builder/Educator, Bitcoin Layers
                             </p>
                         </div>
                         <p className={styles["description"]}>
-                            Documenting Bitcoin L2s and rollups. I contribute frontend development and research to this project.
+                            Documenting Bitcoin layers. I contribute frontend development and research to this project.
                         </p>
                     </div>
                     <div className={styles["flex-item"]}>
