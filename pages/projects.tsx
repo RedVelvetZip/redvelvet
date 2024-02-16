@@ -44,14 +44,14 @@ function Projects() {
                                 <div className={styles["links-item"]}>
                                     <div>
                                         <a
-                                            href="http://cryptorado.org/"
+                                            href="http://messari.io/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
                                             <Image
                                                 object-fit="contain"
                                                 src={linkLogo}
-                                                alt="Cryptorado website"
+                                                alt="Messari website"
                                             ></Image>
                                         </a>
                                     </div>
@@ -67,6 +67,21 @@ function Projects() {
                                                 object-fit="contain"
                                                 src={twitterLogo}
                                                 alt="Twitter"
+                                            ></Image>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className={styles["links-item"]}>
+                                    <div>
+                                        <a
+                                            href="https://warpcast.com/~/channel/messari"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                object-fit="contain"
+                                                src={warpcastLogo}
+                                                alt="Warpcast"
                                             ></Image>
                                         </a>
                                     </div>
@@ -132,7 +147,7 @@ function Projects() {
                                 <div className={styles["links-item"]}>
                                     <div>
                                         <a
-                                            href="https://warpcast.com/bitcoinlayers"
+                                            href="https://warpcast.com/~/channel/bitcoinlayers"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
