@@ -102,7 +102,7 @@ function Projects() {
                             <div className={styles["logo"]}>
                                 <a
                                     className={styles["logo-case"]}
-                                    href="http://bitcoinrollups.io/"
+                                    href="http://bitcoinlayers.redvelvet.tech/"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -117,7 +117,7 @@ function Projects() {
                                 <div className={styles["links-item"]}>
                                     <div>
                                         <a
-                                            href="https://www.bitcoinrollups.io/"
+                                            href="https://www.bitcoinlayers.redvelvet.tech/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
