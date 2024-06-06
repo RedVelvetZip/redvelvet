@@ -5,6 +5,7 @@ import Image from "next/image";
 import linkLogo from "../assets/wallet-icons/link.svg";
 // import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
+import telegramLogo from "../assets/wallet-icons/tg.png";
 import warpcastLogo from "../assets/wallet-icons/warpcast.png";
 import meetupLogo from "../assets/wallet-icons/meetup.png";
 import discordLogo from "../assets/wallet-icons/discord.svg";
@@ -13,7 +14,8 @@ import hack3rsLogo from "../assets/portfolio/Hack3rs.jpg";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo4.png";
 import cryptoradoLogo from "../assets/portfolio/cryptoradoBanner_wide.png";
 import messariLogo from "../assets/portfolio/messari.png";
-import bitcoinlayersLogo from "../assets/portfolio/bitcoinlayers.jpg";
+import bitcoinlayersLogo from "../assets/portfolio/bitcoinlayers.png";
+import degenLogo from "../assets/portfolio/degenofficehrs.png";
 import redvelvetLogo from "../assets/logo2.gif";
 // import vqLogo from "../assets/portfolio/VQ Logo1.png";
 import DevLayout from "../components/dev/LayoutDev";
@@ -146,6 +148,21 @@ function Projects() {
                 <div className={styles["links-item"]}>
                   <div>
                     <a
+                      href="https://t.me/+8rv-1I2gkmQ4ZmJh"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={telegramLogo}
+                        alt="telegram"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                {/* <div className={styles["links-item"]}>
+                  <div>
+                    <a
                       href="https://warpcast.com/~/channel/bitcoinlayers"
                       target="_blank"
                       rel="noreferrer"
@@ -157,17 +174,88 @@ function Projects() {
                       ></Image>
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className={styles["project"]}>
-              <p className={styles["role"]}>
-                Technical Stuff, Bitcoin Layers
-              </p>
+              <p className={styles["role"]}>Co-founder / CTO, Bitcoin Layers</p>
             </div>
             <p className={styles["description"]}>
-              I maintain the website, contribute to research / educational
-              content, and host community calls. Bitcoin needs Layers.
+              Bitcoin-only research. I maintain the website, contribute to
+              research / educational content, and host community calls. Bitcoin
+              needs Layers.
+            </p>
+          </div>
+          <div className={styles["flex-item"]}>
+            <div className={styles["title"]}>
+              <div className={styles["logo"]}>
+                <a
+                  className={styles["logo-case"]}
+                  href="https://sanko.tv/degenofficehrs"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    objectFit="contain"
+                    src={degenLogo}
+                    alt="degen"
+                  ></Image>
+                </a>
+              </div>
+              <div className={styles["links"]}>
+                <div className={styles["links-item"]}>
+                  <div>
+                    <a
+                      href="https://sanko.tv/degenofficehrs"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={linkLogo}
+                        alt="Sanko TV"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                <div className={styles["links-item"]}>
+                  <div>
+                    <a
+                      href="https://x.com/degenofficehrs"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={twitterLogo}
+                        alt="Twitter"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                {/* <div className={styles["links-item"]}>
+                  <div>
+                    <a
+                      href="https://t.me/+8rv-1I2gkmQ4ZmJh"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={telegramLogo}
+                        alt="telegram"
+                      ></Image>
+                    </a>
+                  </div>
+                </div> */}
+              </div>
+            </div>
+            <div className={styles["project"]}>
+              <p className={styles["role"]}>Host, Degen Office Hours</p>
+            </div>
+            <p className={styles["description"]}>
+              Live every week on crypto streaming platform Sanko.tv. Discussing
+              the latest in crypto.
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -253,13 +341,12 @@ function Projects() {
               {/* <p className={styles["name"]}>
                             MoonLab
                             </p> */}
-              <p className={styles["role"]}>Event Host, Cryptorado</p>
+              <p className={styles["role"]}>Steward, Cryptorado</p>
             </div>
             <p className={styles["description"]}>
-              Cryptorado is a community in Colorado for all things crypto.
-              Coworking, lectures/workshops, hangouts, and adventures. I speak
-              at and help organize some of these events. Lectures, panels, and
-              more!
+              Cryptorado is a community in Denver, Colorado for all things
+              crypto. Coworking, lectures/workshops, hangouts, and adventures. I
+              speak at and help organize some of these events.
             </p>
           </div>
         </div>
@@ -332,7 +419,7 @@ function Projects() {
               </div>
             </div>
             <div className={styles["project"]}>
-              <p className={styles["role"]}>Co-founder & CTO, MoonLab</p>
+              <p className={styles["role"]}>Co-founder / CTO, MoonLab</p>
             </div>
             <p className={styles["description"]}>
               MoonLab is a <strong>full-service web3 agency</strong> that takes
@@ -441,7 +528,6 @@ function Projects() {
                     </a>
                   </div>
                 </div>
-               
               </div>
             </div>
             <div className={styles["project"]}>
