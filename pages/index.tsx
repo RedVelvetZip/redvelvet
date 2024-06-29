@@ -1,30 +1,27 @@
 import styles from "../styles/dev.module.scss";
-import Head from 'next/head';
+import Head from "next/head";
 import Image from "next/image";
 // import logo from "../assets/logo512.png"
-import logo from "../assets/logo2.gif"
-import DevLayout from '../components/dev/LayoutDev'
+import logo from "../assets/logo2.gif";
+import DevLayout from "../components/dev/LayoutDev";
 import Link from "next/link";
-import emailLogo from '../assets/wallet-icons/email.svg'
+import emailLogo from "../assets/wallet-icons/email.svg";
 import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import linkedinLogo from "../assets/wallet-icons/linkedin.svg";
 import warpLogo from "../assets/wallet-icons/warpcast.png";
 import { InlineWidget } from "react-calendly";
-import { Carousel } from 'react-responsive-carousel';
+import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { reviewOne, reviewTwo } from '../components/Carousel/Data'
+import { reviewOne, reviewTwo } from "../components/Carousel/Data";
 
 function Dev() {
   return (
     <>
       <Head>
         <title>Red Velvet</title>
-        <meta
-          name='description'
-          content='Crypto, Coding, Finance, & More'
-        />
+        <meta name="description" content="Crypto, Coding, Finance, & More" />
         <meta property="og:url" content="redvelvet.tech" />
         <meta property="og:type" content="website" />
         <meta
@@ -37,28 +34,48 @@ function Dev() {
         <main className={styles["dev"]}>
           <div className={styles["icons-row"]}>
             <div className={styles["icon-box"]}>
-              <a href="https://twitter.com/RedVelvetZip" target="_blank" rel="noreferrer" className={styles["icon-link"]}>
+              <a
+                href="https://twitter.com/RedVelvetZip"
+                target="_blank"
+                rel="noreferrer"
+                className={styles["icon-link"]}
+              >
                 <Image alt="Twitter" src={twitterLogo}></Image>
               </a>
             </div>
-            <div className={styles["icon-box"]}>
+            {/* <div className={styles["icon-box"]}>
               <a href="https://warpcast.com/redvelvet" target="_blank" rel="noreferrer" className={styles["icon-link"]}>
                 <Image alt="farcaster" src={warpLogo}></Image>
               </a>
-            </div>
+            </div> */}
             <div className={styles["icon-box"]}>
-              <a href="https://github.com/RedVelvetZip" target="_blank" rel="noreferrer" className={styles["icon-link"]}>
+              <a
+                href="https://github.com/RedVelvetZip"
+                target="_blank"
+                rel="noreferrer"
+                className={styles["icon-link"]}
+              >
                 <Image alt="GitHub" src={githubLogo}></Image>
               </a>
             </div>
             <div className={styles["icon-box"]}>
-              <a href="mailto:bradley.t.sheehan@gmail.com" target="_blank" rel="noreferrer" className={styles["icon-link"]}>
+              <a
+                href="mailto:bradley.t.sheehan@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className={styles["icon-link"]}
+              >
                 <Image alt="email" src={emailLogo}></Image>
               </a>
             </div>
             <div className={styles["icon-box"]}>
-              <a href="https://www.linkedin.com/in/bradleysheehan/" target="_blank" rel="noreferrer" className={styles["icon-link"]}>
-                <Image alt="LinkedIn" src={linkedinLogo} ></Image>
+              <a
+                href="https://www.linkedin.com/in/bradleysheehan/"
+                target="_blank"
+                rel="noreferrer"
+                className={styles["icon-link"]}
+              >
+                <Image alt="LinkedIn" src={linkedinLogo}></Image>
               </a>
             </div>
           </div>
@@ -158,7 +175,6 @@ function Dev() {
     </>
   );
 }
-Dev.layout = DevLayout
+Dev.layout = DevLayout;
 
 export default Dev;
-
