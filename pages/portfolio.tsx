@@ -10,7 +10,7 @@ import discordLogo from "../assets/wallet-icons/discord.svg";
 import infoLogo from "../assets/wallet-icons/info.svg";
 import ethLogo from "../assets/wallet-icons/eth.png";
 import polygonLogo from "../assets/wallet-icons/polygon.png";
-import DevLayout from '../components/dev/LayoutDev'
+import DevLayout from "../components/dev/LayoutDev";
 import lltk from "../assets/portfolio/LLTK.png";
 import moonlab from "../assets/portfolio/moonlab.png";
 import shroomies from "../assets/portfolio/shroomies.png";
@@ -31,7 +31,7 @@ function Portfolio() {
         <h2 className={styles["header"]}>Portfolio</h2>
         <main className={styles["portfolio"]}>
           <div className={styles["flex-container"]}>
-          <div className={styles["flex-item"]}>
+            <div className={styles["flex-item"]}>
               <div className={styles["title"]}>
                 <div className={styles["logo"]}>
                   <a
@@ -42,7 +42,7 @@ function Portfolio() {
                   >
                     <Image
                       // layout='fill'
-                      objectFit='cover'
+                      objectFit="cover"
                       src={opcode}
                       alt="Tiny Tix"
                     ></Image>
@@ -50,7 +50,7 @@ function Portfolio() {
                 </div>
                 <div className={styles["links"]}>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://opcodecritters.redvelvet.tech/"
                         target="_blank"
@@ -65,7 +65,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://github.com/RedVelvetZip/opcodecritters"
                         target="_blank"
@@ -80,7 +80,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://redvelvetzip.github.io/pokemon-battle-system/"
                         target="_blank"
@@ -95,7 +95,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://github.com/RedVelvetZip/pokemon-battle-system"
                         target="_blank"
@@ -115,9 +115,7 @@ function Portfolio() {
               <p className={styles["description"]}>
                 An educational game about Bitcoin's OP_CAT opcode
               </p>
-              <p className={styles["stack"]}>
-                React
-              </p>
+              <p className={styles["stack"]}>React</p>
             </div>
             <div className={styles["flex-item"]}>
               <div className={styles["title"]}>
@@ -130,7 +128,7 @@ function Portfolio() {
                   >
                     <Image
                       // layout='fill'
-                      objectFit='cover'
+                      objectFit="cover"
                       src={vqgames}
                       alt="VQ Games"
                     ></Image>
@@ -138,7 +136,7 @@ function Portfolio() {
                 </div>
                 <div className={styles["links"]}>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://vq-2.vercel.app/"
                         target="_blank"
@@ -153,7 +151,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://etherscan.io/address/0x12e106626b84ed5fc38cfde56ce05eafef17d424"
                         target="_blank"
@@ -168,7 +166,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://twitter.com/VQGamesOfficial"
                         target="_blank"
@@ -183,7 +181,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://t.co/vvnoW0vXWH"
                         target="_blank"
@@ -198,7 +196,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://medium.com/@TheEsportsPlug/behind-the-curtains-creation-of-a-long-term-nft-project-8e8c57ffe988"
                         target="_blank"
@@ -218,9 +216,7 @@ function Portfolio() {
               <p className={styles["description"]}>
                 Group-strategy, turn-by-turn, blockchain games
               </p>
-              <p className={styles["stack"]}>
-                Next, TS, Solidity, Firebase
-              </p>
+              <p className={styles["stack"]}>Next, TS, Solidity, Firebase</p>
             </div>
             <div className={styles["flex-item"]}>
               <div className={styles["title"]}>
@@ -233,7 +229,7 @@ function Portfolio() {
                   >
                     <Image
                       // layout='fill'
-                      objectFit='cover'
+                      objectFit="cover"
                       src={tinytix}
                       alt="Tiny Tix"
                     ></Image>
@@ -241,7 +237,7 @@ function Portfolio() {
                 </div>
                 <div className={styles["links"]}>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://tinytix.xyz"
                         target="_blank"
@@ -256,7 +252,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://www.redvelvet.tech/post/tiny-tix"
                         target="_blank"
@@ -271,7 +267,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://github.com/tinytix"
                         target="_blank"
@@ -288,12 +284,8 @@ function Portfolio() {
                 </div>
               </div>
               <h2 className={styles["proj-title"]}>Tiny Tix</h2>
-              <p className={styles["description"]}>
-                Tickets on the blockchain
-              </p>
-              <p className={styles["stack"]}>
-                React, Solidity, Go
-              </p>
+              <p className={styles["description"]}>Tickets on the blockchain</p>
+              <p className={styles["stack"]}>React, Solidity, Go</p>
             </div>
             <div className={styles["flex-item"]}>
               <div className={styles["title"]}>
@@ -306,7 +298,7 @@ function Portfolio() {
                   >
                     <Image
                       // layout='fill'
-                      objectFit='cover'
+                      objectFit="cover"
                       src={pablo}
                       alt="Pablo Pieces"
                     ></Image>
@@ -314,7 +306,7 @@ function Portfolio() {
                 </div>
                 <div className={styles["links"]}>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://pablo-pieces.vercel.app/"
                         target="_blank"
@@ -329,7 +321,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://etherscan.io/address/0x86f0f8592f1f4fb4fbfa7f02c39188e8bf992a31"
                         target="_blank"
@@ -344,7 +336,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://www.redvelvet.tech/post/shroomies"
                         target="_blank"
@@ -359,7 +351,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://github.com/RedVelvetZip/PabloPieces"
                         target="_blank"
@@ -376,12 +368,8 @@ function Portfolio() {
                 </div>
               </div>
               <h2 className={styles["proj-title"]}>Pablo Pieces</h2>
-              <p className={styles["description"]}>
-                Pfp NFT project
-              </p>
-              <p className={styles["stack"]}>
-                React, Solidity
-              </p>
+              <p className={styles["description"]}>Pfp NFT project</p>
+              <p className={styles["stack"]}>React, Solidity</p>
             </div>
             <div className={styles["flex-item"]}>
               <div className={styles["title"]}>
@@ -394,7 +382,7 @@ function Portfolio() {
                   >
                     <Image
                       // layout='fill'
-                      objectFit='cover'
+                      objectFit="cover"
                       src={blog}
                       alt="redvelvet"
                     ></Image>
@@ -402,7 +390,7 @@ function Portfolio() {
                 </div>
                 <div className={styles["links"]}>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://redvelvet.tech/blog"
                         target="_blank"
@@ -417,7 +405,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://github.com/RedVelvetZip/redvelvet"
                         target="_blank"
@@ -437,25 +425,19 @@ function Portfolio() {
               <p className={styles["description"]}>
                 My personal crypto/tech blog (moved to Substack)
               </p>
-              <p className={styles["stack"]}>
-                Next, GraphCMS, TS
-              </p>
+              <p className={styles["stack"]}>Next, GraphCMS, TS</p>
             </div>
             <div className={styles["flex-item"]}>
               <div className={styles["title"]}>
                 <div className={styles["logo"]}>
-                  <a
+                  {/* <a
                     className={styles["logo-case"]}
                     href="https://moonlab.space"
                     target="_blank"
                     rel="noreferrer"
-                  >
-                    <Image
-                      objectFit='cover'
-                      src={moonlab}
-                      alt="MoonLab"
-                    ></Image>
-                  </a>
+                  > */}
+                  <Image objectFit="cover" src={moonlab} alt="MoonLab"></Image>
+                  {/* </a> */}
                 </div>
                 <div className={styles["links"]}>
                   {/* <div className={styles["links-item"]}>
@@ -494,9 +476,7 @@ function Portfolio() {
               <p className={styles["description"]}>
                 Web3 development and design agency
               </p>
-              <p className={styles["stack"]}>
-                Webflow
-              </p>
+              <p className={styles["stack"]}>Webflow</p>
             </div>
             <div className={styles["flex-item"]}>
               <div className={styles["title"]}>
@@ -509,7 +489,7 @@ function Portfolio() {
                   >
                     <Image
                       // layout='fill'
-                      objectFit='cover'
+                      objectFit="cover"
                       src={shroomies}
                       alt="Shroomies"
                     ></Image>
@@ -517,7 +497,7 @@ function Portfolio() {
                 </div>
                 <div className={styles["links"]}>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://shroomies.redvelvetwiki.com"
                         target="_blank"
@@ -532,7 +512,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://polygonscan.com/token/0xc49e6cde4a903391824b99fd20a0094ccff7ab13"
                         target="_blank"
@@ -547,7 +527,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://www.redvelvet.tech/post/shroomies"
                         target="_blank"
@@ -567,9 +547,7 @@ function Portfolio() {
               <p className={styles["description"]}>
                 Minting Dapp for Polygon ERC721 NFT token
               </p>
-              <p className={styles["stack"]}>
-                React, Solidity, Polygon
-              </p>
+              <p className={styles["stack"]}>React, Solidity, Polygon</p>
             </div>
             <div className={styles["flex-item"]}>
               <div className={styles["title"]}>
@@ -582,7 +560,7 @@ function Portfolio() {
                   >
                     <Image
                       // layout='fill'
-                      objectFit='cover'
+                      objectFit="cover"
                       src={lltk}
                       alt="Long Live The Kiks"
                     ></Image>
@@ -590,7 +568,7 @@ function Portfolio() {
                 </div>
                 <div className={styles["links"]}>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://lltk.vercel.app/"
                         target="_blank"
@@ -605,7 +583,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://twitter.com/LongLiveTheKiks"
                         target="_blank"
@@ -620,7 +598,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://www.redvelvet.tech/post/blockchain-validation-of-physical-items"
                         target="_blank"
@@ -640,9 +618,7 @@ function Portfolio() {
               <p className={styles["description"]}>
                 NFT shoe project with on-chain validation of physical products
               </p>
-              <p className={styles["stack"]}>
-                React, AVAX
-              </p>
+              <p className={styles["stack"]}>React, AVAX</p>
             </div>
             <div className={styles["flex-item"]}>
               <div className={styles["title"]}>
@@ -655,7 +631,7 @@ function Portfolio() {
                   >
                     <Image
                       // layout='fill'
-                      objectFit='cover'
+                      objectFit="cover"
                       src={tutorra}
                       alt="Tutorra"
                     ></Image>
@@ -663,7 +639,7 @@ function Portfolio() {
                 </div>
                 <div className={styles["links"]}>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://jp.redvelvetwiki.com"
                         target="_blank"
@@ -678,7 +654,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className={styles["links-item"]}>
-                    <div >
+                    <div>
                       <a
                         href="https://github.com/RedVelvetZip/JP"
                         target="_blank"
@@ -695,12 +671,8 @@ function Portfolio() {
                 </div>
               </div>
               <h2 className={styles["proj-title"]}>Tutorra</h2>
-              <p className={styles["description"]}>
-                Tutoring landing page
-              </p>
-              <p className={styles["stack"]}>
-                React
-              </p>
+              <p className={styles["description"]}>Tutoring landing page</p>
+              <p className={styles["stack"]}>React</p>
             </div>
           </div>
         </main>
@@ -708,6 +680,6 @@ function Portfolio() {
     </>
   );
 }
-Portfolio.layout = DevLayout
+Portfolio.layout = DevLayout;
 
 export default Portfolio;
