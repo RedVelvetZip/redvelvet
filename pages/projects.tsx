@@ -111,82 +111,11 @@ function Projects() {
               </p>
             </div>
             <p className={styles["description"]}>
-              Bitcoin-only research. I do some devving, some research, and some
-              community mgmt.
+              Bitcoin-only research and protocol services. I do a lil devving, research, and
+              community management.
             </p>
           </div>
-          <div className={styles["flex-item"]}>
-            <div className={styles["title"]}>
-              <div className={styles["logo"]}>
-                <a
-                  className={styles["logo-case"]}
-                  href="https://messari.io/research/red-sheehan"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    objectFit="contain"
-                    src={messariLogo}
-                    alt="messari"
-                  ></Image>
-                </a>
-              </div>
-              <div className={styles["links"]}>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://messari.io/research/red-sheehan"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={linkLogo}
-                        alt="Messari website"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://twitter.com/messaricrypto"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={twitterLogo}
-                        alt="Twitter"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://warpcast.com/~/channel/messari"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={warpcastLogo}
-                        alt="Warpcast"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles["project"]}>
-              <p className={styles["role"]}>Research Analyst, Messari</p>
-            </div>
-            <p className={styles["description"]}>
-              Messari is the Bloomberg of crypto. I'm a research analyst
-              covering base layer protocols (L1s and L2s) and privacy protocols.
-            </p>
-          </div>
+       
           <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
               <div className={styles["logo"]}>
@@ -355,6 +284,78 @@ function Projects() {
       <h2 className={styles["header"]}>Previous Roles</h2>
       <main className={styles["portfolio"]}>
         <div className={styles["flex-container"]}>
+        <div className={styles["flex-item"]}>
+            <div className={styles["title"]}>
+              <div className={styles["logo"]}>
+                <a
+                  className={styles["logo-case"]}
+                  href="https://messari.io/research/red-sheehan"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    objectFit="contain"
+                    src={messariLogo}
+                    alt="messari"
+                  ></Image>
+                </a>
+              </div>
+              <div className={styles["links"]}>
+                <div className={styles["links-item"]}>
+                  <div>
+                    <a
+                      href="https://messari.io/research/red-sheehan"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={linkLogo}
+                        alt="Messari website"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                <div className={styles["links-item"]}>
+                  <div>
+                    <a
+                      href="https://twitter.com/messaricrypto"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={twitterLogo}
+                        alt="Twitter"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                <div className={styles["links-item"]}>
+                  <div>
+                    <a
+                      href="https://warpcast.com/~/channel/messari"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={warpcastLogo}
+                        alt="Warpcast"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles["project"]}>
+              <p className={styles["role"]}>Research Analyst, Messari</p>
+            </div>
+            <p className={styles["description"]}>
+              Messari is the Bloomberg of crypto. I'm a research analyst
+              covering base layer protocols (L1s and L2s) and privacy protocols.
+            </p>
+          </div>
           <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
               <div className={styles["logo"]}>
