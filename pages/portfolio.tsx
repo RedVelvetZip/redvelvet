@@ -36,7 +36,7 @@ function Portfolio() {
                 <div className={styles["logo"]}>
                   <a
                     className={styles["logo-case"]}
-                    href="https://opcodecritters.redvelvet.tech/"
+                    href="https://opcode-critters.webflow.io/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -52,7 +52,7 @@ function Portfolio() {
                   <div className={styles["links-item"]}>
                     <div>
                       <a
-                        href="https://opcodecritters.redvelvet.tech/"
+                        href="https://opcode-critters.webflow.io/"
                         target="_blank"
                         rel="noreferrer"
                       >

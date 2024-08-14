@@ -286,7 +286,7 @@ function Projects() {
             </div>
             <p className={styles["description"]}>
               Cryptorado is a community in Denver, Colorado for all things
-              crypto. Coworking, lectures/workshops, hangouts, and adventures. I
+              crypto. Coworking, lectures, workshops, hangouts, and adventures. I
               speak at and help organize some of these events.
             </p>
           </div>
@@ -610,7 +610,7 @@ function Projects() {
               <div className={styles["logo"]}>
                 <a
                   className={styles["logo-case"]}
-                  href="https://opcodecritters.redvelvet.tech/"
+                  href="https://opcode-critters.webflow.io/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -626,7 +626,7 @@ function Projects() {
                 <div className={styles["links-item"]}>
                   <div>
                     <a
-                      href="https://opcodecritters.redvelvet.tech/"
+                      href="https://opcode-critters.webflow.io/"
                       target="_blank"
                       rel="noreferrer"
                     >
