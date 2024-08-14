@@ -30,7 +30,7 @@ main.portfolio {
   margin-left: 10%;
   // background-color: rgb(249, 249, 251, 0.93);
   border-radius: 50px;
-  padding: 30px 30px 60px 30px;
+  padding: 30px;
 }
 .header {
   text-align: center;
@@ -156,7 +156,7 @@ main.portfolio {
 
 @media only screen and (max-width: 600px) {
   main.portfolio {
-    margin-bottom: 5.5rem;
+    margin-bottom: .5rem;
     padding: 40px 15px;
     width: 90%;
     margin-left: 5%;

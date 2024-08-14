@@ -9,8 +9,7 @@ function About() {
     <body className={styles["devbody"]}>
       <h2 className={styles["title"]}>About Me</h2>
       <p className={styles["main-text"]}>
-        Hey there, I&#39;m Red. I&#39;m a research analyst and software
-        developer in the crypto space. At the core of nearly all that I do are{" "}
+        Hey there, I&#39;m Red. I write code and research in the crypto space. At the core of nearly all that I do are{" "}
         <br />
         <b>
           1. my passion for education and <br />
