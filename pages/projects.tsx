@@ -264,12 +264,9 @@ function Projects() {
               <p className={styles["role"]}>Research Analyst, Messari</p>
             </div>
             <p className={styles["description"]}>
-              Messari is the Bloomberg of crypto. I'm a{" "}
-              <strong>
-                research analyst covering base layer protocol (L1s and L2s)
-                architectures
-              </strong>{" "}
-              and privacy protocols.
+              Messari is the Bloomberg of crypto. I'm a research analyst
+              covering base layer protocol (L1s and L2s) architectures and
+              privacy protocols.
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -323,11 +320,8 @@ function Projects() {
             <p className={styles["description"]}>
               I created a curriculum and taught Solidity in live weekly
               code-alongs. Hack3rsClub is a community of developers hosted by
-              BeMyApp and Hackathon.com. I{" "}
-              <strong>
-                teach Web2 developers the basics of Web3 development
-              </strong>{" "}
-              through webinars, code-alongs, and workshops.
+              BeMyApp and Hackathon.com. I teach Web2 developers the basics of
+              Web3 development through webinars, code-alongs, and workshops.
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -424,10 +418,9 @@ function Projects() {
               <p className={styles["name"]}>Co-founder / CTO, VQ Games</p>
             </div>
             <p className={styles["description"]}>
-              Battle for New Venice is a{" "}
-              <strong>group-strategy, turn-by-turn, NFT game</strong>. This game
-              is more similar to a board game than a video game and was deployed
-              on Ethereum mainnet.
+              Battle for New Venice is a group-strategy, turn-by-turn, NFT game.
+              This game is more similar to a board game than a video game and
+              was deployed on Ethereum mainnet.
             </p>
           </div>
           {/* <div className={styles["flex-item"]}>
@@ -466,7 +459,7 @@ function Projects() {
               <p className={styles["role"]}>Co-founder / CTO, MoonLab</p>
             </div>
             <p className={styles["description"]}>
-              MoonLab is a <strong>full-service web3 agency</strong> that takes
+              MoonLab is a full-service web3 agency that takes
               ideas from concept to launch. We offer a la carte services for
               every step of the business development process.
             </p>
@@ -535,8 +528,8 @@ function Projects() {
               <p className={styles["role"]}>Developer, Opcode Critters</p>
             </div>
             <p className={styles["description"]}>
-              This is an <strong>educational game about OP_CAT</strong>, a
-              Bitcoin opcode, created for a Taproot Wizards initiative.
+              This is an educational game about OP_CAT, a Bitcoin opcode,
+              created for a Taproot Wizards initiative.
             </p>
           </div>
         </div>
