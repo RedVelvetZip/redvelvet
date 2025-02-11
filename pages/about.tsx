@@ -9,8 +9,8 @@ function About() {
     <body className={styles["devbody"]}>
       <h2 className={styles["title"]}>About Me</h2>
       <p className={styles["main-text"]}>
-        Hey there, I&#39;m Red. I write code and research in the crypto space. At the core of nearly all that I do are{" "}
-        <br />
+        Hey there, I&#39;m Red. I write code and research in the crypto space.
+        At the core of nearly all that I do are <br />
         <b>
           1. my passion for education and <br />
           2. my fascination with{" "}
@@ -73,7 +73,7 @@ function About() {
           is the core value prop of crypto.
         </b>
       </p>
-      <p className={styles["main-text"]}>
+      {/* <p className={styles["main-text"]}>
         Not necessarily related to crypto, here are some other fixations of mine
         and hills that I will gladly die on: <br />
         <br />
@@ -120,7 +120,7 @@ function About() {
         <br />
         <br />- Brains are wet computers and crypto is the ying to AI's yang. I
         will not elaborate further.
-      </p>
+      </p> */}
       <div className={styles2["devbody"]}>
         <div className={styles2["dev"]}>
           <div className={styles2["circle"]}>

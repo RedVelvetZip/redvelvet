@@ -1,37 +1,28 @@
 import styles from "../styles/projects.module.scss";
-// import Header from "../components/Header";
-// import Link from "next/link";
 import Image from "next/image";
 import linkLogo from "../assets/wallet-icons/link.svg";
-// import githubLogo from "../assets/wallet-icons/github.svg";
 import twitterLogo from "../assets/wallet-icons/twitter.svg";
 import telegramLogo from "../assets/wallet-icons/tg.png";
-import warpcastLogo from "../assets/wallet-icons/warpcast.png";
 import meetupLogo from "../assets/wallet-icons/meetup.png";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import hack3rsLogo from "../assets/portfolio/Hack3rs.jpg";
-// import infoLogo from "../assets/wallet-icons/info.svg";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo4.png";
 import cryptoradoLogo from "../assets/portfolio/cryptoradoBanner_wide.png";
 import messariLogo from "../assets/portfolio/messari.png";
 import bitcoinlayersLogo from "../assets/portfolio/bitcoinlayers.png";
 import degenLogo from "../assets/portfolio/degenofficehrs.png";
-import redvelvetLogo from "../assets/logo2.gif";
-// import vqLogo from "../assets/portfolio/VQ Logo1.png";
 import DevLayout from "../components/dev/LayoutDev";
 import githubLogo from "../assets/wallet-icons/github.svg";
 import infoLogo from "../assets/wallet-icons/info.svg";
 import ethLogo from "../assets/wallet-icons/eth.png";
 import vqgames from "../assets/portfolio/VQ.png";
-import tinytix from "../assets/portfolio/tinytix.png";
-import pablo from "../assets/portfolio/pablo.png";
 import opcode from "../assets/portfolio/opcode-critters.png";
 
 function Projects() {
   return (
     <body className={styles["devbody"]}>
       <h2 className={styles["header"]}>Current</h2>
-      <main className={styles["portfolio"]}>
+      <div className={styles["portfolio"]}>
         <div className={styles["flex-container"]}>
           <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
@@ -43,7 +34,8 @@ function Projects() {
                   rel="noreferrer"
                 >
                   <Image
-                    objectFit="contain"
+                    // layout="fill"
+                    objectFit="cover"
                     src={bitcoinlayersLogo}
                     alt="bitcoinlayers"
                   ></Image>
@@ -83,74 +75,14 @@ function Projects() {
                 <div className={styles["links-item"]}>
                   <div>
                     <a
-                      href="https://t.me/+8rv-1I2gkmQ4ZmJh"
+                      href="https://github.com/bitcoinlayers/bitcoinlayers"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <Image
                         object-fit="contain"
-                        src={telegramLogo}
-                        alt="telegram"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                {/* <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://warpcast.com/~/channel/bitcoinlayers"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={warpcastLogo}
-                        alt="Warpcast"
-                      ></Image>
-                    </a>
-                  </div>
-                </div> */}
-              </div>
-            </div>
-            <div className={styles["project"]}>
-              <p className={styles["role"]}>
-                Co-founder / CTO, LX Research Labs
-              </p>
-            </div>
-            <p className={styles["description"]}>
-              Bitcoin-only research and protocol services. I do a lil devving,
-              research, and community management.
-            </p>
-          </div>
-
-          <div className={styles["flex-item"]}>
-            <div className={styles["title"]}>
-              <div className={styles["logo"]}>
-                <a
-                  className={styles["logo-case"]}
-                  href="https://sanko.tv/degenofficehrs"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    objectFit="contain"
-                    src={degenLogo}
-                    alt="degen"
-                  ></Image>
-                </a>
-              </div>
-              <div className={styles["links"]}>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://sanko.tv/degenofficehrs"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={linkLogo}
-                        alt="Sanko TV"
+                        src={githubLogo}
+                        alt="github"
                       ></Image>
                     </a>
                   </div>
@@ -158,19 +90,19 @@ function Projects() {
                 <div className={styles["links-item"]}>
                   <div>
                     <a
-                      href="https://x.com/degenofficehrs"
+                      href="https://github.com/bitcoinlayers/data-ingestion"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <Image
                         object-fit="contain"
-                        src={twitterLogo}
-                        alt="Twitter"
+                        src={githubLogo}
+                        alt="github"
                       ></Image>
                     </a>
                   </div>
                 </div>
-                {/* <div className={styles["links-item"]}>
+                <div className={styles["links-item"]}>
                   <div>
                     <a
                       href="https://t.me/+8rv-1I2gkmQ4ZmJh"
@@ -184,17 +116,17 @@ function Projects() {
                       ></Image>
                     </a>
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
             <div className={styles["project"]}>
-              <p className={styles["role"]}>
-                Livestream Host, Degen Office Hours
-              </p>
+              <p className={styles["role"]}>Co-founder, Bitcoin Layers</p>
             </div>
             <p className={styles["description"]}>
-              Live every week on crypto streaming platform Sanko.tv. Discussing
-              the latest in crypto.
+              Bitcoin Layers is an open-source research and data dashboard
+              focused on bitcoin scaling technology. I built the data ingestion
+              pipeline and initial frontend. I still maintain the community and
+              data.
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -277,23 +209,20 @@ function Projects() {
               </div>
             </div>
             <div className={styles["project"]}>
-              {/* <p className={styles["name"]}>
-                            MoonLab
-                            </p> */}
               <p className={styles["role"]}>
                 Steward and Event Host, Cryptorado
               </p>
             </div>
             <p className={styles["description"]}>
               Cryptorado is a community in Denver, Colorado for all things
-              crypto. Coworking, lectures, workshops, hangouts, and adventures. I
-              speak at and help organize some of these events.
+              crypto. Coworking, lectures, workshops, hangouts, and adventures.
+              I speak at and help organize some of these events.
             </p>
           </div>
         </div>
-      </main>
+      </div>
       <h2 className={styles["header"]}>Previous</h2>
-      <main className={styles["portfolio"]}>
+      <div className={styles["portfolio"]}>
         <div className={styles["flex-container"]}>
           <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
@@ -305,7 +234,8 @@ function Projects() {
                   rel="noreferrer"
                 >
                   <Image
-                    objectFit="contain"
+                    layout="responsive"
+                    objectFit="cover"
                     src={messariLogo}
                     alt="messari"
                   ></Image>
@@ -342,29 +272,18 @@ function Projects() {
                     </a>
                   </div>
                 </div>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://warpcast.com/~/channel/messari"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={warpcastLogo}
-                        alt="Warpcast"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
             <div className={styles["project"]}>
               <p className={styles["role"]}>Research Analyst, Messari</p>
             </div>
             <p className={styles["description"]}>
-              Messari is the Bloomberg of crypto. I'm a <strong>research analyst
-              covering base layer protocols</strong> (L1s and L2s) and privacy protocols.
+              Messari is the Bloomberg of crypto. I'm a{" "}
+              <strong>
+                research analyst covering base layer protocol (L1s and L2s)
+                architectures
+              </strong>{" "}
+              and privacy protocols.
             </p>
           </div>
           <div className={styles["flex-item"]}>
@@ -377,7 +296,7 @@ function Projects() {
                   rel="noreferrer"
                 >
                   <Image
-                    // layout='fill'
+                    // layout="fill"
                     objectFit="contain"
                     src={hack3rsLogo}
                     alt="Hack3rsClub"
@@ -529,15 +448,17 @@ function Projects() {
               <p className={styles["name"]}>Co-founder / CTO, VQ Games</p>
             </div>
             <p className={styles["description"]}>
-            Battle for New Venice is a <strong>group-strategy, turn-by-turn, NFT game</strong>. This game is more similar to a board game than a video game and was deployed on Ethereum mainnet.
+              Battle for New Venice is a{" "}
+              <strong>group-strategy, turn-by-turn, NFT game</strong>. This game
+              is more similar to a board game than a video game and was deployed
+              on Ethereum mainnet.
             </p>
           </div>
-          <div className={styles["flex-item"]}>
+          {/* <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
               <div className={styles["logo"]}>
                 <a
                   className={styles["logo-case"]}
-                  // href="https://moonlab.space"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -549,21 +470,6 @@ function Projects() {
                 </a>
               </div>
               <div className={styles["links"]}>
-                {/* <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://moonlab.space"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={linkLogo}
-                        alt="MoonLab Website"
-                      ></Image>
-                    </a>
-                  </div>
-                </div> */}
                 <div className={styles["links-item"]}>
                   <div>
                     <a
@@ -579,21 +485,6 @@ function Projects() {
                     </a>
                   </div>
                 </div>
-                {/* <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://discord.gg/2gwcaPK4xK"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={discordLogo}
-                        alt="MoonLab Discord"
-                      ></Image>
-                    </a>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div className={styles["project"]}>
@@ -604,7 +495,7 @@ function Projects() {
               ideas from concept to launch. We offer a la carte services for
               every step of the business development process.
             </p>
-          </div>
+          </div> */}
           <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
               <div className={styles["logo"]}>
@@ -615,8 +506,9 @@ function Projects() {
                   rel="noreferrer"
                 >
                   <Image
-                    // layout='fill'
+                    layout="responsive"
                     objectFit="cover"
+                    // objectFit="cover"
                     src={opcode}
                     alt="Tiny Tix"
                   ></Image>
@@ -689,207 +581,12 @@ function Projects() {
               <p className={styles["role"]}>Developer, Opcode Critters</p>
             </div>
             <p className={styles["description"]}>
-              This is an <strong>educational game about OP_CAT</strong>, a Bitcoin opcode, created for a Taproot Wizards initiative.
-            </p>
-          </div>
-          {/* <div className={styles["flex-item"]}>
-            <div className={styles["title"]}>
-              <div className={styles["logo"]}>
-                <a
-                  className={styles["logo-case"]}
-                  href="https://www.redvelvet.tech/post/tiny-tix"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    // layout='fill'
-                    objectFit="cover"
-                    src={tinytix}
-                    alt="Tiny Tix"
-                  ></Image>
-                </a>
-              </div>
-              <div className={styles["links"]}>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://tinytix.xyz"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={linkLogo}
-                        alt="Tiny Tix demo"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://www.redvelvet.tech/post/tiny-tix"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={infoLogo}
-                        alt="TinyTix article"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://github.com/tinytix"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={githubLogo}
-                        alt="Tiny Tix github"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h2 className={styles["proj-title"]}>Tiny Tix</h2>
-            <p className={styles["description"]}>Tickets on the blockchain</p>
-            <p className={styles["stack"]}>React, Solidity, Go</p>
-          </div> */}
-          {/* <div className={styles["flex-item"]}>
-            <div className={styles["title"]}>
-              <div className={styles["logo"]}>
-                <a
-                  className={styles["logo-case"]}
-                  href="https://pablo-pieces.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    // layout='fill'
-                    objectFit="cover"
-                    src={pablo}
-                    alt="Pablo Pieces"
-                  ></Image>
-                </a>
-              </div>
-              <div className={styles["links"]}>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://pablo-pieces.vercel.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={linkLogo}
-                        alt="TinyTix article"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://etherscan.io/address/0x86f0f8592f1f4fb4fbfa7f02c39188e8bf992a31"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={ethLogo}
-                        alt="Pablo smart contract"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://www.redvelvet.tech/post/shroomies"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={infoLogo}
-                        alt="NFT article"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://github.com/RedVelvetZip/PabloPieces"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={githubLogo}
-                        alt="Tiny Tix github"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <h2 className={styles["proj-title"]}>Pablo Pieces</h2>
-            <p className={styles["description"]}>Pfp NFT project</p>
-            <p className={styles["stack"]}>React, Solidity</p>
-          </div> */}
-          <div className={styles["flex-item"]}>
-            <div className={styles["title"]}>
-              <div className={styles["logo"]}>
-                <a
-                  className={styles["logo-case"]}
-                  href="https://redvelvet.tech/blog/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    // layout='fill'
-                    objectFit="contain"
-                    src={redvelvetLogo}
-                    alt="Red Velvet Blog"
-                  ></Image>
-                </a>
-              </div>
-              <div className={styles["links"]}>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://redvelvet.tech/blog/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={linkLogo}
-                        alt="Blog"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles["project"]}>
-              <p className={styles["role"]}>Content Writer, RedVelvetBlog</p>
-            </div>
-            <p className={styles["description"]}>
-              This is my personal{" "}
-              <strong>crypto/software development/finance/tech blog</strong>.
+              This is an <strong>educational game about OP_CAT</strong>, a
+              Bitcoin opcode, created for a Taproot Wizards initiative.
             </p>
           </div>
         </div>
-      </main>
+      </div>
     </body>
   );
 }
