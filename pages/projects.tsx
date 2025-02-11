@@ -115,7 +115,7 @@ function Projects() {
               </div>
             </div>
             <div className={styles["project"]}>
-              <p className={styles["role"]}>Co-founder, Bitcoin Layers</p>
+              <p className={styles["role"]}>Co-founder / CTO, Bitcoin Layers</p>
             </div>
             <p className={styles["description"]}>
               Bitcoin Layers is an open-source research and data dashboard
