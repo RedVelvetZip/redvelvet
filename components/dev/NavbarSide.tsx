@@ -50,7 +50,7 @@ const Navbar = () => {
               <a href="#" className={styles["nav-link-logo"]}>
                 {/* <span className={`${styles["link-text"]} ${styles["logo-text"]}`}>Red Velvet</span> */}
                 <div className={styles["logo-image"]}>
-                  <Image src={logo} alt="Logo"></Image>
+                  <Image src={logo}></Image>
                 </div>
               </a>
             </Link>
