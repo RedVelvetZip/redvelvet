@@ -33,12 +33,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Image
-                    // layout="fill"
-                    objectFit="cover"
-                    src={bitcoinlayersLogo}
-                    alt="bitcoinlayers"
-                  ></Image>
+                  <Image src={bitcoinlayersLogo} alt="bitcoinlayers"></Image>
                 </a>
               </div>
               <div className={styles["links"]}>
@@ -138,11 +133,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Image
-                    objectFit="contain"
-                    src={cryptoradoLogo}
-                    alt="cryptorado"
-                  ></Image>
+                  <Image src={cryptoradoLogo} alt="cryptorado"></Image>
                 </a>
               </div>
               <div className={styles["links"]}>
@@ -233,12 +224,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Image
-                    layout="responsive"
-                    objectFit="cover"
-                    src={messariLogo}
-                    alt="messari"
-                  ></Image>
+                  <Image src={messariLogo} alt="messari"></Image>
                 </a>
               </div>
               <div className={styles["links"]}>
@@ -295,12 +281,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Image
-                    // layout="fill"
-                    objectFit="contain"
-                    src={hack3rsLogo}
-                    alt="Hack3rsClub"
-                  ></Image>
+                  <Image src={hack3rsLogo} alt="Hack3rsClub"></Image>
                 </a>
               </div>
               <div className={styles["links"]}>
@@ -358,12 +339,7 @@ function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Image
-                    // layout='fill'
-                    objectFit="cover"
-                    src={vqgames}
-                    alt="VQ Games"
-                  ></Image>
+                  <Image src={vqgames} alt="VQ Games"></Image>
                 </a>
               </div>
               <div className={styles["links"]}>
@@ -463,7 +439,6 @@ function Projects() {
                   rel="noreferrer"
                 >
                   <Image
-                    objectFit="contain"
                     src={moonLabLogo}
                     alt="MoonLab"
                   ></Image>
@@ -501,35 +476,14 @@ function Projects() {
               <div className={styles["logo"]}>
                 <a
                   className={styles["logo-case"]}
-                  href="https://opcode-critters.webflow.io/"
+                  href="https://redvelvetzip.github.io/pokemon-battle-system/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Image
-                    layout="responsive"
-                    objectFit="cover"
-                    // objectFit="cover"
-                    src={opcode}
-                    alt="Tiny Tix"
-                  ></Image>
+                  <Image src={opcode} alt="Tiny Tix"></Image>
                 </a>
               </div>
               <div className={styles["links"]}>
-                <div className={styles["links-item"]}>
-                  <div>
-                    <a
-                      href="https://opcode-critters.webflow.io/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <Image
-                        object-fit="contain"
-                        src={linkLogo}
-                        alt="Opcode Critters hosting"
-                      ></Image>
-                    </a>
-                  </div>
-                </div>
                 <div className={styles["links-item"]}>
                   <div>
                     <a

@@ -40,12 +40,7 @@ function Portfolio() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Image
-                      // layout='fill'
-                      objectFit="cover"
-                      src={opcode}
-                      alt="Tiny Tix"
-                    ></Image>
+                    <Image src={opcode} alt="Tiny Tix"></Image>
                   </a>
                 </div>
                 <div className={styles["links"]}>
@@ -126,12 +121,7 @@ function Portfolio() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Image
-                      // layout='fill'
-                      objectFit="cover"
-                      src={vqgames}
-                      alt="VQ Games"
-                    ></Image>
+                    <Image src={vqgames} alt="VQ Games"></Image>
                   </a>
                 </div>
                 <div className={styles["links"]}>
@@ -227,12 +217,7 @@ function Portfolio() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Image
-                      // layout='fill'
-                      objectFit="cover"
-                      src={tinytix}
-                      alt="Tiny Tix"
-                    ></Image>
+                    <Image src={tinytix} alt="Tiny Tix"></Image>
                   </a>
                 </div>
                 <div className={styles["links"]}>
@@ -296,12 +281,7 @@ function Portfolio() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Image
-                      // layout='fill'
-                      objectFit="cover"
-                      src={pablo}
-                      alt="Pablo Pieces"
-                    ></Image>
+                    <Image src={pablo} alt="Pablo Pieces"></Image>
                   </a>
                 </div>
                 <div className={styles["links"]}>
@@ -380,12 +360,7 @@ function Portfolio() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Image
-                      // layout='fill'
-                      objectFit="cover"
-                      src={blog}
-                      alt="redvelvet"
-                    ></Image>
+                    <Image src={blog} alt="redvelvet"></Image>
                   </a>
                 </div>
                 <div className={styles["links"]}>
@@ -436,7 +411,7 @@ function Portfolio() {
                     target="_blank"
                     rel="noreferrer"
                   > */}
-                  <Image objectFit="cover" src={moonlab} alt="MoonLab"></Image>
+                  <Image src={moonlab} alt="MoonLab"></Image>
                   {/* </a> */}
                 </div>
                 <div className={styles["links"]}>
@@ -487,12 +462,7 @@ function Portfolio() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Image
-                      // layout='fill'
-                      objectFit="cover"
-                      src={shroomies}
-                      alt="Shroomies"
-                    ></Image>
+                    <Image src={shroomies} alt="Shroomies"></Image>
                   </a>
                 </div>
                 <div className={styles["links"]}>
@@ -558,12 +528,7 @@ function Portfolio() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Image
-                      // layout='fill'
-                      objectFit="cover"
-                      src={lltk}
-                      alt="Long Live The Kiks"
-                    ></Image>
+                    <Image src={lltk} alt="Long Live The Kiks"></Image>
                   </a>
                 </div>
                 <div className={styles["links"]}>
@@ -629,12 +594,7 @@ function Portfolio() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Image
-                      // layout='fill'
-                      objectFit="cover"
-                      src={tutorra}
-                      alt="Tutorra"
-                    ></Image>
+                    <Image src={tutorra} alt="Tutorra"></Image>
                   </a>
                 </div>
                 <div className={styles["links"]}>

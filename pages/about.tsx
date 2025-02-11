@@ -125,12 +125,7 @@ function About() {
         <div className={styles2["dev"]}>
           <div className={styles2["circle"]}>
             <div className={styles2["logo"]}>
-              <Image
-                src={logo}
-                alt="Red Velvet logo"
-                layout="responsive"
-                objectFit="contain"
-              ></Image>
+              <Image src={logo} alt="Red Velvet logo"></Image>
             </div>
           </div>
         </div>
