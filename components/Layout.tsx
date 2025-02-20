@@ -1,28 +1,17 @@
-import React, { ReactElement } from "react";
-import Head from "next/head";
-import Header from "./Header";
-import logo from "../assets/logo192.png";
-import { Analytics } from "@vercel/analytics/next";
-import type { LayoutProps } from "../types/pageWithLayouts";
+import { ReactNode } from "react";
+import Navbar from "./navbar";
 
-const BlogLayout: LayoutProps = ({ children }) => {
+type LayoutProps = {
+  children: ReactNode;
+};
+
+const Layout = ({ children }: LayoutProps) => {
   return (
     <>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Crypto, Coding, Finance, & More" />
-        {/* <meta
-          property="og:image"
-          content={logo}
-        /> */}
-        <meta name="og:title" content="Red Velvet" />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Head>
-      <Header />
+      <Navbar />
       <main>{children}</main>
-      <Analytics />
     </>
   );
 };
 
-export default BlogLayout;
+export default Layout;

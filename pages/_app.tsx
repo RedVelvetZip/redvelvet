@@ -1,20 +1,16 @@
-import React, { ReactElement } from "react";
+import React from "react";
 import { AppProps } from "next/app";
-import PageWithLayoutType from "../types/pageWithLayouts";
 import "../styles/globals.scss";
-import BlogLayout from "../components/Layout";
+import Layout from "../components/layout";
+import { Analytics } from "@vercel/analytics/react";
 
-type AppLayoutProps = AppProps & {
-  Component: PageWithLayoutType;
-  pageProps: any;
-};
-
-function MyApp({ Component, pageProps }: AppLayoutProps) {
-  const Layout = Component.layout || BlogLayout;
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout>
       <Component {...pageProps} />
+      <Analytics />
     </Layout>
   );
 }
+
 export default MyApp;

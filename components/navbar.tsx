@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../../styles/navbar.module.scss";
-import logo from "../../assets/logo-circle.png";
+import styles from "../styles/navbar.module.scss";
+import logo from "../assets/logo-circle.png";
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className={styles["navbar"]}>
         <ul className={styles["navbar-nav"]}>
           <li className={styles["logo"]}>
-            <Link href="/" className={styles["nav-link"]}>
+            <Link href="/" passHref className={styles["nav-link"]}>
               <span className={`${styles["link-text"]} ${styles["logo-text"]}`}>
                 Red Velvet
               </span>
@@ -36,13 +36,11 @@ const Navbar = () => {
                   ></path>
                 </g>
               </svg>
-              {/* </a> */}
             </Link>
           </li>
 
           <li className={styles["nav-item"]} id={styles["mobile-home"]}>
-            <Link href="/" className={styles["nav-link-logo"]}>
-              {/* <span className={`${styles["link-text"]} ${styles["logo-text"]}`}>Red Velvet</span> */}
+            <Link href="/" passHref className={styles["nav-link-logo"]}>
               <div className={styles["logo-image"]}>
                 <Image src={logo} alt={""}></Image>
               </div>
@@ -50,7 +48,7 @@ const Navbar = () => {
           </li>
 
           <li className={styles["nav-item"]}>
-            <Link href="/projects" className={styles["nav-link"]}>
+            <Link href="/projects" passHref className={styles["nav-link"]}>
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -74,7 +72,7 @@ const Navbar = () => {
           </li>
 
           <li className={styles["nav-item"]}>
-            <Link href="/about" className={styles["nav-link"]}>
+            <Link href="/about" passHref className={styles["nav-link"]}>
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -83,7 +81,6 @@ const Navbar = () => {
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 512"
-                // className={`${styles["svg-inline--fa"]} ${styles["fa-w-20"]} ${styles["fa-5x"]}`}
               >
                 <g className={styles["fa-group"]}>
                   <path
@@ -100,6 +97,7 @@ const Navbar = () => {
           <li className={styles["nav-item"]}>
             <Link
               href="https://redvelvetzip.substack.com/"
+              passHref
               className={styles["nav-link"]}
             >
               <svg

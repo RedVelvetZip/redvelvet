@@ -11,7 +11,6 @@ import cryptoradoLogo from "../assets/portfolio/cryptoradoBanner_wide.png";
 import messariLogo from "../assets/portfolio/messari.png";
 import bitcoinlayersLogo from "../assets/portfolio/bitcoinlayers.png";
 import degenLogo from "../assets/portfolio/degenofficehrs.png";
-import DevLayout from "../components/dev/LayoutDev";
 import githubLogo from "../assets/wallet-icons/github.svg";
 import infoLogo from "../assets/wallet-icons/info.svg";
 import ethLogo from "../assets/wallet-icons/eth.png";
@@ -20,7 +19,7 @@ import opcode from "../assets/portfolio/opcode-critters.png";
 
 function Projects() {
   return (
-    <body className={styles["devbody"]}>
+    <div className={styles["devbody"]}>
       <h2 className={styles["header"]}>Current</h2>
       <div className={styles["portfolio"]}>
         <div className={styles["flex-container"]}>
@@ -534,9 +533,8 @@ function Projects() {
           </div>
         </div>
       </div>
-    </body>
+    </div>
   );
 }
-Projects.layout = DevLayout;
 
 export default Projects;

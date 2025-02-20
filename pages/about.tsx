@@ -1,12 +1,11 @@
 import styles from "../styles/about.module.scss";
 import styles2 from "../styles/dev.module.scss";
-import DevLayout from "../components/dev/LayoutDev";
 import Image from "next/image";
 import logo from "../assets/logo2.gif";
 
 function About() {
   return (
-    <body className={styles["devbody"]}>
+    <div className={styles["devbody"]}>
       <h2 className={styles["title"]}>About Me</h2>
       <p className={styles["main-text"]}>
         Hey there, I&#39;m Red. I write code and research in the crypto space.
@@ -133,9 +132,8 @@ function About() {
         <br />
         <br />
       </div>
-    </body>
+    </div>
   );
 }
-About.layout = DevLayout;
 
 export default About;
