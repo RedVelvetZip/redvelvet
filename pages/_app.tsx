@@ -1,7 +1,7 @@
 import React from "react";
 import { AppProps } from "next/app";
 import "../styles/globals.scss";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { Analytics } from "@vercel/analytics/react";
 
 function MyApp({ Component, pageProps }: AppProps) {
