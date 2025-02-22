@@ -42,6 +42,16 @@ const talksData = [
     link: "https://www.youtube.com/watch?v=fkXp1xHdu0I",
     platform: "Youtube",
   },
+  {
+    title: "Bitcoin LSTs",
+    link: "https://x.com/i/spaces/1dRKZYBPmDXxB",
+    platform: "Twitter",
+  },
+  {
+    title: "Building a Bitcoin L2",
+    link: "https://x.com/i/spaces/1nAJEgmAWnYKL",
+    platform: "Twitter",
+  },
 ];
 
 const Talks = () => {
