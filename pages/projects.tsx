@@ -7,6 +7,7 @@ import meetupLogo from "../assets/wallet-icons/meetup.png";
 import discordLogo from "../assets/wallet-icons/discord.svg";
 import hack3rsLogo from "../assets/portfolio/Hack3rs.jpg";
 import moonLabLogo from "../assets/portfolio/MoonLab Logo4.png";
+import lemondropLogo from "../assets/portfolio/lemondrop.png";
 import cryptoradoLogo from "../assets/portfolio/cryptoradoBanner_wide.png";
 import messariLogo from "../assets/portfolio/messari.png";
 import bitcoinlayersLogo from "../assets/portfolio/bitcoinlayers.png";
@@ -23,6 +24,59 @@ function Projects() {
       <h2 className={styles["header"]}>Current</h2>
       <div className={styles["portfolio"]}>
         <div className={styles["flex-container"]}>
+          <div className={styles["flex-item"]}>
+            <div className={styles["title"]}>
+              <div className={styles["logo"]}>
+                <a
+                  className={styles["logo-case"]}
+                  href="https://www.lemondrop.finance/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image src={lemondropLogo} alt="Lemondrop"></Image>
+                </a>
+              </div>
+              <div className={styles["links"]}>
+                <div className={styles["links-item"]}>
+                  <div>
+                    <a
+                      href="https://www.lemondrop.finance/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={linkLogo}
+                        alt="Lemondrop"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+                <div className={styles["links-item"]}>
+                  <div>
+                    <a
+                      href="https://twitter.com/lemondropfi"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        object-fit="contain"
+                        src={twitterLogo}
+                        alt="Twitter"
+                      ></Image>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles["project"]}>
+              <p className={styles["role"]}>Co-founder / CTO, Lemondrop</p>
+            </div>
+            <p className={styles["description"]}>
+              Lemondrop is a BTC savings tool for crypto users. With everyone
+              memecoin trade on Solana, stack some sats in the background.
+            </p>
+          </div>
           <div className={styles["flex-item"]}>
             <div className={styles["title"]}>
               <div className={styles["logo"]}>
